@@ -1,0 +1,420 @@
+/**
+ * Core Button Styles & Universal Keyframe Animations
+ * Base styles for all .btn elements, icons, loaders, and animations
+ */
+
+/* ==========================================================================
+   1. Base Button (.btn) Styles
+   ========================================================================== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  font-family: var(--font-primary);
+  font-weight: 700;
+  user-select: none;
+  outline: none;
+}
+
+.btn i {
+  font-size: 18px;
+  transition: inherit;
+}
+
+.btn svg {
+  display: inline-block;
+  vertical-align: middle;
+  transition: inherit;
+}
+
+/* Helper Elements */
+.btn .loader {
+  width: 18px;
+  height: 18px;
+  border: 2px solid currentColor;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}
+
+.btn .heart {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: currentColor;
+  transform: rotate(45deg);
+  position: relative;
+}
+
+.btn .heart::before,
+.btn .heart::after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  background: currentColor;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.btn .heart::before {
+  top: -7px;
+  left: 0;
+}
+
+.btn .heart::after {
+  left: -7px;
+  top: 0;
+}
+
+.btn .badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #ff6b6b;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==========================================================================
+   2. Universal Keyframe Animations
+   ========================================================================== */
+@keyframes gradientShift {
+
+            0%,
+            100% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+        }
+
+@keyframes modalPop {
+            from {
+                opacity: 0;
+                transform: scale(0.92) translateY(15px);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+@keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+@keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-6px);
+            }
+        }
+
+@keyframes heartBeat {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            25% {
+                transform: scale(1.3);
+            }
+
+            50% {
+                transform: scale(1);
+            }
+
+            75% {
+                transform: scale(1.2);
+            }
+        }
+
+@keyframes ringBell {
+
+            0%,
+            100% {
+                transform: rotate(0deg);
+            }
+
+            25% {
+                transform: rotate(15deg);
+            }
+
+            50% {
+                transform: rotate(-15deg);
+            }
+
+            75% {
+                transform: rotate(10deg);
+            }
+        }
+
+@keyframes likePulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.3);
+            }
+        }
+
+@keyframes downloadBounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(6px);
+            }
+        }
+
+@keyframes gradientMove {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+@keyframes borderSpin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+@keyframes flash {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
+        }
+
+@keyframes micPulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+@keyframes twitterHover {
+
+            0%,
+            100% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(10deg);
+            }
+        }
+
+@keyframes heartPulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.3);
+            }
+        }
+
+@keyframes btnPulse {
+
+            0%,
+            100% {
+                box-shadow: 0 0 0 0 rgba(108, 92, 231, 0.7);
+            }
+
+            50% {
+                box-shadow: 0 0 0 18px rgba(108, 92, 231, 0);
+            }
+        }
+
+@keyframes btnShake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-8px);
+            }
+
+            75% {
+                transform: translateX(8px);
+            }
+        }
+
+@keyframes rotateBorder {
+            0% {
+                filter: hue-rotate(0deg);
+            }
+
+            100% {
+                filter: hue-rotate(360deg);
+            }
+        }
+
+@keyframes glitch {
+
+            0%,
+            100% {
+                text-shadow: 2px 0 #ff6b6b, -2px 0 #48dbfb;
+                transform: translate(0);
+            }
+
+            25% {
+                text-shadow: -2px 0 #ff6b6b, 2px 0 #48dbfb;
+                transform: translate(-2px, 2px);
+            }
+
+            50% {
+                text-shadow: 2px 0 #feca57, -2px 0 #ff9ff3;
+                transform: translate(2px, -2px);
+            }
+
+            75% {
+                text-shadow: -2px 0 #feca57, 2px 0 #ff9ff3;
+                transform: translate(-1px, 1px);
+            }
+        }
+
+@keyframes wave {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-6px);
+            }
+        }
+
+@keyframes ringExpand {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            100% {
+                transform: scale(1.3);
+                opacity: 0;
+            }
+        }
+
+@keyframes rippleAnim {
+            0% {
+                width: 0;
+                height: 0;
+                opacity: 1;
+            }
+
+            100% {
+                width: 300px;
+                height: 300px;
+                opacity: 0;
+            }
+        }
+
+@keyframes bounceBtn {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+@keyframes swing {
+
+            0%,
+            100% {
+                transform: rotate(0);
+            }
+
+            25% {
+                transform: rotate(10deg);
+            }
+
+            75% {
+                transform: rotate(-10deg);
+            }
+        }
+
+@keyframes finalGrad {
+
+            0%,
+            100% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+        }

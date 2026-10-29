@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusUI | منصة التصميم الموحدة (أزرار وحركات تفاعلية)</title>
+    <meta name="description" content="NexusUI - المنصة الموحدة لأنظمة التصميم والأزرار والمؤثرات الحركية التفاعلية مع سلة تجميع ذكية ومحرر أكواد متقدم.">
+    <meta name="theme-color" content="#0a0a1a">
+
+    <!-- Open Graph & Social Media Preview (WhatsApp, Telegram, Facebook, LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="NexusUI">
+    <meta property="og:title" content="NexusUI | منصة التصميم الموحدة (أزرار وحركات تفاعلية)">
+    <meta property="og:description" content="أكثر من 200 زر ومؤثر حركي تفاعلي جاهز للنسخ المباشر مع سلة تجميع ذكية ومحرر أكواد فوري.">
+    <meta property="og:image" content="og-preview.webp">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="ar_AR">
+
+    <!-- Twitter / X Card Preview -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NexusUI | منصة التصميم الموحدة">
+    <meta name="twitter:description" content="معرض تفاعلي شامل للأزرار والمؤثرات الحركية مع تلوين فوري للأكواد وسلة تجميع ذكية.">
+    <meta name="twitter:image" content="og-preview.webp">
+
+    <!-- Font Awesome 6.5.0 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Google Fonts: Cairo (Primary) & Tajawal (Secondary) Dual-Font System (Directive v2.7) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800;900&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Unified Modular CSS Architecture -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/buttons-core.css" />
+    <link rel="stylesheet" href="css/animations-core.css" />
+    <link rel="stylesheet" href="css/prism.css" />
+</head>
+
+<body>
+
+    <!-- Purified Glassmorphism Navbar (Mobile: Right=Hamburger, Left=Logo | Desktop: Right=Logo, Center=NavLinks, Left=QuickActions) -->
+    <header class="navbar">
+        <div class="nav-container">
+            <!-- Hamburger Menu Button (Right / Start in RTL) -->
+            <button class="hamburger-btn" id="hamburgerBtn" aria-label="فتح القائمة الجانبية" title="القائمة">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Brand Logo (Left in Mobile, Start in Desktop) -->
+            <div class="nav-brand" title="NexusUI Design Platform">
+                <i class="fas fa-shapes brand-icon"></i>
+                <span class="brand-text">Nexus<span class="brand-accent">UI</span></span>
+            </div>
+
+            <!-- Desktop Navigation Links (Center in Desktop >= 992px) -->
+            <nav class="nav-links">
+                <button class="nav-link-btn active" data-view="buttons">
+                    <i class="fas fa-toggle-on"></i> الأزرار الاحترافية
+                </button>
+                <button class="nav-link-btn" data-view="animations">
+                    <i class="fas fa-cube"></i> الحركات والتأثيرات
+                </button>
+            </nav>
+
+            <!-- Desktop Quick Action: Basket Pill (Desktop >= 992px only) -->
+            <button class="desktop-basket-btn" id="navBasketBtn" title="فتح سلة التجميع">
+                <i class="fas fa-shopping-bag basket-icon-metal"></i>
+                <span class="basket-text">السلة</span>
+                <span class="cyber-badge" id="navBasketBadge">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Offcanvas Drawer (85% Width) -->
+    <div class="mobile-drawer-overlay" id="mobileDrawerOverlay">
+        <div class="mobile-drawer" id="mobileDrawer">
+            <div class="mobile-drawer-header">
+                <div class="nav-brand">
+                    <i class="fas fa-shapes brand-icon"></i>
+                    <span class="brand-text">Nexus<span class="brand-accent">UI</span></span>
+                </div>
+                <button class="mobile-drawer-close" id="mobileDrawerClose" title="إغلاق القائمة">✕</button>
+            </div>
+
+            <div class="mobile-drawer-body">
+                <button class="mobile-nav-link active" data-view="buttons">
+                    <i class="fas fa-toggle-on"></i> الأزرار الاحترافية
+                </button>
+                <button class="mobile-nav-link" data-view="animations">
+                    <i class="fas fa-cube"></i> الحركات والتأثيرات
+                </button>
+            </div>
+
+            <!-- Mobile Drawer Bottom Action: About Developer Trigger -->
+            <div class="mobile-drawer-footer">
+                <button class="btn-dev-modal-trigger" id="openDevModalBtn">
+                    <div class="dev-trigger-info">
+                        <i class="fas fa-user-astronaut"></i>
+                        <span>حول المطور</span>
+                    </div>
+                    <i class="fas fa-chevron-left arrow-icon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Header with Dynamic Real-Time Counter -->
+    <section class="hero-header">
+        <div class="hero-title-wrap">
+            <h1 class="hero-title">
+                <span id="heroDynamicCount">0</span>
+                <span id="heroDynamicText">عنصر تفاعلي</span>
+            </h1>
+            <p id="heroSubtitle">معرض تفاعلي شامل • فلترة وبحث حي • استعراض وتخصيص الأكواد • سلة تجميع بصرية ذكية</p>
+        </div>
+
+        <!-- Search & Filter Toolbar -->
+        <div class="toolbar-section">
+            <div class="search-box-wrap">
+                <input type="text" id="searchInput" class="search-input" placeholder="ابحث بالاسم، المعرّف، أو التصنيف..." autocomplete="off" />
+                <i class="fas fa-search search-icon"></i>
+                <button id="searchClearBtn" class="search-clear-btn" title="مسح البحث">✕</button>
+            </div>
+
+            <div class="categories-filter-wrap" id="categoriesContainer">
+                <!-- Dynamically populated category chips -->
+            </div>
+
+            <div class="stats-bar">
+                <span id="resultCount">جاري تحميل البيانات...</span>
+                <span>تحديث لحظي • بدون خادم</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Showcase Grid Container -->
+    <main class="showcase" id="showcase"></main>
+
+    <!-- Code Details Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <h3 id="modalName">تفاصيل العنصر</h3>
+                    <span class="modal-cat-badge" id="modalCategory">CATEGORY</span>
+                </div>
+                <button class="modal-close" id="modalClose" title="إغلاق النافذة">✕</button>
+            </div>
+
+            <!-- Code Tabs (LTR oriented) -->
+            <div class="modal-tabs">
+                <button class="modal-tab-btn active" data-tab="html">
+                    <i class="fab fa-html5"></i> HTML
+                </button>
+                <button class="modal-tab-btn" data-tab="css">
+                    <i class="fab fa-css3-alt"></i> CSS
+                </button>
+                <button class="modal-tab-btn" data-tab="full">
+                    <i class="fas fa-file-code"></i> <span>صفحة كاملة</span> <span dir="ltr">(Full Template)</span>
+                </button>
+            </div>
+
+            <!-- Code Preview Body -->
+            <div class="modal-body">
+                <pre><code id="modalContent"></code></pre>
+            </div>
+
+            <!-- Modal Actions Footer -->
+            <div class="modal-footer">
+                <span class="modal-info-text" id="modalInfo">0 lines • HTML</span>
+                <div class="modal-btn-group">
+                    <button class="btn-modal-action btn-copy-code" id="copyBtn">
+                        <i class="fas fa-copy"></i> نسخ الكود الحالي
+                    </button>
+                    <button class="btn-modal-action btn-download-html" id="downloadHtmlBtn">
+                        <i class="fas fa-download"></i> تحميل كملف HTML جاهز
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Visual Basket Drawer with Live Mini-Previews -->
+    <div class="drawer-overlay" id="drawerOverlay">
+        <div class="basket-drawer" id="basketDrawer">
+            <div class="drawer-header">
+                <h3>
+                    <i class="fas fa-shopping-bag" style="color: var(--accent-cyan);"></i>
+                    سلة التجميع البصرية
+                    <span class="drawer-count-badge" id="drawerCountBadge">(0)</span>
+                </h3>
+                <button class="drawer-close" id="drawerClose" title="إغلاق السلة">✕</button>
+            </div>
+
+            <!-- Scrollable Visual Mini-Preview List -->
+            <div class="drawer-body" id="basketList"></div>
+
+            <div class="drawer-footer">
+                <button class="drawer-action-btn btn-bundle-download" id="bundleDownloadBtn">
+                    <i class="fas fa-file-archive"></i> تحميل حزمة العناصر المجمعة
+                </button>
+                <button class="drawer-action-btn btn-bundle-copy-css" id="bundleCopyCssBtn">
+                    <i class="fas fa-code"></i> نسخ الـ CSS المجمع
+                </button>
+                <button class="btn-clear-basket" id="clearBasketBtn">
+                    <i class="fas fa-trash-alt"></i> تفريغ السلة بالكامل
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ultra-Premium Gorilla-Glass Developer Modal (Directive v2.6: Yaseen Al-Bakkour Centered Executive Card) -->
+    <div class="modal-overlay dev-modal-overlay" id="developerModal">
+        <div class="gorilla-card">
+            <!-- Specular reflection line -->
+            <div class="gorilla-specular"></div>
+
+            <!-- Close Button (Top-Left Absolute in RTL) -->
+            <button class="gorilla-close" id="devModalClose" title="إغلاق">✕</button>
+
+            <!-- Centered Header with Glowing Avatar & Title -->
+            <div class="gorilla-header">
+                <div class="gorilla-avatar-wrap">
+                    <div class="gorilla-avatar">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <span class="online-indicator" title="متصل"></span>
+                </div>
+                <div class="gorilla-title-box">
+                    <div class="gorilla-name-row">
+                        <h3>ياسين البكور</h3>
+                        <span class="gorilla-badge">مؤسس المنصة</span>
+                    </div>
+                    <p class="gorilla-subtitle">مطور واجهات أمامية وأنظمة تصميم</p>
+                </div>
+            </div>
+
+            <!-- Content Body -->
+            <div class="gorilla-body">
+                <p class="gorilla-bio">
+                    مطور واجهات شغوف ببناء أنظمة تصميم تفاعلية ومؤثرات حركية فائقة الأداء والمقروئية.
+                </p>
+
+                <!-- Micro-Skills Glass Grid -->
+                <div class="gorilla-skills-wrap">
+                    <span class="skill-pill"><i class="fab fa-html5"></i> HTML5</span>
+                    <span class="skill-pill"><i class="fab fa-css3-alt"></i> Modern CSS3</span>
+                    <span class="skill-pill"><i class="fab fa-js-square"></i> JavaScript</span>
+                    <span class="skill-pill"><i class="fas fa-mobile-alt"></i> Responsive UI</span>
+                </div>
+
+                <!-- Quick Actions Grid (Clean Direct Links - Zero Raw Phone Numbers) -->
+                <div class="gorilla-social-row">
+                    <a href="https://wa.me/306986387315" target="_blank" rel="noopener noreferrer" class="gorilla-micro-btn whatsapp" title="واتساب المطور">
+                        <i class="fab fa-whatsapp"></i> واتساب
+                    </a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="gorilla-micro-btn" title="GitHub">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="#" class="gorilla-micro-btn" title="معرض الأعمال">
+                        <i class="fas fa-globe"></i> Portfolio
+                    </a>
+                </div>
+            </div>
+
+            <!-- Balanced 50/50 Footer Action Buttons -->
+            <div class="gorilla-footer">
+                <button class="gorilla-btn-glass" id="devModalCancel">إغلاق</button>
+                <a href="https://wa.me/306986387315" target="_blank" rel="noopener noreferrer" class="gorilla-btn-cyber">
+                    <i class="fab fa-whatsapp"></i> تواصل عبر واتساب
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Floating Bottom Basket Dock (Directive v2.3) -->
+    <div class="floating-basket-dock" id="floatingBasketDock">
+        <div class="dock-content" id="openBottomBasketBtn">
+            <div class="dock-badge" id="dockBadgeCount">0</div>
+            <div class="dock-info">
+                <span class="dock-title">الباقة المختارة</span>
+                <span class="dock-sub" id="dockDynamicSubtitle">لا توجد عناصر</span>
+            </div>
+            <div class="dock-icon-wrap">
+                <i class="fas fa-layer-group"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Glass Confirmation Modal (Directive v2.4) -->
+    <div class="confirm-modal-overlay" id="confirmModalOverlay" aria-hidden="true">
+        <div class="confirm-card" role="dialog" aria-modal="true">
+            <div class="confirm-icon-wrap" id="confirmIconWrap">
+                <i class="fas fa-trash-alt" id="confirmIcon"></i>
+            </div>
+            <h3 class="confirm-title" id="confirmTitle">تفريغ السلة</h3>
+            <p class="confirm-message" id="confirmMessage">هل أنت متأكد من رغبتك في تفريغ كافة العناصر؟</p>
+            <div class="confirm-actions">
+                <button class="confirm-btn-danger" id="confirmAcceptBtn">نعم، تفريغ السلة</button>
+                <button class="confirm-btn-cancel" id="confirmCancelBtn">إلغاء</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Global Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i> تم نسخ الكود بنجاح
+    </div>
+
+    <!-- Offline Local Syntax Highlighter Engine (Prism.js) -->
+    <script src="js/prism.js"></script>
+
+    <!-- Application Orchestrator Script -->
+    <script type="module" src="js/app.js"></script>
+
+</body>
+
+</html>

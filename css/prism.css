@@ -1,0 +1,123 @@
+/**
+ * Prism.js Tokyo Night & Dark Glass Theme for NexusUI Platform
+ * Handcrafted to match dark glassmorphism, cyan (#48dbfb), and purple (#6c5ce7) palette
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #e2e8f0;
+  font-family: var(--font-code) !important;
+  font-size: 13px;
+  line-height: 1.65;
+  direction: ltr !important;
+  text-align: left !important;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  tab-size: 2;
+  hyphens: none;
+  unicode-bidi: isolate;
+}
+
+pre[class*="language-"] {
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  background: transparent;
+}
+
+:not(pre) > code[class*="language-"] {
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Tokens Styling */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #636e72;
+  font-style: italic;
+}
+
+.token.punctuation {
+  color: #8892b0;
+}
+
+.token.namespace {
+  opacity: 0.7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol {
+  color: var(--accent-cyan, #48dbfb);
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin {
+  color: #feca57; /* Amber / Gold string highlight */
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #a29bfe; /* Lavender / Soft Purple */
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #fd79a8; /* Rose / Accent Pink */
+}
+
+.token.function,
+.token.class-name {
+  color: #00cec9; /* Vibrant Teal */
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #ff7675;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.inserted {
+  color: #00b894;
+}
+
+.token.deleted {
+  color: #ff6b6b;
+}
+
+/* Selection Highlight */
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+  background: rgba(72, 219, 251, 0.25);
+  color: #ffffff;
+}

@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "gradient-cosmic",
+    "name": "تدرج كوني صاروخي",
+    "category": "gradient",
+    "accent": "#667eea",
+    "html": "<button class=\"btn btn-gradient-cosmic\">\n  <i class=\"fas fa-rocket\"></i>\n  <span>تدرج كوني صاروخي</span>\n</button>",
+    "css": ".btn-gradient-cosmic {\n  background: linear-gradient(135deg, #667eea, #764ba2);\n  color: #fff;\n  box-shadow: 0 4px 20px rgba(102, 126, 234, 0.35);\n}\n\n.btn-gradient-cosmic:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.5);\n}\n\n.btn-gradient-cosmic:hover i {\n  animation: spin 1s linear infinite;\n}"
+  },
+  {
+    "id": "border-pink-glow",
+    "name": "إطار وردي متوهج",
+    "category": "borders",
+    "accent": "#f093fb",
+    "html": "<button class=\"btn btn-border-pink-glow\">\n  <i class=\"fas fa-star\"></i>\n  <span>إطار وردي متوهج</span>\n</button>",
+    "css": ".btn-border-pink-glow {\n  border: 2px solid #f093fb;\n  background: transparent;\n  color: #f093fb;\n}\n\n.btn-border-pink-glow:hover {\n  background: #f093fb;\n  color: #0a0a1a;\n  box-shadow: 0 0 30px rgba(240, 147, 251, 0.3);\n  transform: scale(1.05);\n}\n\n.btn-border-pink-glow:hover i {\n  animation: bounce 0.6s ease;\n}"
+  },
+  {
+    "id": "3d-dark-cube",
+    "name": "مكعب ثلاثي الأبعاد",
+    "category": "3d",
+    "accent": "#2d3436",
+    "html": "<button class=\"btn btn-3d-dark-cube\">\n  <i class=\"fas fa-cube\"></i>\n  <span>مكعب ثلاثي الأبعاد</span>\n</button>",
+    "css": ".btn-3d-dark-cube {\n  background: #2d3436;\n  color: #dfe6e9;\n  box-shadow: 0 4px 0 #1a1a1a, 0 8px 20px rgba(0, 0, 0, 0.4);\n  border-radius: 12px;\n}\n\n.btn-3d-dark-cube:hover {\n  transform: translateY(-4px);\n  box-shadow: 0 8px 0 #1a1a1a, 0 12px 30px rgba(0, 0, 0, 0.5);\n}\n\n.btn-3d-dark-cube:active {\n  transform: translateY(4px);\n  box-shadow: 0 2px 0 #1a1a1a;\n}"
+  },
+  {
+    "id": "gradient-gold-crown",
+    "name": "تدرج ذهبي ملكي",
+    "category": "gradient",
+    "accent": "#f7971e",
+    "html": "<button class=\"btn btn-gradient-gold-crown\">\n  <i class=\"fas fa-crown\"></i>\n  <span>تدرج ذهبي ملكي</span>\n</button>",
+    "css": ".btn-gradient-gold-crown {\n  background: linear-gradient(135deg, #f7971e, #ffd200);\n  color: #1a1a2e;\n}\n\n.btn-gradient-gold-crown::after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: rgba(255, 255, 255, 0.2);\n  transform: translateX(-100%);\n  transition: transform 0.4s;\n}\n\n.btn-gradient-gold-crown:hover::after {\n  transform: translateX(0);\n}\n\n.btn-gradient-gold-crown:hover {\n  transform: scale(1.05);\n  box-shadow: 0 8px 30px rgba(247, 151, 30, 0.4);\n}\n\n.btn-gradient-gold-crown span,\n        .btn-gradient-gold-crown i {\n  position: relative;\n  z-index: 1;\n}"
+  },
+  {
+    "id": "glassmorphism-clean",
+    "name": "زجاجي انسيابي",
+    "category": "creative",
+    "accent": "#ffffff",
+    "html": "<button class=\"btn btn-glassmorphism-clean\">\n  <i class=\"fas fa-glass-whiskey\"></i>\n  <span>زجاجي انسيابي</span>\n</button>",
+    "css": ".btn-glassmorphism-clean {\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  background: rgba(255, 255, 255, 0.03);\n  backdrop-filter: blur(12px);\n  color: rgba(255, 255, 255, 0.85);\n}\n\n.btn-glassmorphism-clean:hover {\n  background: rgba(255, 255, 255, 0.1);\n  border-color: rgba(255, 255, 255, 0.25);\n  transform: translateY(-3px) scale(1.03);\n  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);\n}"
+  },
+  {
+    "id": "3d-crimson-depth",
+    "name": "أحمر بارز ثلاثي الأبعاد",
+    "category": "3d",
+    "accent": "#e74c3c",
+    "html": "<button class=\"btn btn-3d-crimson-depth\">\n  <i class=\"fas fa-skull\"></i>\n  <span>أحمر بارز ثلاثي الأبعاد</span>\n</button>",
+    "css": ".btn-3d-crimson-depth {\n  background: #e74c3c;\n  color: #fff;\n  box-shadow: 0 6px 0 #c0392b, 0 10px 25px rgba(231, 76, 60, 0.3);\n  border-radius: 12px;\n}\n\n.btn-3d-crimson-depth:hover {\n  transform: translateY(-4px);\n  box-shadow: 0 10px 0 #c0392b, 0 15px 35px rgba(231, 76, 60, 0.4);\n}\n\n.btn-3d-crimson-depth:active {\n  transform: translateY(4px);\n  box-shadow: 0 2px 0 #c0392b;\n}"
+  },
+  {
+    "id": "border-neon-flow",
+    "name": "حدود نيون متحركة",
+    "category": "borders",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-border-neon-flow\">\n  <i class=\"fas fa-border-all\"></i>\n  <span>حدود نيون متحركة</span>\n</button>",
+    "css": ".btn-border-neon-flow {\n  border: 2px solid transparent;\n  background: transparent;\n  color: #48dbfb;\n}\n\n.btn-border-neon-flow::before {\n  content: '';\n  position: absolute;\n  inset: -2px;\n  border-radius: 50px;\n  padding: 2px;\n  background: linear-gradient(135deg, #48dbfb, #ff9ff3);\n  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);\n  -webkit-mask-composite: xor;\n  mask-composite: exclude;\n}\n\n.btn-border-neon-flow:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 8px 30px rgba(72, 219, 251, 0.2);\n}"
+  },
+  {
+    "id": "anim-sync-loader",
+    "name": "تحميل دوراني متزامن",
+    "category": "animations",
+    "accent": "#00b894",
+    "html": "<button class=\"btn btn-anim-sync-loader\">\n  <i class=\"fas fa-sync-alt\"></i>\n  <span>تحميل دوراني متزامن</span>\n</button>",
+    "css": ".btn-anim-sync-loader {\n  background: #00b894;\n  color: #fff;\n}\n\n.btn-anim-sync-loader:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 8px 30px rgba(0, 184, 148, 0.4);\n}\n\n.btn-anim-sync-loader:hover i {\n  animation: spin 1s linear infinite;\n}"
+  },
+  {
+    "id": "anim-heart-pulse",
+    "name": "نبض القلب المتوهج",
+    "category": "animations",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-anim-heart-pulse\">\n  <i class=\"fas fa-heart\"></i>\n  <span>نبض القلب المتوهج</span>\n</button>",
+    "css": ".btn-anim-heart-pulse {\n  background: rgba(255, 107, 107, 0.12);\n  color: #ff6b6b;\n}\n\n.btn-anim-heart-pulse:hover {\n  background: rgba(255, 107, 107, 0.2);\n  transform: translateY(-3px);\n}\n\n.btn-anim-heart-pulse:hover i {\n  animation: heartBeat 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "anim-water-ripple",
+    "name": "تموج مائي بنفسجي",
+    "category": "animations",
+    "accent": "#6c5ce7",
+    "html": "<button class=\"btn btn-anim-water-ripple\">\n  <i class=\"fas fa-water\"></i>\n  <span>تموج مائي بنفسجي</span>\n</button>",
+    "css": ".btn-anim-water-ripple {\n  background: #6c5ce7;\n  color: #fff;\n  border-radius: 12px;\n}\n\n.btn-anim-water-ripple::after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: rgba(255, 255, 255, 0.15);\n  transform: scale(0);\n  border-radius: 50%;\n  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);\n}\n\n.btn-anim-water-ripple:hover::after {\n  transform: scale(3);\n}\n\n.btn-anim-water-ripple:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 8px 30px rgba(108, 92, 231, 0.4);\n}\n\n.btn-anim-water-ripple span,\n        .btn-anim-water-ripple i {\n  position: relative;\n  z-index: 1;\n}"
+  },
+  {
+    "id": "cart-shopping-glow",
+    "name": "سلة مشتريات تفاعلية",
+    "category": "creative",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-cart-shopping-glow\">\n  <i class=\"fas fa-shopping-cart\"></i>\n  <span>سلة مشتريات تفاعلية</span>\n</button>",
+    "css": ".btn-cart-shopping-glow {\n  background: linear-gradient(135deg, #ff6b6b, #ee5a24);\n  color: #fff;\n}\n\n.btn-cart-shopping-glow:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(255, 107, 107, 0.4);\n}\n\n.btn-cart-shopping-glow:hover i {\n  transform: translateX(-6px) rotate(-10deg);\n}"
+  },
+  {
+    "id": "search-cyan-glow",
+    "name": "زر بحث متوهج",
+    "category": "creative",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-search-cyan-glow\">\n  <i class=\"fas fa-search\"></i>\n  <span>زر بحث متوهج</span>\n</button>",
+    "css": ".btn-search-cyan-glow {\n  border: 2px solid #48dbfb;\n  background: transparent;\n  color: #48dbfb;\n}\n\n.btn-search-cyan-glow:hover {\n  background: #48dbfb;\n  color: #0a0a1a;\n  box-shadow: 0 0 30px rgba(72, 219, 251, 0.3);\n  transform: translateY(-3px);\n}\n\n.btn-search-cyan-glow:hover i {\n  transform: scale(1.2);\n}"
+  },
+  {
+    "id": "settings-gear-spin",
+    "name": "ترس إعدادات متحرك",
+    "category": "animations",
+    "accent": "#a29bfe",
+    "html": "<button class=\"btn btn-settings-gear-spin\">\n  <i class=\"fas fa-cog\"></i>\n  <span>ترس إعدادات متحرك</span>\n</button>",
+    "css": ".btn-settings-gear-spin {\n  background: rgba(108, 92, 231, 0.12);\n  color: #a29bfe;\n}\n\n.btn-settings-gear-spin:hover {\n  background: rgba(108, 92, 231, 0.2);\n  transform: translateY(-3px);\n  box-shadow: 0 8px 30px rgba(108, 92, 231, 0.2);\n}\n\n.btn-settings-gear-spin:hover i {\n  transform: rotate(180deg);\n}"
+  },
+  {
+    "id": "notification-bell-ring",
+    "name": "جرس إشعارات مهتز",
+    "category": "animations",
+    "accent": "#feca57",
+    "html": "<button class=\"btn btn-notification-bell-ring\">\n  <i class=\"fas fa-bell\"></i>\n  <span>جرس إشعارات مهتز</span>\n</button>",
+    "css": ".btn-notification-bell-ring {\n  background: rgba(254, 202, 87, 0.12);\n  color: #feca57;\n  position: relative;\n  overflow: visible;\n}\n\n.btn-notification-bell-ring::before {\n  content: '5';\n  position: absolute;\n  top: -6px;\n  right: -6px;\n  width: 22px;\n  height: 22px;\n  border-radius: 50%;\n  background: #ff6b6b;\n  color: #fff;\n  font-size: 11px;\n  font-weight: 700;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  overflow: hidden !important;\n}\n\n.btn-notification-bell-ring:hover {\n  background: rgba(254, 202, 87, 0.2);\n  transform: translateY(-3px);\n}\n\n.btn-notification-bell-ring:hover i {\n  animation: ringBell 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "like-pulse-bounce",
+    "name": "إعجاب نابض وردي",
+    "category": "animations",
+    "accent": "#ff9ff3",
+    "html": "<button class=\"btn btn-like-pulse-bounce\">\n  <i class=\"fas fa-thumbs-up\"></i>\n  <span>إعجاب نابض وردي</span>\n</button>",
+    "css": ".btn-like-pulse-bounce {\n  background: rgba(255, 159, 243, 0.12);\n  color: #ff9ff3;\n}\n\n.btn-like-pulse-bounce:hover {\n  background: rgba(255, 159, 243, 0.2);\n  transform: translateY(-3px);\n}\n\n.btn-like-pulse-bounce:hover i {\n  animation: likePulse 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "share-teal-glow",
+    "name": "مشاركة فيروزي",
+    "category": "creative",
+    "accent": "#00cec9",
+    "html": "<button class=\"btn btn-share-teal-glow\">\n  <i class=\"fas fa-share-alt\"></i>\n  <span>مشاركة فيروزي</span>\n</button>",
+    "css": ".btn-share-teal-glow {\n  background: rgba(0, 206, 201, 0.12);\n  color: #00cec9;\n}\n\n.btn-share-teal-glow:hover {\n  background: rgba(0, 206, 201, 0.2);\n  transform: translateY(-3px);\n  box-shadow: 0 8px 30px rgba(0, 206, 201, 0.2);\n}\n\n.btn-share-teal-glow:hover i {\n  transform: translateY(-4px);\n}"
+  },
+  {
+    "id": "download-bounce-mint",
+    "name": "تنزيل قافز نعناعي",
+    "category": "animations",
+    "accent": "#55efc4",
+    "html": "<button class=\"btn btn-download-bounce-mint\">\n  <i class=\"fas fa-download\"></i>\n  <span>تنزيل قافز نعناعي</span>\n</button>",
+    "css": ".btn-download-bounce-mint {\n  border: 2px solid #55efc4;\n  background: transparent;\n  color: #55efc4;\n}\n\n.btn-download-bounce-mint:hover {\n  background: #55efc4;\n  color: #0a0a1a;\n  transform: translateY(-3px);\n  box-shadow: 0 8px 30px rgba(85, 239, 196, 0.3);\n}\n\n.btn-download-bounce-mint:hover i {\n  animation: downloadBounce 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "delete-coral-danger",
+    "name": "حذف تحذيري مرجاني",
+    "category": "creative",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-delete-coral-danger\">\n  <i class=\"fas fa-trash\"></i>\n  <span>حذف تحذيري مرجاني</span>\n</button>",
+    "css": ".btn-delete-coral-danger {\n  background: rgba(255, 107, 107, 0.12);\n  color: #ff6b6b;\n}\n\n.btn-delete-coral-danger:hover {\n  background: rgba(255, 107, 107, 0.2);\n  transform: translateY(-3px);\n}\n\n.btn-delete-coral-danger:hover i {\n  transform: scale(0.8) rotate(10deg);\n}"
+  },
+  {
+    "id": "security-lock-purple",
+    "name": "قفل حماية بنفسجي",
+    "category": "creative",
+    "accent": "#a29bfe",
+    "html": "<button class=\"btn btn-security-lock-purple\">\n  <i class=\"fas fa-lock\"></i>\n  <span>قفل حماية بنفسجي</span>\n</button>",
+    "css": ".btn-security-lock-purple {\n  border: 2px solid #a29bfe;\n  background: transparent;\n  color: #a29bfe;\n}\n\n.btn-security-lock-purple:hover {\n  background: #a29bfe;\n  color: #0a0a1a;\n  transform: translateY(-3px);\n  box-shadow: 0 8px 30px rgba(162, 155, 254, 0.3);\n}\n\n.btn-security-lock-purple:hover i {\n  transform: scale(0.8);\n}"
+  },
+  {
+    "id": "security-unlock-cyan",
+    "name": "قفل مفتوح سماوي",
+    "category": "creative",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-security-unlock-cyan\">\n  <i class=\"fas fa-unlock\"></i>\n  <span>قفل مفتوح سماوي</span>\n</button>",
+    "css": ".btn-security-unlock-cyan {\n  background: rgba(72, 219, 251, 0.12);\n  color: #48dbfb;\n}\n\n.btn-security-unlock-cyan:hover {\n  background: rgba(72, 219, 251, 0.2);\n  transform: translateY(-3px);\n  box-shadow: 0 8px 30px rgba(72, 219, 251, 0.2);\n}\n\n.btn-security-unlock-cyan:hover i {\n  transform: translateX(4px);\n}"
+  },
+  {
+    "id": "star-premium-spin",
+    "name": "نجمة التميز الدوارة",
+    "category": "animations",
+    "accent": "#feca57",
+    "html": "<button class=\"btn btn-star-premium-spin\">\n  <i class=\"fas fa-star\"></i>\n  <span>نجمة التميز الدوارة</span>\n</button>",
+    "css": ".btn-star-premium-spin {\n  background: linear-gradient(135deg, #feca57, #f39c12);\n  color: #0a0a1a;\n}\n\n.btn-star-premium-spin:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(254, 202, 87, 0.4);\n}\n\n.btn-star-premium-spin:hover i {\n  animation: spin 1s linear infinite;\n}"
+  },
+  {
+    "id": "gradient-vibrant-leaf",
+    "name": "تدرج أوراق الشجر",
+    "category": "gradient",
+    "accent": "#56ab2f",
+    "html": "<button class=\"btn btn-gradient-vibrant-leaf\">\n  <i class=\"fas fa-leaf\"></i>\n  <span>تدرج أوراق الشجر</span>\n</button>",
+    "css": ".btn-gradient-vibrant-leaf {\n  background: linear-gradient(135deg, #a8e063, #56ab2f);\n  color: #fff;\n  box-shadow: 0 4px 20px rgba(86, 171, 47, 0.35);\n}\n\n.btn-gradient-vibrant-leaf:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 10px 35px rgba(86, 171, 47, 0.5);\n}"
+  },
+  {
+    "id": "gradient-rose-fire",
+    "name": "تدرج وردي ناري",
+    "category": "gradient",
+    "accent": "#f5576c",
+    "html": "<button class=\"btn btn-gradient-rose-fire\">\n  <i class=\"fas fa-fire\"></i>\n  <span>تدرج وردي ناري</span>\n</button>",
+    "css": ".btn-gradient-rose-fire {\n  background: linear-gradient(135deg, #f093fb, #f5576c);\n  color: #fff;\n  box-shadow: 0 4px 20px rgba(245, 87, 108, 0.35);\n  border-radius: 12px;\n}\n\n.btn-gradient-rose-fire:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 10px 35px rgba(245, 87, 108, 0.5);\n}\n\n.btn-gradient-rose-fire:hover i {\n  animation: spin 2s linear infinite;\n}"
+  },
+  {
+    "id": "slide-blue-cloud",
+    "name": "انزلاق أزرق سحابي",
+    "category": "animations",
+    "accent": "#4facfe",
+    "html": "<button class=\"btn btn-slide-blue-cloud\">\n  <i class=\"fas fa-cloud\"></i>\n  <span>انزلاق أزرق سحابي</span>\n</button>",
+    "css": ".btn-slide-blue-cloud {\n  border: 2px solid #4facfe;\n  background: transparent;\n  color: #4facfe;\n  border-radius: 12px;\n}\n\n.btn-slide-blue-cloud::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: #4facfe;\n  transform: scaleX(0);\n  transition: transform 0.4s;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding-right: 30px;\n  transform-origin: right;\n}\n\n.btn-slide-blue-cloud:hover::before {\n  transform: scaleX(1);\n  transform-origin: left;\n}\n\n.btn-slide-blue-cloud:hover {\n  color: #0a0a1a;\n  box-shadow: 0 0 30px rgba(79, 172, 254, 0.3);\n}\n\n.btn-slide-blue-cloud span,\n        .btn-slide-blue-cloud i {\n  position: relative;\n  z-index: 1;\n}"
+  },
+  {
+    "id": "gradient-fresh-mint",
+    "name": "تدرج نعناعي منعش",
+    "category": "gradient",
+    "accent": "#43e97b",
+    "html": "<button class=\"btn btn-gradient-fresh-mint\">\n  <i class=\"fas fa-seedling\"></i>\n  <span>تدرج نعناعي منعش</span>\n</button>",
+    "css": ".btn-gradient-fresh-mint {\n  background: linear-gradient(135deg, #43e97b, #38f9d7);\n  color: #0a0a1a;\n}\n\n.btn-gradient-fresh-mint:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(67, 233, 123, 0.4);\n}"
+  },
+  {
+    "id": "3d-midnight-slate",
+    "name": "داكن ليلي ثلاثي الأبعاد",
+    "category": "3d",
+    "accent": "#2c3e50",
+    "html": "<button class=\"btn btn-3d-midnight-slate\">\n  <i class=\"fas fa-moon\"></i>\n  <span>داكن ليلي ثلاثي الأبعاد</span>\n</button>",
+    "css": ".btn-3d-midnight-slate {\n  background: #2c3e50;\n  color: #ecf0f1;\n  box-shadow: 0 4px 0 #1a252f;\n  border-radius: 12px;\n}\n\n.btn-3d-midnight-slate:hover {\n  transform: translateY(-4px);\n  box-shadow: 0 8px 0 #1a252f;\n}\n\n.btn-3d-midnight-slate:active {\n  transform: translateY(4px);\n  box-shadow: 0 2px 0 #1a252f;\n}"
+  },
+  {
+    "id": "gradient-gem-sparkle",
+    "name": "تدرج جوهرة لامعة",
+    "category": "gradient",
+    "accent": "#fa709a",
+    "html": "<button class=\"btn btn-gradient-gem-sparkle\">\n  <i class=\"fas fa-gem\"></i>\n  <span>تدرج جوهرة لامعة</span>\n</button>",
+    "css": ".btn-gradient-gem-sparkle {\n  background: linear-gradient(135deg, #fa709a, #fee140);\n  color: #1a1a2e;\n}\n\n.btn-gradient-gem-sparkle::after {\n  content: '✨';\n  position: absolute;\n  right: -20px;\n  top: -20px;\n  font-size: 30px;\n  opacity: 0.3;\n  transition: all 0.4s;\n}\n\n.btn-gradient-gem-sparkle:hover::after {\n  right: 10px;\n  top: 10px;\n  opacity: 1;\n}\n\n.btn-gradient-gem-sparkle:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(250, 112, 154, 0.4);\n}\n\n.btn-gradient-gem-sparkle:hover i {\n  animation: spin 3s linear infinite;\n}"
+  },
+  {
+    "id": "neon-pulse-pink",
+    "name": "نبض نيون وردي",
+    "category": "neon",
+    "accent": "#fd79a8",
+    "html": "<button class=\"btn btn-neon-pulse-pink\">\n  <i class=\"fas fa-heartbeat\"></i>\n  <span>نبض نيون وردي</span>\n</button>",
+    "css": ".btn-neon-pulse-pink {\n  border: 2px solid #fd79a8;\n  background: transparent;\n  color: #fd79a8;\n}\n\n.btn-neon-pulse-pink:hover {\n  background: #fd79a8;\n  color: #0a0a1a;\n  transform: translateY(-3px);\n  box-shadow: 0 8px 30px rgba(253, 121, 168, 0.3);\n}"
+  },
+  {
+    "id": "dark-crimson-fire",
+    "name": "أحمر قرمزي ناري",
+    "category": "creative",
+    "accent": "#e94560",
+    "html": "<button class=\"btn btn-dark-crimson-fire\">\n  <i class=\"fas fa-fire\"></i>\n  <span>أحمر قرمزي ناري</span>\n</button>",
+    "css": ".btn-dark-crimson-fire {\n  background: #1a1a2e;\n  color: #e94560;\n  border: 1px solid #e94560;\n  border-radius: 12px;\n}\n\n.btn-dark-crimson-fire:hover {\n  background: #e94560;\n  color: #1a1a2e;\n  transform: translateY(-3px);\n  box-shadow: 0 8px 30px rgba(233, 69, 96, 0.4);\n}"
+  },
+  {
+    "id": "gradient-night-sky",
+    "name": "تدرج سماء الليل",
+    "category": "gradient",
+    "accent": "#302b63",
+    "html": "<button class=\"btn btn-gradient-night-sky\">\n  <i class=\"fas fa-moon\"></i>\n  <span>تدرج سماء الليل</span>\n</button>",
+    "css": ".btn-gradient-night-sky {\n  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);\n  color: #fff;\n  box-shadow: 0 4px 20px rgba(48, 43, 99, 0.4);\n  border: 1px solid rgba(255, 255, 255, 0.05);\n}\n\n.btn-gradient-night-sky:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 10px 40px rgba(48, 43, 99, 0.6);\n}\n\n.btn-gradient-night-sky:hover i {\n  animation: spin 2s linear infinite;\n}"
+  },
+  {
+    "id": "social-whatsapp-fa",
+    "name": "واتساب فائق السرعة",
+    "category": "social",
+    "accent": "#25D366",
+    "html": "<button class=\"btn btn-social-whatsapp-fa\">\n  <i class=\"fab fa-whatsapp\"></i>\n  <span>واتساب فائق السرعة</span>\n</button>",
+    "css": ".btn-social-whatsapp-fa {\n  background: #25D366;\n  color: #fff;\n}\n\n.btn-social-whatsapp-fa:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.4);\n}\n\n.btn-social-whatsapp-fa:hover i {\n  animation: spin 2s linear infinite;\n}"
+  },
+  {
+    "id": "social-twitter-fa",
+    "name": "تويتر أزرق كلاسيكي",
+    "category": "social",
+    "accent": "#1DA1F2",
+    "html": "<button class=\"btn btn-social-twitter-fa\">\n  <i class=\"fab fa-twitter\"></i>\n  <span>تويتر أزرق كلاسيكي</span>\n</button>",
+    "css": ".btn-social-twitter-fa {\n  background: #1DA1F2;\n  color: #fff;\n}\n\n.btn-social-twitter-fa:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(29, 161, 242, 0.4);\n}"
+  },
+  {
+    "id": "social-youtube-fa",
+    "name": "يوتيوب أحمر مشع",
+    "category": "social",
+    "accent": "#FF0000",
+    "html": "<button class=\"btn btn-social-youtube-fa\">\n  <i class=\"fab fa-youtube\"></i>\n  <span>يوتيوب أحمر مشع</span>\n</button>",
+    "css": ".btn-social-youtube-fa {\n  background: #FF0000;\n  color: #fff;\n}\n\n.btn-social-youtube-fa:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(255, 0, 0, 0.4);\n}"
+  },
+  {
+    "id": "social-instagram-fa",
+    "name": "إنستغرام متدرج",
+    "category": "social",
+    "accent": "#E1306C",
+    "html": "<button class=\"btn btn-social-instagram-fa\">\n  <i class=\"fab fa-instagram\"></i>\n  <span>إنستغرام متدرج</span>\n</button>",
+    "css": ".btn-social-instagram-fa {\n  background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);\n  color: #fff;\n}\n\n.btn-social-instagram-fa:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(225, 48, 108, 0.4);\n}"
+  },
+  {
+    "id": "social-telegram-fa",
+    "name": "تليجرام سماوي",
+    "category": "social",
+    "accent": "#0088cc",
+    "html": "<button class=\"btn btn-social-telegram-fa\">\n  <i class=\"fab fa-telegram\"></i>\n  <span>تليجرام سماوي</span>\n</button>",
+    "css": ".btn-social-telegram-fa {\n  background: #0088cc;\n  color: #fff;\n}\n\n.btn-social-telegram-fa:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(0, 136, 204, 0.4);\n}\n\n.btn-social-telegram-fa:hover i {\n  transform: translateX(4px);\n}"
+  },
+  {
+    "id": "social-facebook-fa",
+    "name": "فيسبوك أزرق رسمي",
+    "category": "social",
+    "accent": "#1877f2",
+    "html": "<button class=\"btn btn-social-facebook-fa\">\n  <i class=\"fab fa-facebook-f\"></i>\n  <span>فيسبوك أزرق رسمي</span>\n</button>",
+    "css": ".btn-social-facebook-fa {\n  background: #1877f2;\n  color: #fff;\n}\n\n.btn-social-facebook-fa:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(24, 119, 242, 0.4);\n}"
+  },
+  {
+    "id": "social-tiktok-fa",
+    "name": "تيك توك نيون نايت",
+    "category": "social",
+    "accent": "#25f4ee",
+    "html": "<button class=\"btn btn-social-tiktok-fa\">\n  <i class=\"fab fa-tiktok\"></i>\n  <span>تيك توك نيون نايت</span>\n</button>",
+    "css": ".btn-social-tiktok-fa {\n  background: #000;\n  color: #fff;\n  border: 1px solid #25f4ee;\n  box-shadow: 0 4px 20px rgba(37, 244, 238, 0.15);\n}\n\n.btn-social-tiktok-fa:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(37, 244, 238, 0.3);\n  border-color: #fe2c55;\n}"
+  },
+  {
+    "id": "social-snapchat-fa",
+    "name": "سناب شات أصفر مشرق",
+    "category": "social",
+    "accent": "#FFFC00",
+    "html": "<button class=\"btn btn-social-snapchat-fa\">\n  <i class=\"fab fa-snapchat-ghost\"></i>\n  <span>سناب شات أصفر مشرق</span>\n</button>",
+    "css": ".btn-social-snapchat-fa {\n  background: #FFFC00;\n  color: #000;\n}\n\n.btn-social-snapchat-fa:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(255, 252, 0, 0.3);\n}"
+  },
+  {
+    "id": "social-pinterest-fa",
+    "name": "بينترست قرمزي",
+    "category": "social",
+    "accent": "#E60023",
+    "html": "<button class=\"btn btn-social-pinterest-fa\">\n  <i class=\"fab fa-pinterest\"></i>\n  <span>بينترست قرمزي</span>\n</button>",
+    "css": ".btn-social-pinterest-fa {\n  background: #E60023;\n  color: #fff;\n}\n\n.btn-social-pinterest-fa:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(230, 0, 35, 0.4);\n}"
+  },
+  {
+    "id": "social-reddit-fa",
+    "name": "رديت برتقالي نابض",
+    "category": "social",
+    "accent": "#FF4500",
+    "html": "<button class=\"btn btn-social-reddit-fa\">\n  <i class=\"fab fa-reddit\"></i>\n  <span>رديت برتقالي نابض</span>\n</button>",
+    "css": ".btn-social-reddit-fa {\n  background: #FF4500;\n  color: #fff;\n}\n\n.btn-social-reddit-fa:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 8px 30px rgba(255, 69, 0, 0.4);\n}\n\n.btn-social-reddit-fa:hover i {\n  animation: spin 2s linear infinite;\n}"
+  },
+  {
+    "id": "neon-blaze-red",
+    "name": "نيون أحمر ناري",
+    "category": "neon",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-neon-blaze-red\">\n  <i class=\"fas fa-fire\"></i>\n  <span>نيون أحمر ناري</span>\n</button>",
+    "css": ".btn-neon-blaze-red {\n  border: 2px solid #ff6b6b;\n  background: transparent;\n  color: #ff6b6b;\n  box-shadow: 0 0 20px rgba(255, 107, 107, 0.1);\n}\n\n.btn-neon-blaze-red:hover {\n  background: #ff6b6b;\n  color: #0a0a1a;\n  box-shadow: 0 0 40px rgba(255, 107, 107, 0.4);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "neon-ice-cyan",
+    "name": "نيون أزرق جليدي",
+    "category": "neon",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-neon-ice-cyan\">\n  <i class=\"fas fa-snowflake\"></i>\n  <span>نيون أزرق جليدي</span>\n</button>",
+    "css": ".btn-neon-ice-cyan {\n  border: 2px solid #48dbfb;\n  background: transparent;\n  color: #48dbfb;\n  box-shadow: 0 0 20px rgba(72, 219, 251, 0.1);\n  border-radius: 12px;\n}\n\n.btn-neon-ice-cyan:hover {\n  background: #48dbfb;\n  color: #0a0a1a;\n  box-shadow: 0 0 50px rgba(72, 219, 251, 0.4);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "neon-mystic-purple",
+    "name": "نيون بنفسجي أثيري",
+    "category": "neon",
+    "accent": "#a29bfe",
+    "html": "<button class=\"btn btn-neon-mystic-purple\">\n  <i class=\"fas fa-gem\"></i>\n  <span>نيون بنفسجي أثيري</span>\n</button>",
+    "css": ".btn-neon-mystic-purple {\n  border: 2px solid #a29bfe;\n  background: transparent;\n  color: #a29bfe;\n  box-shadow: 0 0 20px rgba(162, 155, 254, 0.1);\n}\n\n.btn-neon-mystic-purple:hover {\n  background: #a29bfe;\n  color: #0a0a1a;\n  box-shadow: 0 0 50px rgba(162, 155, 254, 0.4);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "neon-radiant-pink",
+    "name": "نيون وردي مشع",
+    "category": "neon",
+    "accent": "#fd79a8",
+    "html": "<button class=\"btn btn-neon-radiant-pink\">\n  <i class=\"fas fa-heart\"></i>\n  <span>نيون وردي مشع</span>\n</button>",
+    "css": ".btn-neon-radiant-pink {\n  border: 2px solid #fd79a8;\n  background: transparent;\n  color: #fd79a8;\n  box-shadow: 0 0 20px rgba(253, 121, 168, 0.1);\n  border-radius: 12px;\n}\n\n.btn-neon-radiant-pink:hover {\n  background: #fd79a8;\n  color: #0a0a1a;\n  box-shadow: 0 0 50px rgba(253, 121, 168, 0.4);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "neon-mint-spring",
+    "name": "نيون أخضر ربيعي",
+    "category": "neon",
+    "accent": "#55efc4",
+    "html": "<button class=\"btn btn-neon-mint-spring\">\n  <i class=\"fas fa-leaf\"></i>\n  <span>نيون أخضر ربيعي</span>\n</button>",
+    "css": ".btn-neon-mint-spring {\n  border: 2px solid #55efc4;\n  background: transparent;\n  color: #55efc4;\n  box-shadow: 0 0 20px rgba(85, 239, 196, 0.1);\n}\n\n.btn-neon-mint-spring:hover {\n  background: #55efc4;\n  color: #0a0a1a;\n  box-shadow: 0 0 50px rgba(85, 239, 196, 0.4);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "neon-solar-yellow",
+    "name": "نيون أصفر شمسي",
+    "category": "neon",
+    "accent": "#fdcb6e",
+    "html": "<button class=\"btn btn-neon-solar-yellow\">\n  <i class=\"fas fa-sun\"></i>\n  <span>نيون أصفر شمسي</span>\n</button>",
+    "css": ".btn-neon-solar-yellow {\n  border: 2px solid #fdcb6e;\n  background: transparent;\n  color: #fdcb6e;\n  box-shadow: 0 0 20px rgba(253, 203, 110, 0.1);\n  border-radius: 12px;\n}\n\n.btn-neon-solar-yellow:hover {\n  background: #fdcb6e;\n  color: #0a0a1a;\n  box-shadow: 0 0 50px rgba(253, 203, 110, 0.4);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "neon-amber-orange",
+    "name": "نيون برتقالي متوهج",
+    "category": "neon",
+    "accent": "#e17055",
+    "html": "<button class=\"btn btn-neon-amber-orange\">\n  <i class=\"fas fa-fire\"></i>\n  <span>نيون برتقالي متوهج</span>\n</button>",
+    "css": ".btn-neon-amber-orange {\n  border: 2px solid #e17055;\n  background: transparent;\n  color: #e17055;\n  box-shadow: 0 0 20px rgba(225, 112, 85, 0.1);\n}\n\n.btn-neon-amber-orange:hover {\n  background: #e17055;\n  color: #fff;\n  box-shadow: 0 0 50px rgba(225, 112, 85, 0.4);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "neon-emerald-forest",
+    "name": "نيون زمردي فاخر",
+    "category": "neon",
+    "accent": "#00b894",
+    "html": "<button class=\"btn btn-neon-emerald-forest\">\n  <i class=\"fas fa-tree\"></i>\n  <span>نيون زمردي فاخر</span>\n</button>",
+    "css": ".btn-neon-emerald-forest {\n  border: 2px solid #00b894;\n  background: transparent;\n  color: #00b894;\n  box-shadow: 0 0 20px rgba(0, 184, 148, 0.1);\n  border-radius: 12px;\n}\n\n.btn-neon-emerald-forest:hover {\n  background: #00b894;\n  color: #fff;\n  box-shadow: 0 0 50px rgba(0, 184, 148, 0.4);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "neon-lavender-glow",
+    "name": "نيون لافندر هادئ",
+    "category": "neon",
+    "accent": "#6c5ce7",
+    "html": "<button class=\"btn btn-neon-lavender-glow\">\n  <i class=\"fas fa-star\"></i>\n  <span>نيون لافندر هادئ</span>\n</button>",
+    "css": ".btn-neon-lavender-glow {\n  border: 2px solid #6c5ce7;\n  background: transparent;\n  color: #6c5ce7;\n  box-shadow: 0 0 20px rgba(108, 92, 231, 0.1);\n}\n\n.btn-neon-lavender-glow:hover {\n  background: #6c5ce7;\n  color: #fff;\n  box-shadow: 0 0 50px rgba(108, 92, 231, 0.4);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "neon-cherry-blossom",
+    "name": "نيون كرزي متلألئ",
+    "category": "neon",
+    "accent": "#fd79a8",
+    "html": "<button class=\"btn btn-neon-cherry-blossom\">\n  <i class=\"fas fa-heart\"></i>\n  <span>نيون كرزي متلألئ</span>\n</button>",
+    "css": ".btn-neon-cherry-blossom {\n  border: 2px solid #fd79a8;\n  background: transparent;\n  color: #fd79a8;\n  box-shadow: 0 0 20px rgba(253, 121, 168, 0.1);\n}\n\n.btn-neon-cherry-blossom:hover {\n  background: #fd79a8;\n  color: #fff;\n  box-shadow: 0 0 50px rgba(253, 121, 168, 0.4);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "border-dotted-crimson",
+    "name": "إطار منقط أحمر",
+    "category": "borders",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-border-dotted-crimson\">\n  <i class=\"fas fa-circle\"></i>\n  <span>إطار منقط أحمر</span>\n</button>",
+    "css": ".btn-border-dotted-crimson {\n  border: 3px dotted #ff6b6b;\n  background: transparent;\n  color: #ff6b6b;\n  border-radius: 12px;\n}\n\n.btn-border-dotted-crimson:hover {\n  border-style: solid;\n  background: #ff6b6b;\n  color: #fff;\n  transform: scale(1.05);\n}"
+  },
+  {
+    "id": "border-double-cyan",
+    "name": "إطار مزدوج سماوي",
+    "category": "borders",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-border-double-cyan\">\n  <i class=\"fas fa-border-all\"></i>\n  <span>إطار مزدوج سماوي</span>\n</button>",
+    "css": ".btn-border-double-cyan {\n  border: 3px double #48dbfb;\n  background: transparent;\n  color: #48dbfb;\n  border-radius: 12px;\n}\n\n.btn-border-double-cyan:hover {\n  background: #48dbfb;\n  color: #0a0a1a;\n  transform: scale(1.05);\n  box-shadow: 0 0 30px rgba(72, 219, 251, 0.3);\n}"
+  },
+  {
+    "id": "border-dashed-purple",
+    "name": "إطار متقطع بنفسجي",
+    "category": "borders",
+    "accent": "#a29bfe",
+    "html": "<button class=\"btn btn-border-dashed-purple\">\n  <i class=\"fas fa-dashcube\"></i>\n  <span>إطار متقطع بنفسجي</span>\n</button>",
+    "css": ".btn-border-dashed-purple {\n  border: 3px dashed #a29bfe;\n  background: transparent;\n  color: #a29bfe;\n}\n\n.btn-border-dashed-purple:hover {\n  border-style: solid;\n  background: #a29bfe;\n  color: #0a0a1a;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "border-groove-pink",
+    "name": "إطار مخدد وردي",
+    "category": "borders",
+    "accent": "#fd79a8",
+    "html": "<button class=\"btn btn-border-groove-pink\">\n  <i class=\"fas fa-grip-lines\"></i>\n  <span>إطار مخدد وردي</span>\n</button>",
+    "css": ".btn-border-groove-pink {\n  border: 3px groove #fd79a8;\n  background: transparent;\n  color: #fd79a8;\n  border-radius: 12px;\n}\n\n.btn-border-groove-pink:hover {\n  border-style: solid;\n  background: #fd79a8;\n  color: #fff;\n  transform: scale(1.05);\n}"
+  },
+  {
+    "id": "border-ridge-mint",
+    "name": "إطار بارز نعناعي",
+    "category": "borders",
+    "accent": "#55efc4",
+    "html": "<button class=\"btn btn-border-ridge-mint\">\n  <i class=\"fas fa-border-all\"></i>\n  <span>إطار بارز نعناعي</span>\n</button>",
+    "css": ".btn-border-ridge-mint {\n  border: 3px ridge #55efc4;\n  background: transparent;\n  color: #55efc4;\n}\n\n.btn-border-ridge-mint:hover {\n  border-style: solid;\n  background: #55efc4;\n  color: #0a0a1a;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "border-inset-amber",
+    "name": "إطار غائر كهرماني",
+    "category": "borders",
+    "accent": "#fdcb6e",
+    "html": "<button class=\"btn btn-border-inset-amber\">\n  <i class=\"fas fa-square\"></i>\n  <span>إطار غائر كهرماني</span>\n</button>",
+    "css": ".btn-border-inset-amber {\n  border: 3px inset #fdcb6e;\n  background: transparent;\n  color: #fdcb6e;\n  border-radius: 12px;\n}\n\n.btn-border-inset-amber:hover {\n  border-style: solid;\n  background: #fdcb6e;\n  color: #0a0a1a;\n  transform: scale(1.05);\n}"
+  },
+  {
+    "id": "border-outset-orange",
+    "name": "إطار نافر برتقالي",
+    "category": "borders",
+    "accent": "#e17055",
+    "html": "<button class=\"btn btn-border-outset-orange\">\n  <i class=\"fas fa-border-all\"></i>\n  <span>إطار نافر برتقالي</span>\n</button>",
+    "css": ".btn-border-outset-orange {\n  border: 3px outset #e17055;\n  background: transparent;\n  color: #e17055;\n}\n\n.btn-border-outset-orange:hover {\n  border-style: solid;\n  background: #e17055;\n  color: #fff;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "border-double-emerald",
+    "name": "إطار مزدوج زمردي",
+    "category": "borders",
+    "accent": "#00b894",
+    "html": "<button class=\"btn btn-border-double-emerald\">\n  <i class=\"fas fa-border-all\"></i>\n  <span>إطار مزدوج زمردي</span>\n</button>",
+    "css": ".btn-border-double-emerald {\n  border: 4px double #00b894;\n  background: transparent;\n  color: #00b894;\n  border-radius: 12px;\n}\n\n.btn-border-double-emerald:hover {\n  background: #00b894;\n  color: #fff;\n  transform: scale(1.05);\n  box-shadow: 0 0 30px rgba(0, 184, 148, 0.3);\n}"
+  },
+  {
+    "id": "border-dotted-violet",
+    "name": "إطار منقط بنفسجي",
+    "category": "borders",
+    "accent": "#6c5ce7",
+    "html": "<button class=\"btn btn-border-dotted-violet\">\n  <i class=\"fas fa-circle\"></i>\n  <span>إطار منقط بنفسجي</span>\n</button>",
+    "css": ".btn-border-dotted-violet {\n  border: 4px dotted #6c5ce7;\n  background: transparent;\n  color: #6c5ce7;\n}\n\n.btn-border-dotted-violet:hover {\n  border-style: solid;\n  background: #6c5ce7;\n  color: #fff;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "border-dashed-magenta",
+    "name": "إطار متقطع فوشي",
+    "category": "borders",
+    "accent": "#fd79a8",
+    "html": "<button class=\"btn btn-border-dashed-magenta\">\n  <i class=\"fas fa-dashcube\"></i>\n  <span>إطار متقطع فوشي</span>\n</button>",
+    "css": ".btn-border-dashed-magenta {\n  border: 4px dashed #fd79a8;\n  background: transparent;\n  color: #fd79a8;\n  border-radius: 12px;\n}\n\n.btn-border-dashed-magenta:hover {\n  border-style: solid;\n  background: #fd79a8;\n  color: #fff;\n  transform: scale(1.05);\n}"
+  },
+  {
+    "id": "shadow-dark-elevation",
+    "name": "ظل داكن مجسم",
+    "category": "3d",
+    "accent": "#2d3436",
+    "html": "<button class=\"btn btn-shadow-dark-elevation\">\n  <i class=\"fas fa-cube\"></i>\n  <span>ظل داكن مجسم</span>\n</button>",
+    "css": ".btn-shadow-dark-elevation {\n  background: #2d3436;\n  color: #dfe6e9;\n  border-radius: 12px;\n  box-shadow: 8px 8px 16px #1a1a1a, -8px -8px 16px #404040;\n}\n\n.btn-shadow-dark-elevation:hover {\n  box-shadow: 4px 4px 8px #1a1a1a, -4px -4px 8px #404040;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "shadow-light-ambient",
+    "name": "ظل محيطي فاتح",
+    "category": "3d",
+    "accent": "#dfe6e9",
+    "html": "<button class=\"btn btn-shadow-light-ambient\">\n  <i class=\"fas fa-cube\"></i>\n  <span>ظل محيطي فاتح</span>\n</button>",
+    "css": ".btn-shadow-light-ambient {\n  background: #dfe6e9;\n  color: #2d3436;\n  border-radius: 12px;\n  box-shadow: 8px 8px 16px #b0b0b0, -8px -8px 16px #ffffff;\n}\n\n.btn-shadow-light-ambient:hover {\n  box-shadow: 4px 4px 8px #b0b0b0, -4px -4px 8px #ffffff;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "neumorphism-soft-dark",
+    "name": "نيومورفيزم ناعم داكن",
+    "category": "3d",
+    "accent": "#2d2d2d",
+    "html": "<button class=\"btn btn-neumorphism-soft-dark\">\n  <i class=\"fas fa-cube\"></i>\n  <span>نيومورفيزم ناعم داكن</span>\n</button>",
+    "css": ".btn-neumorphism-soft-dark {\n  background: linear-gradient(145deg, #2d2d2d, #1a1a1a);\n  color: #fff;\n  box-shadow: 6px 6px 12px #0a0a0a, -6px -6px 12px #3a3a3a;\n}\n\n.btn-neumorphism-soft-dark:hover {\n  box-shadow: 3px 3px 6px #0a0a0a, -3px -3px 6px #3a3a3a;\n  transform: translateY(-3px) scale(1.02);\n}"
+  },
+  {
+    "id": "shadow-violet-ambient",
+    "name": "ظل بنفسجي عميق",
+    "category": "3d",
+    "accent": "#6c5ce7",
+    "html": "<button class=\"btn btn-shadow-violet-ambient\">\n  <i class=\"fas fa-cube\"></i>\n  <span>ظل بنفسجي عميق</span>\n</button>",
+    "css": ".btn-shadow-violet-ambient {\n  background: #6c5ce7;\n  color: #fff;\n  border-radius: 12px;\n  box-shadow: 6px 6px 12px #4a3a9e, -6px -6px 12px #8e7eff;\n}\n\n.btn-shadow-violet-ambient:hover {\n  box-shadow: 3px 3px 6px #4a3a9e, -3px -3px 6px #8e7eff;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "shadow-emerald-diffuse",
+    "name": "ظل زمردي منتشر",
+    "category": "3d",
+    "accent": "#00b894",
+    "html": "<button class=\"btn btn-shadow-emerald-diffuse\">\n  <i class=\"fas fa-cube\"></i>\n  <span>ظل زمردي منتشر</span>\n</button>",
+    "css": ".btn-shadow-emerald-diffuse {\n  background: #00b894;\n  color: #fff;\n  box-shadow: 6px 6px 12px #007a63, -6px -6px 12px #00f6c5;\n}\n\n.btn-shadow-emerald-diffuse:hover {\n  box-shadow: 3px 3px 6px #007a63, -3px -3px 6px #00f6c5;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "shadow-orange-glow",
+    "name": "ظل برتقالي متوهج",
+    "category": "3d",
+    "accent": "#e17055",
+    "html": "<button class=\"btn btn-shadow-orange-glow\">\n  <i class=\"fas fa-cube\"></i>\n  <span>ظل برتقالي متوهج</span>\n</button>",
+    "css": ".btn-shadow-orange-glow {\n  background: #e17055;\n  color: #fff;\n  border-radius: 12px;\n  box-shadow: 6px 6px 12px #a14e3b, -6px -6px 12px #ff9277;\n}\n\n.btn-shadow-orange-glow:hover {\n  box-shadow: 3px 3px 6px #a14e3b, -3px -3px 6px #ff9277;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "shadow-yellow-subtle",
+    "name": "ظل أصفر ناعم",
+    "category": "3d",
+    "accent": "#fdcb6e",
+    "html": "<button class=\"btn btn-shadow-yellow-subtle\">\n  <i class=\"fas fa-cube\"></i>\n  <span>ظل أصفر ناعم</span>\n</button>",
+    "css": ".btn-shadow-yellow-subtle {\n  background: #fdcb6e;\n  color: #2d3436;\n  box-shadow: 6px 6px 12px #c9a354, -6px -6px 12px #fff388;\n}\n\n.btn-shadow-yellow-subtle:hover {\n  box-shadow: 3px 3px 6px #c9a354, -3px -3px 6px #fff388;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "shadow-pink-depth",
+    "name": "ظل وردي متعدد الطبقات",
+    "category": "3d",
+    "accent": "#fd79a8",
+    "html": "<button class=\"btn btn-shadow-pink-depth\">\n  <i class=\"fas fa-cube\"></i>\n  <span>ظل وردي متعدد الطبقات</span>\n</button>",
+    "css": ".btn-shadow-pink-depth {\n  background: #fd79a8;\n  color: #fff;\n  border-radius: 12px;\n  box-shadow: 6px 6px 12px #b15476, -6px -6px 12px #ff9eda;\n}\n\n.btn-shadow-pink-depth:hover {\n  box-shadow: 3px 3px 6px #b15476, -3px -3px 6px #ff9eda;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "shadow-cyan-float",
+    "name": "ظل سماوي طافي",
+    "category": "3d",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-shadow-cyan-float\">\n  <i class=\"fas fa-cube\"></i>\n  <span>ظل سماوي طافي</span>\n</button>",
+    "css": ".btn-shadow-cyan-float {\n  background: #48dbfb;\n  color: #0a0a1a;\n  box-shadow: 6px 6px 12px #2a9bb5, -6px -6px 12px #66ffff;\n}\n\n.btn-shadow-cyan-float:hover {\n  box-shadow: 3px 3px 6px #2a9bb5, -3px -3px 6px #66ffff;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "shadow-lavender-bloom",
+    "name": "ظل لافندر مضيء",
+    "category": "3d",
+    "accent": "#a29bfe",
+    "html": "<button class=\"btn btn-shadow-lavender-bloom\">\n  <i class=\"fas fa-cube\"></i>\n  <span>ظل لافندر مضيء</span>\n</button>",
+    "css": ".btn-shadow-lavender-bloom {\n  background: #a29bfe;\n  color: #0a0a1a;\n  border-radius: 12px;\n  box-shadow: 6px 6px 12px #716cb1, -6px -6px 12px #d3caff;\n}\n\n.btn-shadow-lavender-bloom:hover {\n  box-shadow: 3px 3px 6px #716cb1, -3px -3px 6px #d3caff;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "light-sweep-dark",
+    "name": "مسح ضوئي عابر",
+    "category": "animations",
+    "accent": "#2d3436",
+    "html": "<button class=\"btn btn-light-sweep-dark\">\n  <i class=\"fas fa-lightbulb\"></i>\n  <span>مسح ضوئي عابر</span>\n</button>",
+    "css": ".btn-light-sweep-dark {\n  background: #2d3436;\n  color: #dfe6e9;\n  border-radius: 12px;\n}\n\n.btn-light-sweep-dark::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: -100%;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);\n  transition: left 0.5s;\n}\n\n.btn-light-sweep-dark:hover::before {\n  left: 100%;\n}\n\n.btn-light-sweep-dark:hover {\n  background: #1a1a2e;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "purple-slide-fill",
+    "name": "انزلاق بنفسجي ممتلئ",
+    "category": "animations",
+    "accent": "#6c5ce7",
+    "html": "<button class=\"btn btn-purple-slide-fill\">\n  <i class=\"fas fa-arrow-right\"></i>\n  <span>انزلاق بنفسجي ممتلئ</span>\n</button>",
+    "css": ".btn-purple-slide-fill {\n  border: 2px solid #6c5ce7;\n  background: transparent;\n  color: #6c5ce7;\n}\n\n.btn-purple-slide-fill::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  right: -100px;\n  width: 0;\n  height: 100%;\n  background: #6c5ce7;\n  transition: width 0.4s;\n  z-index: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 0 27px 5px 0;\n}\n\n.btn-purple-slide-fill:hover::before {\n  width: 200%;\n  left: -100px;\n}\n\n.btn-purple-slide-fill:hover {\n  color: #fff;\n}\n\n.btn-purple-slide-fill span,\n        .btn-purple-slide-fill i {\n  position: relative;\n  z-index: 1;\n}"
+  },
+  {
+    "id": "underline-expand-mint",
+    "name": "خط سفلي ممتد",
+    "category": "animations",
+    "accent": "#00b894",
+    "html": "<button class=\"btn btn-underline-expand-mint\">\n  <i class=\"fas fa-underline\"></i>\n  <span>خط سفلي ممتد</span>\n</button>",
+    "css": ".btn-underline-expand-mint {\n  border: 2px solid #00b894;\n  background: transparent;\n  color: #00b894;\n  border-radius: 12px;\n}\n\n.btn-underline-expand-mint::after {\n  content: '';\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0;\n  height: 3px;\n  background: #00b894;\n  transition: width 0.4s;\n}\n\n.btn-underline-expand-mint:hover::after {\n  width: 100%;\n}\n\n.btn-underline-expand-mint:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 8px 25px rgba(0, 184, 148, 0.2);\n}"
+  },
+  {
+    "id": "floating-heart-motion",
+    "name": "قلب متحرك وردي",
+    "category": "animations",
+    "accent": "#fd79a8",
+    "html": "<button class=\"btn btn-floating-heart-motion\">\n  <i class=\"fas fa-heart\"></i>\n  <span>قلب متحرك وردي</span>\n</button>",
+    "css": ".btn-floating-heart-motion {\n  background: #fd79a8;\n  color: #fff;\n}\n\n.btn-floating-heart-motion::before {\n  content: '♥';\n  position: absolute;\n  left: -30px;\n  opacity: 0;\n  transition: all 0.4s;\n}\n\n.btn-floating-heart-motion:hover::before {\n  left: 15px;\n  opacity: 1;\n}\n\n.btn-floating-heart-motion:hover {\n  padding-right: 50px;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "animated-arrow-slide",
+    "name": "سهم متحرك منزلق",
+    "category": "animations",
+    "accent": "#fdcb6e",
+    "html": "<button class=\"btn btn-animated-arrow-slide\">\n  <i class=\"fas fa-arrow-right\"></i>\n  <span>سهم متحرك منزلق</span>\n</button>",
+    "css": ".btn-animated-arrow-slide {\n  border: 2px solid #fdcb6e;\n  background: transparent;\n  color: #fdcb6e;\n  border-radius: 12px;\n}\n\n.btn-animated-arrow-slide::after {\n  content: '→';\n  position: absolute;\n  right: 15px;\n  opacity: 0;\n  transition: all 0.4s;\n}\n\n.btn-animated-arrow-slide:hover::after {\n  right: 20px;\n  opacity: 1;\n}\n\n.btn-animated-arrow-slide:hover {\n  padding-right: 45px;\n  background: #fdcb6e;\n  color: #0a0a1a;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "gradient-flow-cosmic",
+    "name": "تدرج كوني متدفق",
+    "category": "gradient",
+    "accent": "#667eea",
+    "html": "<button class=\"btn btn-gradient-flow-cosmic\">\n  <i class=\"fas fa-palette\"></i>\n  <span>تدرج كوني متدفق</span>\n</button>",
+    "css": ".btn-gradient-flow-cosmic {\n  background: linear-gradient(135deg, #667eea, #764ba2);\n  color: #fff;\n  border-radius: 12px;\n  background-size: 200% 200%;\n}\n\n.btn-gradient-flow-cosmic:hover {\n  background-position: 100% 100%;\n  transform: translateY(-3px) scale(1.02);\n  box-shadow: 0 8px 30px rgba(102, 126, 234, 0.4);\n}"
+  },
+  {
+    "id": "gradient-flow-pink",
+    "name": "تدرج وردي ناعم",
+    "category": "gradient",
+    "accent": "#f093fb",
+    "html": "<button class=\"btn btn-gradient-flow-pink\">\n  <i class=\"fas fa-palette\"></i>\n  <span>تدرج وردي ناعم</span>\n</button>",
+    "css": ".btn-gradient-flow-pink {\n  background: linear-gradient(135deg, #f093fb, #f5576c);\n  color: #fff;\n  background-size: 200% 200%;\n}\n\n.btn-gradient-flow-pink:hover {\n  background-position: 100% 100%;\n  transform: translateY(-3px) scale(1.02);\n  box-shadow: 0 8px 30px rgba(245, 87, 108, 0.4);\n}"
+  },
+  {
+    "id": "gradient-flow-emerald",
+    "name": "تدرج زمردي منعش",
+    "category": "gradient",
+    "accent": "#43e97b",
+    "html": "<button class=\"btn btn-gradient-flow-emerald\">\n  <i class=\"fas fa-palette\"></i>\n  <span>تدرج زمردي منعش</span>\n</button>",
+    "css": ".btn-gradient-flow-emerald {\n  background: linear-gradient(135deg, #43e97b, #38f9d7);\n  color: #0a0a1a;\n  border-radius: 12px;\n  background-size: 200% 200%;\n}\n\n.btn-gradient-flow-emerald:hover {\n  background-position: 100% 100%;\n  transform: translateY(-3px) scale(1.02);\n  box-shadow: 0 8px 30px rgba(67, 233, 123, 0.4);\n}"
+  },
+  {
+    "id": "spin-accent-red",
+    "name": "دوران أيقونة حمراء",
+    "category": "animations",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-spin-accent-red\">\n  <i class=\"fas fa-redo-alt\"></i>\n  <span>دوران أيقونة حمراء</span>\n</button>",
+    "css": ".btn-spin-accent-red {\n  border: 2px solid #ff6b6b;\n  background: transparent;\n  color: #ff6b6b;\n  border-radius: 12px;\n}\n\n.btn-spin-accent-red:hover {\n  background: #ff6b6b;\n  color: #fff;\n  transform: rotate(-3deg) scale(1.05);\n  box-shadow: 0 8px 30px rgba(255, 107, 107, 0.3);\n}"
+  },
+  {
+    "id": "spin-accent-cyan",
+    "name": "دوران أيقونة سماوية",
+    "category": "animations",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-spin-accent-cyan\">\n  <i class=\"fas fa-redo-alt\"></i>\n  <span>دوران أيقونة سماوية</span>\n</button>",
+    "css": ".btn-spin-accent-cyan {\n  border: 2px solid #48dbfb;\n  background: transparent;\n  color: #48dbfb;\n}\n\n.btn-spin-accent-cyan:hover {\n  background: #48dbfb;\n  color: #0a0a1a;\n  transform: rotate(3deg) scale(1.05);\n  box-shadow: 0 8px 30px rgba(72, 219, 251, 0.3);\n}"
+  },
+  {
+    "id": "ruby-crimson-solid",
+    "name": "ياقوتي أحمر داكن",
+    "category": "creative",
+    "accent": "#e17055",
+    "html": "<button class=\"btn btn-ruby-crimson-solid\">\n  <i class=\"fas fa-fire\"></i>\n  <span>ياقوتي أحمر داكن</span>\n</button>",
+    "css": ".btn-ruby-crimson-solid {\n  background: #e17055;\n  color: #fff;\n}\n\n.btn-ruby-crimson-solid:hover {\n  background: #d63031;\n  transform: translateY(-3px) scale(1.03);\n  box-shadow: 0 8px 25px rgba(225, 112, 85, 0.4);\n}"
+  },
+  {
+    "id": "emerald-nature-leaf",
+    "name": "أخضر زمردي طبيعي",
+    "category": "creative",
+    "accent": "#00b894",
+    "html": "<button class=\"btn btn-emerald-nature-leaf\">\n  <i class=\"fas fa-leaf\"></i>\n  <span>أخضر زمردي طبيعي</span>\n</button>",
+    "css": ".btn-emerald-nature-leaf {\n  background: #00b894;\n  color: #fff;\n  border-radius: 12px;\n}\n\n.btn-emerald-nature-leaf:hover {\n  background: #00a381;\n  transform: translateY(-3px) scale(1.03);\n  box-shadow: 0 8px 25px rgba(0, 184, 148, 0.4);\n}"
+  },
+  {
+    "id": "amethyst-purple-gem",
+    "name": "جمشت بنفسجي ملكي",
+    "category": "creative",
+    "accent": "#6c5ce7",
+    "html": "<button class=\"btn btn-amethyst-purple-gem\">\n  <i class=\"fas fa-gem\"></i>\n  <span>جمشت بنفسجي ملكي</span>\n</button>",
+    "css": ".btn-amethyst-purple-gem {\n  border: 2px solid #6c5ce7;\n  background: transparent;\n  color: #6c5ce7;\n}\n\n.btn-amethyst-purple-gem:hover {\n  background: #6c5ce7;\n  color: #fff;\n  transform: translateY(-3px);\n  box-shadow: 0 8px 25px rgba(108, 92, 231, 0.3);\n}"
+  },
+  {
+    "id": "sunshine-warm-yellow",
+    "name": "أصفر مشمس دافئ",
+    "category": "creative",
+    "accent": "#fdcb6e",
+    "html": "<button class=\"btn btn-sunshine-warm-yellow\">\n  <i class=\"fas fa-sun\"></i>\n  <span>أصفر مشمس دافئ</span>\n</button>",
+    "css": ".btn-sunshine-warm-yellow {\n  background: #fdcb6e;\n  color: #2d3436;\n  border-radius: 12px;\n}\n\n.btn-sunshine-warm-yellow:hover {\n  background: #f9ca24;\n  transform: translateY(-3px) scale(1.03);\n  box-shadow: 0 8px 25px rgba(253, 203, 110, 0.4);\n}"
+  },
+  {
+    "id": "sweet-pink-candy",
+    "name": "وردي حلوى ناعم",
+    "category": "creative",
+    "accent": "#fd79a8",
+    "html": "<button class=\"btn btn-sweet-pink-candy\">\n  <i class=\"fas fa-heart\"></i>\n  <span>وردي حلوى ناعم</span>\n</button>",
+    "css": ".btn-sweet-pink-candy {\n  border: 2px solid #fd79a8;\n  background: transparent;\n  color: #fd79a8;\n}\n\n.btn-sweet-pink-candy:hover {\n  background: #fd79a8;\n  color: #fff;\n  transform: translateY(-3px);\n  box-shadow: 0 8px 25px rgba(253, 121, 168, 0.3);\n}"
+  },
+  {
+    "id": "lavender-field-bliss",
+    "name": "حقل لافندر هادئ",
+    "category": "creative",
+    "accent": "#a29bfe",
+    "html": "<button class=\"btn btn-lavender-field-bliss\">\n  <i class=\"fas fa-flower\"></i>\n  <span>حقل لافندر هادئ</span>\n</button>",
+    "css": ".btn-lavender-field-bliss {\n  background: #a29bfe;\n  color: #0a0a1a;\n  border-radius: 12px;\n}\n\n.btn-lavender-field-bliss:hover {\n  background: #8c7ffa;\n  transform: translateY(-3px) scale(1.03);\n  box-shadow: 0 8px 25px rgba(162, 155, 254, 0.4);\n}"
+  },
+  {
+    "id": "spearmint-cool-fresh",
+    "name": "نعناع قطبي منعش",
+    "category": "creative",
+    "accent": "#55efc4",
+    "html": "<button class=\"btn btn-spearmint-cool-fresh\">\n  <i class=\"fas fa-seedling\"></i>\n  <span>نعناع قطبي منعش</span>\n</button>",
+    "css": ".btn-spearmint-cool-fresh {\n  border: 2px solid #55efc4;\n  background: transparent;\n  color: #55efc4;\n}\n\n.btn-spearmint-cool-fresh:hover {\n  background: #55efc4;\n  color: #0a0a1a;\n  transform: translateY(-3px);\n  box-shadow: 0 8px 25px rgba(85, 239, 196, 0.3);\n}"
+  },
+  {
+    "id": "pure-red-love",
+    "name": "أحمر نقي دافئ",
+    "category": "creative",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-pure-red-love\">\n  <i class=\"fas fa-heart\"></i>\n  <span>أحمر نقي دافئ</span>\n</button>",
+    "css": ".btn-pure-red-love {\n  background: #ff6b6b;\n  color: #fff;\n  border-radius: 12px;\n}\n\n.btn-pure-red-love:hover {\n  background: #ee5a24;\n  transform: translateY(-3px) scale(1.03);\n  box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4);\n}"
+  },
+  {
+    "id": "crystal-blue-ice",
+    "name": "أزرق بلوري نقي",
+    "category": "creative",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-crystal-blue-ice\">\n  <i class=\"fas fa-snowflake\"></i>\n  <span>أزرق بلوري نقي</span>\n</button>",
+    "css": ".btn-crystal-blue-ice {\n  border: 2px solid #48dbfb;\n  background: transparent;\n  color: #48dbfb;\n  border-radius: 12px;\n}\n\n.btn-crystal-blue-ice:hover {\n  background: #48dbfb;\n  color: #0a0a1a;\n  transform: translateY(-3px);\n  box-shadow: 0 8px 25px rgba(72, 219, 251, 0.3);\n}"
+  },
+  {
+    "id": "deep-charcoal-night",
+    "name": "فحم داكن أنيق",
+    "category": "creative",
+    "accent": "#2d3436",
+    "html": "<button class=\"btn btn-deep-charcoal-night\">\n  <i class=\"fas fa-moon\"></i>\n  <span>فحم داكن أنيق</span>\n</button>",
+    "css": ".btn-deep-charcoal-night {\n  background: #2d3436;\n  color: #dfe6e9;\n}\n\n.btn-deep-charcoal-night:hover {\n  background: #1a1a2e;\n  transform: translateY(-3px) scale(1.03);\n  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n}"
+  },
+  {
+    "id": "royal-purple-velvet",
+    "name": "مخملي أرجواني فاخر",
+    "category": "creative",
+    "accent": "#8e44ad",
+    "html": "<button class=\"btn btn-royal-purple-velvet\">\n  <i class=\"fas fa-gem\"></i>\n  <span>مخملي أرجواني فاخر</span>\n</button>",
+    "css": ".btn-royal-purple-velvet {\n  background: #8e44ad;\n  color: #fff;\n  border-radius: 12px;\n}\n\n.btn-royal-purple-velvet:hover {\n  background: #9b59b6;\n  transform: scale(1.05) rotate(-2deg);\n  box-shadow: 0 8px 30px rgba(142, 68, 173, 0.4);\n}"
+  },
+  {
+    "id": "clear-sky-blue",
+    "name": "أزرق سماوي صافي",
+    "category": "creative",
+    "accent": "#3498db",
+    "html": "<button class=\"btn btn-clear-sky-blue\">\n  <i class=\"fas fa-cloud\"></i>\n  <span>أزرق سماوي صافي</span>\n</button>",
+    "css": ".btn-clear-sky-blue {\n  border: 2px solid #3498db;\n  background: transparent;\n  color: #3498db;\n}\n\n.btn-clear-sky-blue:hover {\n  background: #3498db;\n  color: #fff;\n  transform: scale(1.05) rotate(2deg);\n  box-shadow: 0 8px 30px rgba(52, 152, 219, 0.4);\n}"
+  },
+  {
+    "id": "vivid-emerald-check",
+    "name": "أخضر حيوي مؤكد",
+    "category": "creative",
+    "accent": "#2ecc71",
+    "html": "<button class=\"btn btn-vivid-emerald-check\">\n  <i class=\"fas fa-check-circle\"></i>\n  <span>أخضر حيوي مؤكد</span>\n</button>",
+    "css": ".btn-vivid-emerald-check {\n  background: #2ecc71;\n  color: #fff;\n  border-radius: 12px;\n  box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3);\n}\n\n.btn-vivid-emerald-check:hover {\n  background: #27ae60;\n  transform: translateY(-5px);\n  box-shadow: 0 10px 35px rgba(46, 204, 113, 0.5);\n}"
+  },
+  {
+    "id": "sunset-tangerine-warm",
+    "name": "برتقالي يوسفي مشرق",
+    "category": "creative",
+    "accent": "#e67e22",
+    "html": "<button class=\"btn btn-sunset-tangerine-warm\">\n  <i class=\"fas fa-fire\"></i>\n  <span>برتقالي يوسفي مشرق</span>\n</button>",
+    "css": ".btn-sunset-tangerine-warm {\n  border: 2px solid #e67e22;\n  background: transparent;\n  color: #e67e22;\n  border-radius: 12px;\n}\n\n.btn-sunset-tangerine-warm:hover {\n  background: #e67e22;\n  color: #fff;\n  transform: translateY(-3px) scale(1.04);\n  box-shadow: 0 8px 25px rgba(230, 126, 34, 0.4);\n}"
+  },
+  {
+    "id": "lagoon-turquoise-fresh",
+    "name": "فيروزي مائي منعش",
+    "category": "creative",
+    "accent": "#1abc9c",
+    "html": "<button class=\"btn btn-lagoon-turquoise-fresh\">\n  <i class=\"fas fa-water\"></i>\n  <span>فيروزي مائي منعش</span>\n</button>",
+    "css": ".btn-lagoon-turquoise-fresh {\n  background: #1abc9c;\n  color: #fff;\n  box-shadow: 0 4px 15px rgba(26, 188, 156, 0.3);\n}\n\n.btn-lagoon-turquoise-fresh:hover {\n  background: #16a085;\n  transform: translateY(-5px);\n  box-shadow: 0 10px 35px rgba(26, 188, 156, 0.5);\n}"
+  },
+  {
+    "id": "deep-amethyst-velvet",
+    "name": "بنفسجي مخملي عميق",
+    "category": "creative",
+    "accent": "#9b59b6",
+    "html": "<button class=\"btn btn-deep-amethyst-velvet\">\n  <i class=\"fas fa-gem\"></i>\n  <span>بنفسجي مخملي عميق</span>\n</button>",
+    "css": ".btn-deep-amethyst-velvet {\n  border: 2px solid #9b59b6;\n  background: transparent;\n  color: #9b59b6;\n}\n\n.btn-deep-amethyst-velvet:hover {\n  background: #9b59b6;\n  color: #fff;\n  transform: translateY(-3px) scale(1.04);\n  box-shadow: 0 8px 25px rgba(155, 89, 182, 0.4);\n}"
+  },
+  {
+    "id": "navy-steel-slate",
+    "name": "كحلي فولاذي رصين",
+    "category": "creative",
+    "accent": "#34495e",
+    "html": "<button class=\"btn btn-navy-steel-slate\">\n  <i class=\"fas fa-cube\"></i>\n  <span>كحلي فولاذي رصين</span>\n</button>",
+    "css": ".btn-navy-steel-slate {\n  background: #34495e;\n  color: #ecf0f1;\n  border-radius: 12px;\n  border-bottom: 4px solid #2c3e50;\n}\n\n.btn-navy-steel-slate:hover {\n  border-bottom-width: 2px;\n  transform: translateY(2px);\n  background: #2c3e50;\n}"
+  },
+  {
+    "id": "bronze-copper-warm",
+    "name": "نحاسي معدني براق",
+    "category": "creative",
+    "accent": "#d35400",
+    "html": "<button class=\"btn btn-bronze-copper-warm\">\n  <i class=\"fas fa-crown\"></i>\n  <span>نحاسي معدني براق</span>\n</button>",
+    "css": ".btn-bronze-copper-warm {\n  background: #d35400;\n  color: #fff;\n  box-shadow: 0 4px 15px rgba(211, 84, 0, 0.3);\n}\n\n.btn-bronze-copper-warm:hover {\n  background: #e67e22;\n  transform: translateY(-5px) scale(1.03);\n  box-shadow: 0 10px 35px rgba(211, 84, 0, 0.5);\n}"
+  },
+  {
+    "id": "ocean-deep-marine",
+    "name": "أزرق بحري عميق",
+    "category": "creative",
+    "accent": "#2980b9",
+    "html": "<button class=\"btn btn-ocean-deep-marine\">\n  <i class=\"fas fa-ship\"></i>\n  <span>أزرق بحري عميق</span>\n</button>",
+    "css": ".btn-ocean-deep-marine {\n  border: 2px solid #2980b9;\n  background: transparent;\n  color: #2980b9;\n  border-radius: 12px;\n}\n\n.btn-ocean-deep-marine::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: -100%;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(90deg, transparent, rgba(41, 128, 185, 0.2), transparent);\n  transition: left 0.6s;\n}\n\n.btn-ocean-deep-marine:hover::before {\n  left: 100%;\n}\n\n.btn-ocean-deep-marine:hover {\n  border-color: #2980b9;\n  background: rgba(41, 128, 185, 0.1);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "rainbow-animated-flow",
+    "name": "قوس قزح حركي دائم",
+    "category": "gradient",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-rainbow-animated-flow\">\n  <i class=\"fas fa-rainbow\"></i>\n  <span>قوس قزح حركي دائم</span>\n</button>",
+    "css": ".btn-rainbow-animated-flow {\n  background: linear-gradient(135deg, #ff6b6b, #ee5a24, #feca57);\n  background-size: 300% 300%;\n  color: #fff;\n  animation: gradientMove 4s ease infinite;\n}\n\n.btn-rainbow-animated-flow:hover {\n  transform: translateY(-5px) scale(1.05);\n  box-shadow: 0 10px 40px rgba(255, 107, 107, 0.5);\n}\n\n.btn-rainbow-animated-flow:hover i {\n  animation: spin 2s linear infinite;\n}"
+  },
+  {
+    "id": "3d-skeuomorphic-push",
+    "name": "زر بارز قابل للضغط 3D",
+    "category": "3d",
+    "accent": "#8F9092",
+    "html": "<button class=\"btn btn-3d-skeuomorphic-push\">\n  <span>زر بارز قابل للضغط 3D</span>\n</button>",
+    "css": ".btn-3d-skeuomorphic-push {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 150px;\n  height: 50px;\n  background: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);\n  border-radius: 30px;\n  border: 1px solid #8F9092;\n  font-size: 14px;\n  font-weight: 600;\n  color: #606060;\n  text-shadow: 0 1px #fff;\n  transition: all 0.2s ease;\n}\n\n.btn-3d-skeuomorphic-push:hover {\n  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;\n}\n\n.btn-3d-skeuomorphic-push:active {\n  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;\n}"
+  },
+  {
+    "id": "svg-refresh-turn",
+    "name": "إعادة تحميل SVG تفاعلي",
+    "category": "animations",
+    "accent": "#ff342b",
+    "html": "<button class=\"btn btn-svg-refresh-turn\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" viewBox=\"0 0 20 20\" height=\"20\" fill=\"none\" class=\"svg-icon\"><g stroke-width=\"1.5\" stroke-linecap=\"round\" stroke=\"#ff342b\"><path d=\"m3.33337 10.8333c0 3.6819 2.98477 6.6667 6.66663 6.6667 3.682 0 6.6667-2.9848 6.6667-6.6667 0-3.68188-2.9847-6.66664-6.6667-6.66664-1.29938 0-2.51191.37174-3.5371 1.01468\"></path><path d=\"m7.69867 1.58163-1.44987 3.28435c-.18587.42104.00478.91303.42582 1.0989l3.28438 1.44986\"></path></g></svg>\n  <span>إعادة تحميل SVG تفاعلي</span>\n</button>",
+    "css": ".btn-svg-refresh-turn {\n  padding: 6px 16px;\n  gap: 10px;\n  height: 40px;\n  background: rgba(255, 54, 43, 0.2);\n  border-radius: 20px;\n  color: #ff342b;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-refresh-turn:hover {\n  background: rgba(255, 54, 43, 0.35);\n}\n\n.btn-svg-refresh-turn .svg-icon {\n  transition: all 0.3s;\n}\n\n.btn-svg-refresh-turn:hover .svg-icon {\n  animation: spin 2s linear infinite;\n}"
+  },
+  {
+    "id": "neon-cyan-clean",
+    "name": "نيون سماوي صافي",
+    "category": "neon",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-neon-cyan-clean\">\n  <span>نيون سماوي صافي</span>\n</button>",
+    "css": ".btn-neon-cyan-clean {\n  padding: 14px 34px;\n  border: 2px solid #48dbfb;\n  background: transparent;\n  color: #48dbfb;\n  font-size: 16px;\n  font-weight: 700;\n}\n\n.btn-neon-cyan-clean::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: #48dbfb;\n  transform: scaleX(0);\n  transform-origin: right;\n  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.btn-neon-cyan-clean:hover::before {\n  transform: scaleX(1);\n  transform-origin: left;\n}\n\n.btn-neon-cyan-clean:hover {\n  color: #0a0a1a;\n  box-shadow: 0 0 40px rgba(72, 219, 251, 0.3);\n}\n\n.btn-neon-cyan-clean span {\n  position: relative;\n  z-index: 1;\n}"
+  },
+  {
+    "id": "glassmorphism-pure",
+    "name": "زجاجي نقي بلوري",
+    "category": "creative",
+    "accent": "#ffffff",
+    "html": "<button class=\"btn btn-glassmorphism-pure\">\n  <span>زجاجي نقي بلوري</span>\n</button>",
+    "css": ".btn-glassmorphism-pure {\n  padding: 14px 34px;\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  background: rgba(255, 255, 255, 0.04);\n  backdrop-filter: blur(12px);\n  color: rgba(255, 255, 255, 0.8);\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-glassmorphism-pure:hover {\n  background: rgba(255, 255, 255, 0.08);\n  border-color: rgba(255, 255, 255, 0.15);\n  transform: translateY(-3px) scale(1.02);\n  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);\n}"
+  },
+  {
+    "id": "gradient-flame-peach",
+    "name": "تدرج خوخي ناري",
+    "category": "gradient",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-gradient-flame-peach\">\n  <span>تدرج خوخي ناري</span>\n</button>",
+    "css": ".btn-gradient-flame-peach {\n  padding: 14px 34px;\n  background: linear-gradient(135deg, #ff6b6b, #feca57);\n  color: #fff;\n  font-size: 16px;\n  font-weight: 700;\n  box-shadow: 0 4px 24px rgba(255, 107, 107, 0.25);\n}\n\n.btn-gradient-flame-peach:hover {\n  transform: translateY(-4px) scale(1.03);\n  box-shadow: 0 8px 40px rgba(255, 107, 107, 0.4);\n}\n\n.btn-gradient-flame-peach:active {\n  transform: scale(0.95);\n}"
+  },
+  {
+    "id": "ripple-soft-purple",
+    "name": "تموج بنفسجي ناعم",
+    "category": "animations",
+    "accent": "#6c5ce7",
+    "html": "<button class=\"btn btn-ripple-soft-purple\">\n  <span>تموج بنفسجي ناعم</span>\n</button>",
+    "css": ".btn-ripple-soft-purple {\n  padding: 14px 34px;\n  background: #6c5ce7;\n  color: #fff;\n  font-size: 16px;\n  font-weight: 700;\n}\n\n.btn-ripple-soft-purple::after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: rgba(255, 255, 255, 0.15);\n  transform: scale(0);\n  border-radius: 50%;\n  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);\n}\n\n.btn-ripple-soft-purple:hover::after {\n  transform: scale(3);\n}\n\n.btn-ripple-soft-purple:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 8px 40px rgba(108, 92, 231, 0.4);\n}"
+  },
+  {
+    "id": "border-rotating-glow",
+    "name": "إطار دوار نيون",
+    "category": "borders",
+    "accent": "#ff9ff3",
+    "html": "<button class=\"btn btn-border-rotating-glow\">\n  <span>إطار دوار نيون</span>\n</button>",
+    "css": ".btn-border-rotating-glow {\n  padding: 14px 34px;\n  border: 2px solid transparent;\n  background: transparent;\n  color: #ff9ff3;\n  font-size: 16px;\n  font-weight: 700;\n  overflow: visible;\n}\n\n.btn-border-rotating-glow::before {\n  content: '';\n  position: absolute;\n  inset: -2px;\n  border-radius: 50px;\n  padding: 2px;\n  background: linear-gradient(135deg, #ff9ff3, #48dbfb);\n  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);\n  -webkit-mask-composite: xor;\n  mask-composite: exclude;\n}\n\n.btn-border-rotating-glow:hover::before {\n  animation: borderSpin 2s linear infinite;\n}\n\n.btn-border-rotating-glow:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 8px 40px rgba(255, 159, 243, 0.2);\n}"
+  },
+  {
+    "id": "3d-crimson-lift",
+    "name": "أحمر مرفوع 3D",
+    "category": "3d",
+    "accent": "#e74c3c",
+    "html": "<button class=\"btn btn-3d-crimson-lift\">\n  <span>أحمر مرفوع 3D</span>\n</button>",
+    "css": ".btn-3d-crimson-lift {\n  padding: 14px 34px;\n  border-radius: 12px;\n  font-size: 16px;\n  font-weight: 700;\n  color: #fff;\n  background: #e74c3c;\n  box-shadow: 0 8px 0 #c0392b, 0 12px 30px rgba(231, 76, 60, 0.3);\n  transition: all 0.12s ease;\n}\n\n.btn-3d-crimson-lift:hover {\n  transform: translateY(-4px);\n  box-shadow: 0 12px 0 #c0392b, 0 18px 40px rgba(231, 76, 60, 0.4);\n}\n\n.btn-3d-crimson-lift:active {\n  transform: translateY(6px);\n  box-shadow: 0 2px 0 #c0392b;\n}"
+  },
+  {
+    "id": "svg-pulsing-heart",
+    "name": "قلب أحمر نابض تفاعلي",
+    "category": "animations",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-svg-pulsing-heart\">\n  <span class=\"heart\"></span>\n  <span>قلب أحمر نابض تفاعلي</span>\n</button>",
+    "css": ".btn-svg-pulsing-heart {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: rgba(255, 107, 107, 0.12);\n  color: #ff6b6b;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-pulsing-heart .heart {\n  width: 18px;\n  height: 18px;\n  background: currentColor;\n  border-radius: 50%;\n  transition: all 0.3s;\n}\n\n.btn-svg-pulsing-heart:hover {\n  background: rgba(255, 107, 107, 0.2);\n  transform: translateY(-3px);\n}\n\n.btn-svg-pulsing-heart:hover .heart {\n  animation: heartBeat 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "svg-smooth-spinner",
+    "name": "حلقة تحميل سلسة",
+    "category": "animations",
+    "accent": "#00b894",
+    "html": "<button class=\"btn btn-svg-smooth-spinner\">\n  <span class=\"loader\"></span>\n  <span>حلقة تحميل سلسة</span>\n</button>",
+    "css": ".btn-svg-smooth-spinner {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  padding: 14px 28px;\n  background: #00b894;\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-smooth-spinner .loader {\n  width: 18px;\n  height: 18px;\n  border: 2px solid rgba(255, 255, 255, 0.2);\n  border-top: 2px solid #fff;\n  border-radius: 50%;\n  transition: all 0.3s;\n}\n\n.btn-svg-smooth-spinner:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 8px 40px rgba(0, 184, 148, 0.4);\n}\n\n.btn-svg-smooth-spinner:hover .loader {\n  animation: spin 1s linear infinite;\n}"
+  },
+  {
+    "id": "svg-smart-cart",
+    "name": "سلة تسوق SVG ذكية",
+    "category": "creative",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-svg-smart-cart\">\n  <svg class=\"cart-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"9\" cy=\"21\" r=\"1\"/><circle cx=\"20\" cy=\"21\" r=\"1\"/><path d=\"M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6\"/></svg>\n  <span>سلة تسوق SVG ذكية</span>\n</button>",
+    "css": ".btn-svg-smart-cart {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: linear-gradient(135deg, #ff6b6b, #ee5a24);\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-smart-cart:hover {\n  transform: translateY(-4px) scale(1.03);\n  box-shadow: 0 8px 40px rgba(255, 107, 107, 0.4);\n}\n\n.btn-svg-smart-cart .cart-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-smart-cart:hover .cart-icon {\n  transform: translateX(-6px) rotate(-10deg);\n}"
+  },
+  {
+    "id": "svg-glow-search",
+    "name": "عدسة بحث متوهجة",
+    "category": "creative",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-svg-glow-search\">\n  <svg class=\"search-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.35-4.35\"/></svg>\n  <span>عدسة بحث متوهجة</span>\n</button>",
+    "css": ".btn-svg-glow-search {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  border: 2px solid #48dbfb;\n  background: transparent;\n  color: #48dbfb;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-glow-search:hover {\n  background: #48dbfb;\n  color: #0a0a1a;\n  box-shadow: 0 0 40px rgba(72, 219, 251, 0.3);\n  transform: translateY(-3px);\n}\n\n.btn-svg-glow-search .search-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-glow-search:hover .search-icon {\n  transform: scale(1.2);\n}"
+  },
+  {
+    "id": "svg-rotary-gear",
+    "name": "ترس إعدادات دقيق",
+    "category": "animations",
+    "accent": "#a29bfe",
+    "html": "<button class=\"btn btn-svg-rotary-gear\">\n  <svg class=\"settings-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>\n  <span>ترس إعدادات دقيق</span>\n</button>",
+    "css": ".btn-svg-rotary-gear {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: rgba(108, 92, 231, 0.12);\n  color: #a29bfe;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-rotary-gear:hover {\n  background: rgba(108, 92, 231, 0.2);\n  transform: translateY(-3px);\n  box-shadow: 0 8px 40px rgba(108, 92, 231, 0.2);\n}\n\n.btn-svg-rotary-gear .settings-icon {\n  transition: transform 0.6s;\n}\n\n.btn-svg-rotary-gear:hover .settings-icon {\n  transform: rotate(180deg);\n}"
+  },
+  {
+    "id": "svg-swinging-bell",
+    "name": "جرس تنبيهات مع شارة",
+    "category": "animations",
+    "accent": "#feca57",
+    "html": "<button class=\"btn btn-svg-swinging-bell\">\n  <svg class=\"bell-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9\"/><path d=\"M13.73 21a2 2 0 0 1-3.46 0\"/></svg>\n  <span>جرس تنبيهات مع شارة</span>\n</button>",
+    "css": ".btn-svg-swinging-bell {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  border: none;\n  border-radius: 50px;\n  background: rgba(254, 202, 87, 0.12);\n  color: #feca57;\n  font-size: 16px;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 0.3s;\n  position: relative;\n  overflow: visible;\n}\n\n.btn-svg-swinging-bell::after {\n  content: '3';\n  position: absolute;\n  top: -6px;\n  right: -6px;\n  width: 22px;\n  height: 22px;\n  border-radius: 50%;\n  background: #ff6b6b;\n  color: #fff;\n  font-size: 11px;\n  font-weight: 700;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.btn-svg-swinging-bell:hover {\n  background: rgba(254, 202, 87, 0.2);\n  transform: translateY(-3px);\n}\n\n.btn-svg-swinging-bell .bell-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-swinging-bell:hover .bell-icon {\n  animation: ringBell 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "svg-like-heartbeat",
+    "name": "إعجاب قلبي نابض",
+    "category": "animations",
+    "accent": "#ff9ff3",
+    "html": "<button class=\"btn btn-svg-like-heartbeat\">\n  <svg class=\"like-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z\"/></svg>\n  <span>إعجاب قلبي نابض</span>\n</button>",
+    "css": ".btn-svg-like-heartbeat {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: rgba(255, 159, 243, 0.12);\n  color: #ff9ff3;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-like-heartbeat:hover {\n  background: rgba(255, 159, 243, 0.2);\n  transform: translateY(-3px);\n}\n\n.btn-svg-like-heartbeat .like-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-like-heartbeat:hover .like-icon {\n  animation: likePulse 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "svg-share-nodes",
+    "name": "مشاركة شبكية SVG",
+    "category": "creative",
+    "accent": "#00cec9",
+    "html": "<button class=\"btn btn-svg-share-nodes\">\n  <svg class=\"share-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"18\" cy=\"5\" r=\"3\"/><circle cx=\"6\" cy=\"12\" r=\"3\"/><circle cx=\"18\" cy=\"19\" r=\"3\"/><line x1=\"8.59\" y1=\"13.51\" x2=\"15.42\" y2=\"17.49\"/><line x1=\"15.41\" y1=\"6.51\" x2=\"8.59\" y2=\"10.49\"/></svg>\n  <span>مشاركة شبكية SVG</span>\n</button>",
+    "css": ".btn-svg-share-nodes {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: rgba(0, 206, 201, 0.12);\n  color: #00cec9;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-share-nodes:hover {\n  background: rgba(0, 206, 201, 0.2);\n  transform: translateY(-3px);\n  box-shadow: 0 8px 40px rgba(0, 206, 201, 0.2);\n}\n\n.btn-svg-share-nodes .share-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-share-nodes:hover .share-icon {\n  transform: translateY(-4px);\n}"
+  },
+  {
+    "id": "svg-download-spring",
+    "name": "تنزيل بنابض حركي",
+    "category": "animations",
+    "accent": "#55efc4",
+    "html": "<button class=\"btn btn-svg-download-spring\">\n  <svg class=\"download-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><polyline points=\"7 10 12 15 17 10\"/><line x1=\"12\" y1=\"15\" x2=\"12\" y2=\"3\"/></svg>\n  <span>تنزيل بنابض حركي</span>\n</button>",
+    "css": ".btn-svg-download-spring {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  border: 2px solid #55efc4;\n  background: transparent;\n  color: #55efc4;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-download-spring:hover {\n  background: #55efc4;\n  color: #0a0a1a;\n  transform: translateY(-3px);\n  box-shadow: 0 8px 40px rgba(85, 239, 196, 0.3);\n}\n\n.btn-svg-download-spring .download-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-download-spring:hover .download-icon {\n  animation: downloadBounce 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "svg-trash-bin",
+    "name": "سلة مهملات SVG حذرة",
+    "category": "creative",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-svg-trash-bin\">\n  <svg class=\"delete-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M3 6h18\"/><path d=\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\"/><line x1=\"10\" y1=\"11\" x2=\"10\" y2=\"17\"/><line x1=\"14\" y1=\"11\" x2=\"14\" y2=\"17\"/></svg>\n  <span>سلة مهملات SVG حذرة</span>\n</button>",
+    "css": ".btn-svg-trash-bin {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: rgba(255, 107, 107, 0.12);\n  color: #ff6b6b;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-trash-bin:hover {\n  background: rgba(255, 107, 107, 0.2);\n  transform: translateY(-3px);\n}\n\n.btn-svg-trash-bin .delete-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-trash-bin:hover .delete-icon {\n  transform: scale(0.8) rotate(10deg);\n}"
+  },
+  {
+    "id": "svg-lock-shield",
+    "name": "قفل أمان مغلق",
+    "category": "creative",
+    "accent": "#a29bfe",
+    "html": "<button class=\"btn btn-svg-lock-shield\">\n  <svg class=\"lock-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/></svg>\n  <span>قفل أمان مغلق</span>\n</button>",
+    "css": ".btn-svg-lock-shield {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  border: 2px solid #a29bfe;\n  background: transparent;\n  color: #a29bfe;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-lock-shield:hover {\n  background: #a29bfe;\n  color: #0a0a1a;\n  transform: translateY(-3px);\n  box-shadow: 0 8px 40px rgba(162, 155, 254, 0.3);\n}\n\n.btn-svg-lock-shield .lock-icon {\n  transition: all 0.3s;\n}\n\n.btn-svg-lock-shield:hover .lock-icon {\n  transform: scale(0.8);\n}"
+  },
+  {
+    "id": "svg-unlock-open",
+    "name": "قفل أمان مفتوح",
+    "category": "creative",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-svg-unlock-open\">\n  <svg class=\"unlock-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 9.9-1\"/></svg>\n  <span>قفل أمان مفتوح</span>\n</button>",
+    "css": ".btn-svg-unlock-open {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: rgba(72, 219, 251, 0.12);\n  color: #48dbfb;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-unlock-open:hover {\n  background: rgba(72, 219, 251, 0.2);\n  transform: translateY(-3px);\n  box-shadow: 0 8px 40px rgba(72, 219, 251, 0.2);\n}\n\n.btn-svg-unlock-open .unlock-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-unlock-open:hover .unlock-icon {\n  transform: translateX(4px);\n}"
+  },
+  {
+    "id": "svg-gold-star-spin",
+    "name": "نجمة ذهبية متألقة",
+    "category": "animations",
+    "accent": "#feca57",
+    "html": "<button class=\"btn btn-svg-gold-star-spin\">\n  <svg class=\"star-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n  <span>نجمة ذهبية متألقة</span>\n</button>",
+    "css": ".btn-svg-gold-star-spin {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: linear-gradient(135deg, #feca57, #f39c12);\n  color: #0a0a1a;\n  font-size: 16px;\n  font-weight: 700;\n}\n\n.btn-svg-gold-star-spin:hover {\n  transform: translateY(-4px) scale(1.03);\n  box-shadow: 0 8px 40px rgba(254, 202, 87, 0.4);\n}\n\n.btn-svg-gold-star-spin .star-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-gold-star-spin:hover .star-icon {\n  animation: spin 1s linear infinite;\n}"
+  },
+  {
+    "id": "svg-camera-flash",
+    "name": "كاميرا بوميض ضوئي",
+    "category": "animations",
+    "accent": "#fdcb6e",
+    "html": "<button class=\"btn btn-svg-camera-flash\">\n  <svg class=\"camera-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z\"/><circle cx=\"12\" cy=\"13\" r=\"4\"/></svg>\n  <span>كاميرا بوميض ضوئي</span>\n</button>",
+    "css": ".btn-svg-camera-flash {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: rgba(253, 203, 110, 0.12);\n  color: #fdcb6e;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-camera-flash:hover {\n  background: rgba(253, 203, 110, 0.2);\n  transform: translateY(-3px);\n}\n\n.btn-svg-camera-flash .camera-icon {\n  transition: all 0.3s;\n}\n\n.btn-svg-camera-flash:hover .camera-icon {\n  animation: flash 0.4s ease-in-out;\n}"
+  },
+  {
+    "id": "svg-mic-pulse",
+    "name": "ميكروفون نابض حيوي",
+    "category": "animations",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-svg-mic-pulse\">\n  <svg class=\"mic-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z\"/><path d=\"M19 10v2a7 7 0 0 1-14 0v-2\"/><line x1=\"12\" y1=\"19\" x2=\"12\" y2=\"23\"/><line x1=\"8\" y1=\"23\" x2=\"16\" y2=\"23\"/></svg>\n  <span>ميكروفون نابض حيوي</span>\n</button>",
+    "css": ".btn-svg-mic-pulse {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: rgba(255, 107, 107, 0.12);\n  color: #ff6b6b;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-mic-pulse:hover {\n  background: rgba(255, 107, 107, 0.2);\n  transform: translateY(-3px);\n}\n\n.btn-svg-mic-pulse .mic-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-mic-pulse:hover .mic-icon {\n  animation: micPulse 0.6s ease-in-out infinite;\n}"
+  },
+  {
+    "id": "svg-social-whatsapp",
+    "name": "واتساب SVG ناصع",
+    "category": "social",
+    "accent": "#25D366",
+    "html": "<button class=\"btn btn-svg-social-whatsapp\">\n  <svg class=\"whatsapp-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z\"/></svg>\n  <span>واتساب SVG ناصع</span>\n</button>",
+    "css": ".btn-svg-social-whatsapp {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: #25D366;\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-social-whatsapp:hover {\n  transform: translateY(-4px) scale(1.03);\n  box-shadow: 0 8px 40px rgba(37, 211, 102, 0.4);\n}\n\n.btn-svg-social-whatsapp .whatsapp-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-social-whatsapp:hover .whatsapp-icon {\n  transform: scale(1.1);\n}"
+  },
+  {
+    "id": "svg-social-twitter",
+    "name": "تويتر SVG ناعم",
+    "category": "social",
+    "accent": "#1DA1F2",
+    "html": "<button class=\"btn btn-svg-social-twitter\">\n  <svg class=\"twitter-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.104c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0021.856-6.216 13.81 13.81 0 001.728-6.796c0-.274-.013-.546-.032-.815a10.37 10.37 0 002.504-2.6z\"/></svg>\n  <span>تويتر SVG ناعم</span>\n</button>",
+    "css": ".btn-svg-social-twitter {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: #1DA1F2;\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-social-twitter:hover {\n  transform: translateY(-4px) scale(1.03);\n  box-shadow: 0 8px 40px rgba(29, 161, 242, 0.4);\n}\n\n.btn-svg-social-twitter .twitter-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-social-twitter:hover .twitter-icon {\n  animation: twitterHover 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "svg-social-youtube",
+    "name": "يوتيوب SVG أصلي",
+    "category": "social",
+    "accent": "#FF0000",
+    "html": "<button class=\"btn btn-svg-social-youtube\">\n  <svg class=\"youtube-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z\"/></svg>\n  <span>يوتيوب SVG أصلي</span>\n</button>",
+    "css": ".btn-svg-social-youtube {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: #FF0000;\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-social-youtube:hover {\n  transform: translateY(-4px) scale(1.03);\n  box-shadow: 0 8px 40px rgba(255, 0, 0, 0.4);\n}\n\n.btn-svg-social-youtube .youtube-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-social-youtube:hover .youtube-icon {\n  animation: micPulse 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "svg-social-instagram",
+    "name": "إنستغرام SVG فوتوغرافي",
+    "category": "social",
+    "accent": "#E1306C",
+    "html": "<button class=\"btn btn-svg-social-instagram\">\n  <svg class=\"instagram-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\"/><rect x=\"7\" y=\"7\" width=\"10\" height=\"10\" rx=\"2.5\"/><circle cx=\"18\" cy=\"6\" r=\"1.2\"/></svg>\n  <span>إنستغرام SVG فوتوغرافي</span>\n</button>",
+    "css": ".btn-svg-social-instagram {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-social-instagram:hover {\n  transform: translateY(-4px) scale(1.03);\n  box-shadow: 0 8px 40px rgba(225, 48, 108, 0.4);\n}\n\n.btn-svg-social-instagram .instagram-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-social-instagram:hover .instagram-icon {\n  animation: spin 1s linear infinite;\n}"
+  },
+  {
+    "id": "svg-social-telegram",
+    "name": "تليجرام SVG صاروخي",
+    "category": "social",
+    "accent": "#0088cc",
+    "html": "<button class=\"btn btn-svg-social-telegram\">\n  <svg class=\"telegram-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M23.91 3.79L20.3 20.84c-.25 1.21-.98 1.5-2 .94l-5.59-4.13-2.7 2.59c-.29.29-.55.56-1.13.56l.4-5.75L18.18 5.4c.44-.39-.09-.6-.7-.21L5.72 12.6l-5.44-1.7c-1.18-.37-1.2-1.18.25-1.74L22.26 2.05c.98-.36 1.84.22 1.65 1.74z\"/></svg>\n  <span>تليجرام SVG صاروخي</span>\n</button>",
+    "css": ".btn-svg-social-telegram {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: #0088cc;\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-social-telegram:hover {\n  transform: translateY(-4px) scale(1.03);\n  box-shadow: 0 8px 40px rgba(0, 136, 204, 0.4);\n}\n\n.btn-svg-social-telegram .telegram-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-social-telegram:hover .telegram-icon {\n  transform: translateX(4px);\n}"
+  },
+  {
+    "id": "svg-social-facebook",
+    "name": "فيسبوك SVG مجسم",
+    "category": "social",
+    "accent": "#1877f2",
+    "html": "<button class=\"btn btn-svg-social-facebook\">\n  <svg class=\"facebook-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z\"/></svg>\n  <span>فيسبوك SVG مجسم</span>\n</button>",
+    "css": ".btn-svg-social-facebook {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: #1877f2;\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n\n.btn-svg-social-facebook:hover {\n  transform: translateY(-4px) scale(1.03);\n  box-shadow: 0 8px 40px rgba(24, 119, 242, 0.4);\n}\n\n.btn-svg-social-facebook .facebook-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-social-facebook:hover .facebook-icon {\n  animation: likePulse 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "svg-heart-pulse-pure",
+    "name": "قلب حب نقي نابض",
+    "category": "animations",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-svg-heart-pulse-pure\">\n  <svg class=\"heart-icon\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z\"/></svg>\n  <span>قلب حب نقي نابض</span>\n</button>",
+    "css": ".btn-svg-heart-pulse-pure {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 28px;\n  background: linear-gradient(135deg, #ff6b6b, #ee5a24);\n  color: #fff;\n  font-size: 16px;\n  font-weight: 700;\n  box-shadow: 0 4px 24px rgba(255, 107, 107, 0.3);\n}\n\n.btn-svg-heart-pulse-pure:hover {\n  transform: translateY(-4px) scale(1.03);\n  box-shadow: 0 8px 40px rgba(255, 107, 107, 0.5);\n}\n\n.btn-svg-heart-pulse-pure .heart-icon {\n  transition: transform 0.3s;\n}\n\n.btn-svg-heart-pulse-pure:hover .heart-icon {\n  animation: heartPulse 0.6s ease-in-out infinite;\n}"
+  },
+  {
+    "id": "anim-heartbeat-glow",
+    "name": "نبض قلبي متسارع",
+    "category": "animations",
+    "accent": "#6c5ce7",
+    "html": "<button class=\"btn btn-anim-heartbeat-glow\">\n  <i class=\"fas fa-heartbeat\"></i>\n  <span>نبض قلبي متسارع</span>\n</button>",
+    "css": ".btn-anim-heartbeat-glow {\n  padding: 14px 34px;\n  background: #6c5ce7;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  animation: btnPulse 2s ease-in-out infinite;\n}\n\n.btn-anim-heartbeat-glow:hover {\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "anim-electric-shake",
+    "name": "اهتزاز كهربائي صاعق",
+    "category": "animations",
+    "accent": "#e74c3c",
+    "html": "<button class=\"btn btn-anim-electric-shake\">\n  <i class=\"fas fa-bolt\"></i>\n  <span>اهتزاز كهربائي صاعق</span>\n</button>",
+    "css": ".btn-anim-electric-shake {\n  padding: 14px 34px;\n  background: #e74c3c;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n}\n\n.btn-anim-electric-shake:hover {\n  animation: btnShake 0.5s ease-in-out;\n}"
+  },
+  {
+    "id": "anim-slide-left-clean",
+    "name": "انزلاق لليسار ناعم",
+    "category": "animations",
+    "accent": "#3498db",
+    "html": "<button class=\"btn btn-anim-slide-left-clean\">\n  <i class=\"fas fa-arrow-left\"></i>\n  <span>انزلاق لليسار ناعم</span>\n</button>",
+    "css": ".btn-anim-slide-left-clean {\n  padding: 14px 34px;\n  background: transparent;\n  border: 2px solid #3498db;\n  color: #3498db;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  overflow: hidden;\n}\n\n.btn-anim-slide-left-clean::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: #3498db;\n  transform: translateX(100%);\n  transition: transform 0.4s ease;\n  z-index: 0;\n}\n\n.btn-anim-slide-left-clean:hover::before {\n  transform: translateX(0);\n}\n\n.btn-anim-slide-left-clean:hover {\n  color: #fff;\n}\n\n.btn-anim-slide-left-clean span,\n        .btn-anim-slide-left-clean i {\n  position: relative;\n  z-index: 1;\n}"
+  },
+  {
+    "id": "border-spin-conic",
+    "name": "حدود دوارة مستمرة",
+    "category": "borders",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-border-spin-conic\">\n  <i class=\"fas fa-circle-notch\"></i>\n  <span>حدود دوارة مستمرة</span>\n</button>",
+    "css": ".btn-border-spin-conic {\n  padding: 14px 34px;\n  background: #0a0a1a;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  border-radius: 50px;\n  position: relative;\n  z-index: 1;\n}\n\n.btn-border-spin-conic::before {\n  content: '';\n  position: absolute;\n  inset: -3px;\n  border-radius: 50px;\n  background: conic-gradient(from 0deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3, #ff6b6b);\n  z-index: -1;\n  animation: rotateBorder 3s linear infinite;\n}\n\n.btn-border-spin-conic::after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-radius: 50px;\n  background: #0a0a1a;\n  z-index: -1;\n}\n\n.btn-border-spin-conic:hover {\n  transform: scale(1.05);\n}"
+  },
+  {
+    "id": "anim-liquid-fill-rise",
+    "name": "ملء سائل مائي صاعد",
+    "category": "animations",
+    "accent": "#1abc9c",
+    "html": "<button class=\"btn btn-anim-liquid-fill-rise\">\n  <i class=\"fas fa-tint\"></i>\n  <span>ملء سائل مائي صاعد</span>\n</button>",
+    "css": ".btn-anim-liquid-fill-rise {\n  padding: 14px 34px;\n  background: transparent;\n  border: 2px solid #1abc9c;\n  color: #1abc9c;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  overflow: hidden;\n  border-radius: 12px;\n}\n\n.btn-anim-liquid-fill-rise::before {\n  content: '';\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 0;\n  background: #1abc9c;\n  transition: height 0.4s ease;\n  z-index: 0;\n  border-radius: 0;\n}\n\n.btn-anim-liquid-fill-rise:hover::before {\n  height: 100%;\n}\n\n.btn-anim-liquid-fill-rise:hover {\n  color: #fff;\n}\n\n.btn-anim-liquid-fill-rise span,\n        .btn-anim-liquid-fill-rise i {\n  position: relative;\n  z-index: 1;\n}"
+  },
+  {
+    "id": "anim-split-curtain-open",
+    "name": "انقسام ستاري مزدوج",
+    "category": "animations",
+    "accent": "#e67e22",
+    "html": "<button class=\"btn btn-anim-split-curtain-open\">\n  <i class=\"fas fa-columns\"></i>\n  <span>انقسام ستاري مزدوج</span>\n</button>",
+    "css": ".btn-anim-split-curtain-open {\n  padding: 14px 34px;\n  background: transparent;\n  color: #e67e22;\n  font-size: 15px;\n  font-weight: 700;\n  border: 2px solid #e67e22;\n  position: relative;\n  overflow: hidden;\n}\n\n.btn-anim-split-curtain-open::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  background: #e67e22;\n  transform: translateX(-100%);\n  transition: transform 0.4s;\n  z-index: 0;\n}\n\n.btn-anim-split-curtain-open::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  right: 0;\n  width: 50%;\n  height: 100%;\n  background: #e67e22;\n  transform: translateX(100%);\n  transition: transform 0.4s;\n  z-index: 0;\n}\n\n.btn-anim-split-curtain-open:hover::before {\n  transform: translateX(0);\n}\n\n.btn-anim-split-curtain-open:hover::after {\n  transform: translateX(0);\n}\n\n.btn-anim-split-curtain-open:hover {\n  color: #fff;\n}\n\n.btn-anim-split-curtain-open span,\n        .btn-anim-split-curtain-open i {\n  position: relative;\n  z-index: 1;\n}"
+  },
+  {
+    "id": "slant-skew-dynamic",
+    "name": "مائل مقتطع حركي",
+    "category": "creative",
+    "accent": "#feca57",
+    "html": "<button class=\"btn btn-slant-skew-dynamic\">\n  <i class=\"fas fa-slash\"></i>\n  <span>مائل مقتطع حركي</span>\n</button>",
+    "css": ".btn-slant-skew-dynamic {\n  padding: 14px 34px;\n  background: #feca57;\n  color: #0a0a1a;\n  font-size: 15px;\n  font-weight: 700;\n  transform: skewX(-10deg);\n  transition: all 0.3s;\n}\n\n.btn-slant-skew-dynamic span,\n        .btn-slant-skew-dynamic i {\n  display: inline-block;\n  transform: skewX(10deg);\n}\n\n.btn-slant-skew-dynamic:hover {\n  background: #f39c12;\n  box-shadow: 0 8px 30px rgba(254, 202, 87, 0.4);\n}"
+  },
+  {
+    "id": "diagonal-corner-cut",
+    "name": "قطري بزوايا متقابلة",
+    "category": "creative",
+    "accent": "#2ecc71",
+    "html": "<button class=\"btn btn-diagonal-corner-cut\">\n  <i class=\"fas fa-vector-square\"></i>\n  <span>قطري بزوايا متقابلة</span>\n</button>",
+    "css": ".btn-diagonal-corner-cut {\n  padding: 14px 34px;\n  background: transparent;\n  border: 2px solid #2ecc71;\n  color: #2ecc71;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  overflow: hidden;\n}\n\n.btn-diagonal-corner-cut::before {\n  content: '';\n  position: absolute;\n  top: -50%;\n  left: -50%;\n  width: 200%;\n  height: 200%;\n  background: #2ecc71;\n  transform: rotate(45deg) translateY(-100%);\n  transition: transform 0.5s;\n  z-index: 0;\n}\n\n.btn-diagonal-corner-cut:hover::before {\n  transform: rotate(45deg) translateY(0);\n}\n\n.btn-diagonal-corner-cut:hover {\n  color: #fff;\n}\n\n.btn-diagonal-corner-cut span,\n        .btn-diagonal-corner-cut i {\n  position: relative;\n  z-index: 1;\n}"
+  },
+  {
+    "id": "border-nested-frame",
+    "name": "إطار متداخل مزدوج",
+    "category": "borders",
+    "accent": "#0abde3",
+    "html": "<button class=\"btn btn-border-nested-frame\">\n  <i class=\"fas fa-square\"></i>\n  <span>إطار متداخل مزدوج</span>\n</button>",
+    "css": ".btn-border-nested-frame {\n  padding: 14px 34px;\n  background: transparent;\n  color: #0abde3;\n  font-size: 15px;\n  font-weight: 700;\n  border: 2px solid #0abde3;\n  border-radius: 12px;\n  box-shadow: inset 0 0 0 4px #0a0a1a, inset 0 0 0 6px #0abde3;\n  transition: all 0.3s;\n}\n\n.btn-border-nested-frame:hover {\n  background: #0abde3;\n  color: #0a0a1a;\n  box-shadow: inset 0 0 0 4px #0a0a1a, inset 0 0 0 6px #0a0a1a, 0 8px 30px rgba(10, 189, 227, 0.4);\n}"
+  },
+  {
+    "id": "text-swap-hover",
+    "name": "تبديل النص التفاعلي",
+    "category": "typography",
+    "accent": "#fd79a8",
+    "html": "<button class=\"btn btn-text-swap-hover\">\n  <span class=\"btn-text-default\"><i class=\"fas fa-exchange-alt\"></i> تبديل النص التفاعلي</span>\n  <span class=\"btn-text-hover\">اضغط هنا</span>\n</button>",
+    "css": ".btn-text-swap-hover {\n  padding: 14px 34px;\n  background: #fd79a8;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  overflow: hidden;\n}\n\n.btn-text-swap-hover::after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: #e84393;\n  transform: translateY(100%);\n  transition: transform 0.35s;\n}\n\n.btn-text-swap-hover:hover::after {\n  transform: translateY(0);\n}"
+  },
+  {
+    "id": "magnetic-hover-lift",
+    "name": "مغناطيسي جذب hover",
+    "category": "animations",
+    "accent": "#a29bfe",
+    "html": "<button class=\"btn btn-magnetic-hover-lift\">\n  <i class=\"fas fa-magnet\"></i>\n  <span>مغناطيسي جذب hover</span>\n</button>",
+    "css": ".btn-magnetic-hover-lift {\n  padding: 14px 34px;\n  background: #a29bfe;\n  color: #0a0a1a;\n  font-size: 15px;\n  font-weight: 700;\n  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);\n}\n\n.btn-magnetic-hover-lift:hover {\n  transform: rotate(-3deg) scale(1.08);\n  box-shadow: 0 8px 30px rgba(162, 155, 254, 0.5);\n}"
+  },
+  {
+    "id": "expanding-shadow-layers",
+    "name": "ظل متوسع متدرج العمق",
+    "category": "3d",
+    "accent": "#feca57",
+    "html": "<button class=\"btn btn-expanding-shadow-layers\">\n  <i class=\"fas fa-layer-group\"></i>\n  <span>ظل متوسع متدرج العمق</span>\n</button>",
+    "css": ".btn-expanding-shadow-layers {\n  padding: 14px 34px;\n  background: #feca57;\n  color: #0a0a1a;\n  font-size: 15px;\n  font-weight: 700;\n  box-shadow: 0 0 0 rgba(254, 202, 87, 0.4);\n  transition: all 0.4s;\n}\n\n.btn-expanding-shadow-layers:hover {\n  box-shadow: 0 20px 40px rgba(254, 202, 87, 0.6), 0 0 0 8px rgba(254, 202, 87, 0.15);\n  transform: translateY(-4px);\n}"
+  },
+  {
+    "id": "spinner-continuous-spin",
+    "name": "دوار مستمر أنيق",
+    "category": "animations",
+    "accent": "#8e44ad",
+    "html": "<button class=\"btn btn-spinner-continuous-spin\">\n  <i class=\"fas fa-circle-notch\"></i>\n  <span>دوار مستمر أنيق</span>\n</button>",
+    "css": ".btn-spinner-continuous-spin {\n  padding: 14px 34px;\n  background: transparent;\n  color: #8e44ad;\n  font-size: 15px;\n  font-weight: 700;\n  border: 2px dashed #8e44ad;\n  border-radius: 50px;\n  transition: all 0.3s;\n}\n\n.btn-spinner-continuous-spin:hover {\n  animation: spin 3s linear infinite;\n  background: rgba(142, 68, 173, 0.1);\n}"
+  },
+  {
+    "id": "line-sweep-underline",
+    "name": "خط متوسع من المركز",
+    "category": "animations",
+    "accent": "#1abc9c",
+    "html": "<button class=\"btn btn-line-sweep-underline\">\n  <i class=\"fas fa-minus\"></i>\n  <span>خط متوسع من المركز</span>\n</button>",
+    "css": ".btn-line-sweep-underline {\n  padding: 14px 34px;\n  background: transparent;\n  color: #1abc9c;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n}\n\n.btn-line-sweep-underline::after {\n  content: '';\n  position: absolute;\n  bottom: 8px;\n  left: 50%;\n  width: 0;\n  height: 2px;\n  background: #1abc9c;\n  transition: all 0.4s;\n  transform: translateX(-50%);\n}\n\n.btn-line-sweep-underline:hover::after {\n  width: calc(100% - 40px);\n}\n\n.btn-line-sweep-underline:hover {\n  color: #16a085;\n}"
+  },
+  {
+    "id": "cut-corners-angled",
+    "name": "زوايا مشطوفة تكتيكية",
+    "category": "creative",
+    "accent": "#34495e",
+    "html": "<button class=\"btn btn-cut-corners-angled\">\n  <i class=\"fas fa-cut\"></i>\n  <span>زوايا مشطوفة تكتيكية</span>\n</button>",
+    "css": ".btn-cut-corners-angled {\n  padding: 14px 34px;\n  background: #34495e;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);\n  transition: all 0.3s;\n}\n\n.btn-cut-corners-angled:hover {\n  background: #2c3e50;\n  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));\n  box-shadow: 0 8px 30px rgba(52, 73, 94, 0.5);\n}"
+  },
+  {
+    "id": "arrow-slide-forward",
+    "name": "سهم ينطلق للأمام",
+    "category": "animations",
+    "accent": "#55efc4",
+    "html": "<button class=\"btn btn-arrow-slide-forward\">\n  <i class=\"fas fa-arrow-left\"></i>\n  <span>سهم ينطلق للأمام</span>\n</button>",
+    "css": ".btn-arrow-slide-forward {\n  padding: 14px 34px;\n  background: #55efc4;\n  color: #0a0a1a;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  padding-left: 55px;\n}\n\n.btn-arrow-slide-forward::after {\n  content: '→';\n  position: absolute;\n  left: 20px;\n  top: 50%;\n  transform: translateY(-50%);\n  font-size: 20px;\n  transition: left 0.3s;\n}\n\n.btn-arrow-slide-forward:hover::after {\n  left: 12px;\n}\n\n.btn-arrow-slide-forward:hover {\n  background: #00b894;\n  color: #fff;\n}"
+  },
+  {
+    "id": "glitch-cyber-distortion",
+    "name": "تشويش جليتش سايبر",
+    "category": "animations",
+    "accent": "#5f27cd",
+    "html": "<button class=\"btn btn-glitch-cyber-distortion\">\n  <i class=\"fas fa-bolt\"></i>\n  <span>تشويش جليتش سايبر</span>\n</button>",
+    "css": ".btn-glitch-cyber-distortion {\n  padding: 14px 34px;\n  background: #5f27cd;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  overflow: hidden;\n}\n\n.btn-glitch-cyber-distortion:hover {\n  animation: glitch 0.3s ease-in-out infinite;\n}"
+  },
+  {
+    "id": "bubble-pop-particles",
+    "name": "فقاعات متصاعدة وردية",
+    "category": "animations",
+    "accent": "#e84393",
+    "html": "<button class=\"btn btn-bubble-pop-particles\">\n  <i class=\"fas fa-braille\"></i>\n  <span>فقاعات متصاعدة وردية</span>\n</button>",
+    "css": ".btn-bubble-pop-particles {\n  padding: 14px 34px;\n  background: #e84393;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  overflow: hidden;\n}\n\n.btn-bubble-pop-particles::before,\n        .btn-bubble-pop-particles::after {\n  content: '';\n  position: absolute;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background: rgba(255, 255, 255, 0.4);\n  transform: scale(0);\n  transition: transform 0.4s;\n}\n\n.btn-bubble-pop-particles::before {\n  top: 10px;\n  right: 15px;\n}\n\n.btn-bubble-pop-particles::after {\n  bottom: 10px;\n  left: 15px;\n}\n\n.btn-bubble-pop-particles:hover::before,\n        .btn-bubble-pop-particles:hover::after {\n  transform: scale(3);\n  opacity: 0;\n}\n\n.btn-bubble-pop-particles:hover {\n  background: #c93881;\n}"
+  },
+  {
+    "id": "neon-magenta-electric",
+    "name": "نيون ماجنتا مشع",
+    "category": "neon",
+    "accent": "#ff00ff",
+    "html": "<button class=\"btn btn-neon-magenta-electric\">\n  <i class=\"fas fa-star\"></i>\n  <span>نيون ماجنتا مشع</span>\n</button>",
+    "css": ".btn-neon-magenta-electric {\n  padding: 14px 34px;\n  background: transparent;\n  color: #ff00ff;\n  font-size: 15px;\n  font-weight: 700;\n  border: 2px solid #ff00ff;\n  box-shadow: 0 0 10px #ff00ff, inset 0 0 10px #ff00ff;\n  text-shadow: 0 0 8px #ff00ff;\n  transition: all 0.3s;\n}\n\n.btn-neon-magenta-electric:hover {\n  box-shadow: 0 0 30px #ff00ff, inset 0 0 20px #ff00ff;\n  text-shadow: 0 0 15px #ff00ff;\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "golden-shimmer-sparkle",
+    "name": "لمعة ذهبية متحركة",
+    "category": "creative",
+    "accent": "#daa520",
+    "html": "<button class=\"btn btn-golden-shimmer-sparkle\">\n  <i class=\"fas fa-gem\"></i>\n  <span>لمعة ذهبية متحركة</span>\n</button>",
+    "css": ".btn-golden-shimmer-sparkle {\n  padding: 14px 34px;\n  background: linear-gradient(135deg, #b8860b, #daa520, #ffd700);\n  color: #1a1a2e;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  overflow: hidden;\n}\n\n.btn-golden-shimmer-sparkle::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: -100%;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);\n  transition: left 0.6s;\n}\n\n.btn-golden-shimmer-sparkle:hover::before {\n  left: 100%;\n}\n\n.btn-golden-shimmer-sparkle:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 10px 40px rgba(218, 165, 32, 0.5);\n}"
+  },
+  {
+    "id": "text-tracking-expand",
+    "name": "تباعد حروف مطاطي",
+    "category": "typography",
+    "accent": "#6c5ce7",
+    "html": "<button class=\"btn btn-text-tracking-expand\">\n  <i class=\"fas fa-text-width\"></i>\n  <span>تباعد حروف مطاطي</span>\n</button>",
+    "css": ".btn-text-tracking-expand {\n  padding: 14px 34px;\n  background: #6c5ce7;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  letter-spacing: 1px;\n  transition: letter-spacing 0.4s;\n}\n\n.btn-text-tracking-expand:hover {\n  letter-spacing: 6px;\n  background: #5f27cd;\n}"
+  },
+  {
+    "id": "text-shadow-glow",
+    "name": "ظل نص نيون مجسم",
+    "category": "typography",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-text-shadow-glow\">\n  <i class=\"fas fa-font\"></i>\n  <span>ظل نص نيون مجسم</span>\n</button>",
+    "css": ".btn-text-shadow-glow {\n  padding: 14px 34px;\n  background: #1a1a2e;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  border: 2px solid #ff6b6b;\n  transition: text-shadow 0.3s;\n}\n\n.btn-text-shadow-glow:hover {\n  text-shadow: 0 0 10px #ff6b6b, 0 0 20px #ff6b6b, 0 0 30px #ff6b6b;\n}"
+  },
+  {
+    "id": "text-scale-emphasis",
+    "name": "تكبير نص تركيزي",
+    "category": "typography",
+    "accent": "#feca57",
+    "html": "<button class=\"btn btn-text-scale-emphasis\">\n  <i class=\"fas fa-text-height\"></i>\n  <span>تكبير نص تركيزي</span>\n</button>",
+    "css": ".btn-text-scale-emphasis {\n  padding: 14px 34px;\n  background: #feca57;\n  color: #0a0a1a;\n  font-size: 15px;\n  font-weight: 700;\n  text-transform: uppercase;\n  transition: all 0.3s;\n}\n\n.btn-text-scale-emphasis:hover {\n  background: #f39c12;\n  transform: scale(1.08);\n}"
+  },
+  {
+    "id": "text-italic-skew-shift",
+    "name": "ميلان نص إنسيابي",
+    "category": "typography",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-text-italic-skew-shift\">\n  <i class=\"fas fa-italic\"></i>\n  <span>ميلان نص إنسيابي</span>\n</button>",
+    "css": ".btn-text-italic-skew-shift {\n  padding: 14px 34px;\n  background: #48dbfb;\n  color: #0a0a1a;\n  font-size: 15px;\n  font-weight: 700;\n  font-style: italic;\n  transition: all 0.3s;\n}\n\n.btn-text-italic-skew-shift:hover {\n  font-style: normal;\n  background: #0abde3;\n}"
+  },
+  {
+    "id": "text-wave-motion",
+    "name": "موجة نصية مائية",
+    "category": "typography",
+    "accent": "#ff9ff3",
+    "html": "<button class=\"btn btn-text-wave-motion\">\n  <i class=\"fas fa-water\"></i>\n  <span>موجة نصية مائية</span>\n</button>",
+    "css": ".btn-text-wave-motion {\n  padding: 14px 34px;\n  background: #ff9ff3;\n  color: #0a0a1a;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n}\n\n.btn-text-wave-motion span {\n  display: inline-block;\n}\n\n.btn-text-wave-motion:hover span {\n  animation: wave 0.6s ease-in-out infinite;\n}"
+  },
+  {
+    "id": "text-blur-unveil",
+    "name": "إزالة الضبابية عن النص",
+    "category": "typography",
+    "accent": "#1abc9c",
+    "html": "<button class=\"btn btn-text-blur-unveil\">\n  <i class=\"fas fa-eye-slash\"></i>\n  <span>إزالة الضبابية عن النص</span>\n</button>",
+    "css": ".btn-text-blur-unveil {\n  padding: 14px 34px;\n  background: #1abc9c;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: filter 0.4s;\n}\n\n.btn-text-blur-unveil:hover {\n  filter: blur(1px);\n}"
+  },
+  {
+    "id": "text-stroke-hollow",
+    "name": "نص مفرغ حدودي",
+    "category": "typography",
+    "accent": "#f5576c",
+    "html": "<button class=\"btn btn-text-stroke-hollow\">\n  <i class=\"fas fa-font\"></i>\n  <span>نص مفرغ حدودي</span>\n</button>",
+    "css": ".btn-text-stroke-hollow {\n  padding: 14px 34px;\n  background: transparent;\n  color: transparent;\n  font-size: 15px;\n  font-weight: 700;\n  border: 2px solid #f5576c;\n  -webkit-text-stroke: 1px #f5576c;\n  transition: all 0.3s;\n}\n\n.btn-text-stroke-hollow:hover {\n  color: #f5576c;\n  -webkit-text-stroke: 0;\n}"
+  },
+  {
+    "id": "text-typewriter-cursor",
+    "name": "مؤشر آلة كاتبة وامض",
+    "category": "typography",
+    "accent": "#2d3436",
+    "html": "<button class=\"btn btn-text-typewriter-cursor\">\n  <i class=\"fas fa-keyboard\"></i>\n  <span>مؤشر آلة كاتبة وامض</span>\n</button>",
+    "css": ".btn-text-typewriter-cursor {\n  padding: 14px 34px;\n  background: #2d3436;\n  color: #dfe6e9;\n  font-size: 15px;\n  font-weight: 700;\n  overflow: hidden;\n  white-space: nowrap;\n  position: relative;\n}\n\n.btn-text-typewriter-cursor:hover::after {\n  content: '|';\n  animation: blink 0.6s infinite;\n}"
+  },
+  {
+    "id": "text-radiant-glow-burst",
+    "name": "توهج شمسي للنص",
+    "category": "typography",
+    "accent": "#feca57",
+    "html": "<button class=\"btn btn-text-radiant-glow-burst\">\n  <i class=\"fas fa-sun\"></i>\n  <span>توهج شمسي للنص</span>\n</button>",
+    "css": ".btn-text-radiant-glow-burst {\n  padding: 14px 34px;\n  background: transparent;\n  color: #feca57;\n  font-size: 15px;\n  font-weight: 700;\n  border: 2px solid #feca57;\n  transition: all 0.3s;\n}\n\n.btn-text-radiant-glow-burst:hover {\n  text-shadow: 0 0 20px #feca57, 0 0 40px #feca57;\n  box-shadow: 0 0 30px rgba(254, 202, 87, 0.5);\n}"
+  },
+  {
+    "id": "text-underline-grow",
+    "name": "خط نصي ينمو بالكامل",
+    "category": "typography",
+    "accent": "#a29bfe",
+    "html": "<button class=\"btn btn-text-underline-grow\">\n  <i class=\"fas fa-minus\"></i>\n  <span>خط نصي ينمو بالكامل</span>\n</button>",
+    "css": ".btn-text-underline-grow {\n  padding: 14px 34px;\n  background: transparent;\n  color: #a29bfe;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n}\n\n.btn-text-underline-grow::after {\n  content: '';\n  position: absolute;\n  bottom: 8px;\n  left: 50%;\n  width: 0;\n  height: 3px;\n  background: #a29bfe;\n  transition: all 0.4s;\n  transform: translateX(-50%);\n  border-radius: 2px;\n}\n\n.btn-text-underline-grow:hover::after {\n  width: calc(100% - 20px);\n}"
+  },
+  {
+    "id": "shape-circle-transform",
+    "name": "تحول دائري كامل",
+    "category": "shapes",
+    "accent": "#e74c3c",
+    "html": "<button class=\"btn btn-shape-circle-transform\">\n  <i class=\"fas fa-circle\"></i>\n  <span>تحول دائري كامل</span>\n</button>",
+    "css": ".btn-shape-circle-transform {\n  padding: 14px 34px;\n  background: #e74c3c;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  overflow: hidden;\n}\n\n.btn-shape-circle-transform::before {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 0;\n  height: 0;\n  background: #c0392b;\n  border-radius: 50%;\n  transform: translate(-50%, -50%);\n  transition: all 0.5s;\n  z-index: 0;\n}\n\n.btn-shape-circle-transform:hover::before {\n  width: 300px;\n  height: 300px;\n}\n\n.btn-shape-circle-transform span,\n        .btn-shape-circle-transform i {\n  position: relative;\n  z-index: 1;\n}"
+  },
+  {
+    "id": "shape-square-solid",
+    "name": "مربع هندسي متناسق",
+    "category": "shapes",
+    "accent": "#3498db",
+    "html": "<button class=\"btn btn-shape-square-solid\">\n  <i class=\"fas fa-square\"></i>\n  <span>مربع هندسي متناسق</span>\n</button>",
+    "css": ".btn-shape-square-solid {\n  padding: 14px 34px;\n  background: transparent;\n  color: #3498db;\n  font-size: 15px;\n  font-weight: 700;\n  border: 2px solid #3498db;\n  border-radius: 0;\n  transition: all 0.4s;\n}\n\n.btn-shape-square-solid:hover {\n  border-radius: 50px;\n  transform: rotate(-5deg);\n  background: #3498db;\n  color: #fff;\n}"
+  },
+  {
+    "id": "shape-triangle-play",
+    "name": "مثلث تشغيل هندسي",
+    "category": "shapes",
+    "accent": "#feca57",
+    "html": "<button class=\"btn btn-shape-triangle-play\">\n  <i class=\"fas fa-play\"></i>\n  <span>مثلث تشغيل هندسي</span>\n</button>",
+    "css": ".btn-shape-triangle-play {\n  padding: 14px 34px;\n  background: transparent;\n  color: #feca57;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n}\n\n.btn-shape-triangle-play::before {\n  content: '';\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0;\n  height: 0;\n  border-left: 0 solid transparent;\n  border-bottom: 100% solid #feca57;\n  transition: all 0.4s;\n  z-index: 0;\n}\n\n.btn-shape-triangle-play:hover::before {\n  border-left: 100% solid #feca57;\n}"
+  },
+  {
+    "id": "shape-diamond-rhombus",
+    "name": "معين هندسي براق",
+    "category": "shapes",
+    "accent": "#fd79a8",
+    "html": "<button class=\"btn btn-shape-diamond-rhombus\">\n  <i class=\"fas fa-gem\"></i>\n  <span>معين هندسي براق</span>\n</button>",
+    "css": ".btn-shape-diamond-rhombus {\n  padding: 14px 34px;\n  background: #fd79a8;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transform: rotate(0);\n  transition: all 0.4s;\n}\n\n.btn-shape-diamond-rhombus:hover {\n  transform: rotate(2deg) scale(1.08);\n  border-radius: 12px;\n  box-shadow: 0 8px 30px rgba(253, 121, 168, 0.5);\n}"
+  },
+  {
+    "id": "border-path-draw",
+    "name": "رسم مسار الحدود الحي",
+    "category": "borders",
+    "accent": "#00b894",
+    "html": "<button class=\"btn btn-border-path-draw\">\n  <i class=\"fas fa-pen\"></i>\n  <span>رسم مسار الحدود الحي</span>\n</button>",
+    "css": ".btn-border-path-draw {\n  padding: 14px 34px;\n  background: transparent;\n  color: #00b894;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  border: 2px solid transparent;\n}\n\n.btn-border-path-draw::before,\n        .btn-border-path-draw::after {\n  content: '';\n  position: absolute;\n  background: #00b894;\n  transition: all 0.4s;\n}\n\n.btn-border-path-draw::before {\n  top: 0;\n  left: 0;\n  width: 0;\n  height: 2px;\n}\n\n.btn-border-path-draw::after {\n  bottom: 0;\n  right: 0;\n  width: 0;\n  height: 2px;\n}\n\n.btn-border-path-draw:hover::before,\n        .btn-border-path-draw:hover::after {\n  width: 100%;\n}\n\n.btn-border-path-draw:hover {\n  color: #00b894;\n}"
+  },
+  {
+    "id": "ring-expand-pulse",
+    "name": "حلقة نبض متوسعة",
+    "category": "shapes",
+    "accent": "#8e44ad",
+    "html": "<button class=\"btn btn-ring-expand-pulse\">\n  <i class=\"fas fa-circle-notch\"></i>\n  <span>حلقة نبض متوسعة</span>\n</button>",
+    "css": ".btn-ring-expand-pulse {\n  padding: 14px 34px;\n  background: #8e44ad;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n}\n\n.btn-ring-expand-pulse::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-radius: 50px;\n  border: 2px solid #8e44ad;\n  animation: ringExpand 1.5s ease-out infinite;\n}\n\n.btn-ring-expand-pulse:hover {\n  background: #9b59b6;\n}"
+  },
+  {
+    "id": "water-ripple-concentric",
+    "name": "تمويج مائي مركزي",
+    "category": "animations",
+    "accent": "#0abde3",
+    "html": "<button class=\"btn btn-water-ripple-concentric\">\n  <i class=\"fas fa-water\"></i>\n  <span>تمويج مائي مركزي</span>\n</button>",
+    "css": ".btn-water-ripple-concentric {\n  padding: 14px 34px;\n  background: #0abde3;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  overflow: hidden;\n}\n\n.btn-water-ripple-concentric::before,\n        .btn-water-ripple-concentric::after {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 0;\n  height: 0;\n  border-radius: 50%;\n  background: rgba(255, 255, 255, 0.3);\n  transform: translate(-50%, -50%);\n}\n\n.btn-water-ripple-concentric:hover::before {\n  animation: rippleAnim 0.8s ease-out;\n}\n\n.btn-water-ripple-concentric:hover::after {\n  animation: rippleAnim 0.8s ease-out 0.3s;\n}"
+  },
+  {
+    "id": "shape-blob-organic",
+    "name": "شكل عضوي حر متموج",
+    "category": "shapes",
+    "accent": "#f39c12",
+    "html": "<button class=\"btn btn-shape-blob-organic\">\n  <i class=\"fas fa-cloud\"></i>\n  <span>شكل عضوي حر متموج</span>\n</button>",
+    "css": ".btn-shape-blob-organic {\n  padding: 14px 34px;\n  background: #f39c12;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: all 0.4s;\n}\n\n.btn-shape-blob-organic:hover {\n  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;\n  transform: scale(1.05);\n}"
+  },
+  {
+    "id": "burst-spark-particle",
+    "name": "انفجار نجوم إشعاعي",
+    "category": "animations",
+    "accent": "#e84393",
+    "html": "<button class=\"btn btn-burst-spark-particle\">\n  <i class=\"fas fa-star\"></i>\n  <span>انفجار نجوم إشعاعي</span>\n</button>",
+    "css": ".btn-burst-spark-particle {\n  padding: 14px 34px;\n  background: #e84393;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  transition: all 0.3s;\n}\n\n.btn-burst-spark-particle:hover {\n  transform: scale(1.1) rotate(3deg);\n  box-shadow: 0 0 40px rgba(232, 67, 147, 0.6);\n}"
+  },
+  {
+    "id": "glass-mirror-reflect",
+    "name": "مرآة زجاجية عاكسة",
+    "category": "creative",
+    "accent": "#ffffff",
+    "html": "<button class=\"btn btn-glass-mirror-reflect\">\n  <i class=\"fas fa-glass\"></i>\n  <span>مرآة زجاجية عاكسة</span>\n</button>",
+    "css": ".btn-glass-mirror-reflect {\n  padding: 14px 34px;\n  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  backdrop-filter: blur(10px);\n  transition: all 0.3s;\n}\n\n.btn-glass-mirror-reflect:hover {\n  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));\n  transform: translateY(-3px);\n  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);\n}"
+  },
+  {
+    "id": "slide-up-elevator",
+    "name": "انزلاق رأسي صاعد",
+    "category": "animations",
+    "accent": "#6c5ce7",
+    "html": "<button class=\"btn btn-slide-up-elevator\">\n  <i class=\"fas fa-arrow-up\"></i>\n  <span>انزلاق رأسي صاعد</span>\n</button>",
+    "css": ".btn-slide-up-elevator {\n  padding: 14px 34px;\n  background: transparent;\n  color: #6c5ce7;\n  font-size: 15px;\n  font-weight: 700;\n  border: 2px solid #6c5ce7;\n  position: relative;\n  overflow: hidden;\n}\n\n.btn-slide-up-elevator::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: #6c5ce7;\n  transform: translateY(100%);\n  transition: transform 0.4s;\n  z-index: 0;\n}\n\n.btn-slide-up-elevator:hover::before {\n  transform: translateY(0);\n}\n\n.btn-slide-up-elevator:hover {\n  color: #fff;\n}\n\n.btn-slide-up-elevator span,\n        .btn-slide-up-elevator i {\n  position: relative;\n  z-index: 1;\n}"
+  },
+  {
+    "id": "slide-down-drop",
+    "name": "انزلاق رأسي هابط",
+    "category": "animations",
+    "accent": "#fd79a8",
+    "html": "<button class=\"btn btn-slide-down-drop\">\n  <i class=\"fas fa-arrow-down\"></i>\n  <span>انزلاق رأسي هابط</span>\n</button>",
+    "css": ".btn-slide-down-drop {\n  padding: 14px 34px;\n  background: transparent;\n  color: #fd79a8;\n  font-size: 15px;\n  font-weight: 700;\n  border: 2px solid #fd79a8;\n  position: relative;\n  overflow: hidden;\n}\n\n.btn-slide-down-drop::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: #fd79a8;\n  transform: translateY(-100%);\n  transition: transform 0.4s;\n  z-index: 0;\n}\n\n.btn-slide-down-drop:hover::before {\n  transform: translateY(0);\n}\n\n.btn-slide-down-drop:hover {\n  color: #fff;\n}\n\n.btn-slide-down-drop span,\n        .btn-slide-down-drop i {\n  position: relative;\n  z-index: 1;\n}"
+  },
+  {
+    "id": "flip-horizontal-card",
+    "name": "قلب أفقي ثلاثي الأبعاد",
+    "category": "animations",
+    "accent": "#00b894",
+    "html": "<button class=\"btn btn-flip-horizontal-card\">\n  <i class=\"fas fa-retweet\"></i>\n  <span>قلب أفقي ثلاثي الأبعاد</span>\n</button>",
+    "css": ".btn-flip-horizontal-card {\n  padding: 14px 34px;\n  background: #00b894;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: transform 0.4s;\n}\n\n.btn-flip-horizontal-card:hover {\n  transform: rotateY(180deg);\n}"
+  },
+  {
+    "id": "zoom-scale-punch",
+    "name": "تكبير متفجر حاد",
+    "category": "animations",
+    "accent": "#e17055",
+    "html": "<button class=\"btn btn-zoom-scale-punch\">\n  <i class=\"fas fa-search-plus\"></i>\n  <span>تكبير متفجر حاد</span>\n</button>",
+    "css": ".btn-zoom-scale-punch {\n  padding: 14px 34px;\n  background: #e17055;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: all 0.3s;\n}\n\n.btn-zoom-scale-punch:hover {\n  transform: scale(1.15);\n  box-shadow: 0 15px 40px rgba(225, 112, 85, 0.5);\n}"
+  },
+  {
+    "id": "rotate-clockwise-spin",
+    "name": "دوران كامل مع عقارب الساعة",
+    "category": "animations",
+    "accent": "#feca57",
+    "html": "<button class=\"btn btn-rotate-clockwise-spin\">\n  <i class=\"fas fa-sync\"></i>\n  <span>دوران كامل مع عقارب الساعة</span>\n</button>",
+    "css": ".btn-rotate-clockwise-spin {\n  padding: 14px 34px;\n  background: #feca57;\n  color: #0a0a1a;\n  font-size: 15px;\n  font-weight: 700;\n  transition: transform 0.5s;\n}\n\n.btn-rotate-clockwise-spin:hover {\n  transform: rotate(360deg);\n}"
+  },
+  {
+    "id": "jump-bounce-spring",
+    "name": "قفزة ارتدادية ممتعة",
+    "category": "animations",
+    "accent": "#48dbfb",
+    "html": "<button class=\"btn btn-jump-bounce-spring\">\n  <i class=\"fas fa-arrow-up\"></i>\n  <span>قفزة ارتدادية ممتعة</span>\n</button>",
+    "css": ".btn-jump-bounce-spring {\n  padding: 14px 34px;\n  background: #48dbfb;\n  color: #0a0a1a;\n  font-size: 15px;\n  font-weight: 700;\n}\n\n.btn-jump-bounce-spring:hover {\n  animation: bounceBtn 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "flip-vertical-axis",
+    "name": "قلب رأسي على المحور X",
+    "category": "animations",
+    "accent": "#a29bfe",
+    "html": "<button class=\"btn btn-flip-vertical-axis\">\n  <i class=\"fas fa-arrows-alt-v\"></i>\n  <span>قلب رأسي على المحور X</span>\n</button>",
+    "css": ".btn-flip-vertical-axis {\n  padding: 14px 34px;\n  background: #a29bfe;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: transform 0.4s;\n}\n\n.btn-flip-vertical-axis:hover {\n  transform: rotateX(360deg);\n}"
+  },
+  {
+    "id": "slide-right-push",
+    "name": "انزلاق لليمين مع سهم",
+    "category": "animations",
+    "accent": "#1abc9c",
+    "html": "<button class=\"btn btn-slide-right-push\">\n  <i class=\"fas fa-arrow-right\"></i>\n  <span>انزلاق لليمين مع سهم</span>\n</button>",
+    "css": ".btn-slide-right-push {\n  padding: 14px 34px;\n  background: #1abc9c;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  position: relative;\n  overflow: hidden;\n}\n\n.btn-slide-right-push::before {\n  content: '→';\n  position: absolute;\n  left: -30px;\n  top: 50%;\n  transform: translateY(-50%);\n  font-size: 20px;\n  transition: left 0.3s;\n}\n\n.btn-slide-right-push:hover::before {\n  left: 15px;\n}\n\n.btn-slide-right-push:hover {\n  padding-left: 50px;\n}"
+  },
+  {
+    "id": "squeeze-compress-elastic",
+    "name": "عصر وانضغاط مرن",
+    "category": "animations",
+    "accent": "#e74c3c",
+    "html": "<button class=\"btn btn-squeeze-compress-elastic\">\n  <i class=\"fas fa-compress\"></i>\n  <span>عصر وانضغاط مرن</span>\n</button>",
+    "css": ".btn-squeeze-compress-elastic {\n  padding: 14px 34px;\n  background: #e74c3c;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: all 0.3s;\n}\n\n.btn-squeeze-compress-elastic:hover {\n  transform: scaleX(1.2) scaleY(0.85);\n}"
+  },
+  {
+    "id": "swing-pendulum-motion",
+    "name": "تمايل بندولي مرح",
+    "category": "animations",
+    "accent": "#8e44ad",
+    "html": "<button class=\"btn btn-swing-pendulum-motion\">\n  <i class=\"fas fa-arrows-alt-h\"></i>\n  <span>تمايل بندولي مرح</span>\n</button>",
+    "css": ".btn-swing-pendulum-motion {\n  padding: 14px 34px;\n  background: #8e44ad;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: transform 0.3s;\n}\n\n.btn-swing-pendulum-motion:hover {\n  animation: swing 0.6s ease-in-out;\n}"
+  },
+  {
+    "id": "gradient-text-clip",
+    "name": "نص متدرج الألوان مفرغ",
+    "category": "gradient",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-gradient-text-clip\">\n  <i class=\"fas fa-palette\"></i>\n  <span>نص متدرج الألوان مفرغ</span>\n</button>",
+    "css": ".btn-gradient-text-clip {\n  padding: 14px 34px;\n  background: #1a1a2e;\n  font-size: 15px;\n  font-weight: 700;\n  border: 2px solid transparent;\n  background-clip: padding-box;\n  position: relative;\n}\n\n.btn-gradient-text-clip span {\n  background: linear-gradient(135deg, #ff6b6b, #feca57, #48dbfb);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  background-clip: text;\n}\n\n.btn-gradient-text-clip:hover {\n  border-image: linear-gradient(135deg, #ff6b6b, #feca57, #48dbfb) 1;\n}"
+  },
+  {
+    "id": "vintage-leather-gold",
+    "name": "عتيق ذهبي ملكي",
+    "category": "creative",
+    "accent": "#d4a373",
+    "html": "<button class=\"btn btn-vintage-leather-gold\">\n  <i class=\"fas fa-crown\"></i>\n  <span>عتيق ذهبي ملكي</span>\n</button>",
+    "css": ".btn-vintage-leather-gold {\n  padding: 14px 34px;\n  background: #d4a373;\n  color: #2d3436;\n  font-size: 15px;\n  font-weight: 700;\n  border: 3px double #2d3436;\n  border-radius: 0;\n  transition: all 0.3s;\n}\n\n.btn-vintage-leather-gold:hover {\n  background: #2d3436;\n  color: #d4a373;\n}"
+  },
+  {
+    "id": "retro-arcade-pixel",
+    "name": "ريترو كلاسيكي دافئ",
+    "category": "creative",
+    "accent": "#ff9f43",
+    "html": "<button class=\"btn btn-retro-arcade-pixel\">\n  <i class=\"fas fa-archive\"></i>\n  <span>ريترو كلاسيكي دافئ</span>\n</button>",
+    "css": ".btn-retro-arcade-pixel {\n  padding: 14px 34px;\n  background: #ff9f43;\n  color: #0a0a1a;\n  font-size: 15px;\n  font-weight: 800;\n  border: 3px solid #0a0a1a;\n  box-shadow: 4px 4px 0 #0a0a1a;\n  transition: all 0.15s;\n}\n\n.btn-retro-arcade-pixel:hover {\n  transform: translate(-4px, -4px);\n  box-shadow: 8px 8px 0 #0a0a1a;\n}"
+  },
+  {
+    "id": "paper-cutout-shadow",
+    "name": "ورقي مقصوص ذو طبقات",
+    "category": "creative",
+    "accent": "#ffffff",
+    "html": "<button class=\"btn btn-paper-cutout-shadow\">\n  <i class=\"fas fa-file\"></i>\n  <span>ورقي مقصوص ذو طبقات</span>\n</button>",
+    "css": ".btn-paper-cutout-shadow {\n  padding: 14px 34px;\n  background: #fff;\n  color: #2d3436;\n  font-size: 15px;\n  font-weight: 700;\n  border: 1px dashed #2d3436;\n  transition: all 0.3s;\n}\n\n.btn-paper-cutout-shadow:hover {\n  border-style: solid;\n  box-shadow: 4px 4px 0 rgba(45, 52, 54, 0.2);\n}"
+  },
+  {
+    "id": "comic-pop-art",
+    "name": "كوميك بوب آرت هزلي",
+    "category": "creative",
+    "accent": "#feca57",
+    "html": "<button class=\"btn btn-comic-pop-art\">\n  <i class=\"fas fa-bolt\"></i>\n  <span>كوميك بوب آرت هزلي</span>\n</button>",
+    "css": ".btn-comic-pop-art {\n  padding: 14px 34px;\n  background: #feca57;\n  color: #0a0a1a;\n  font-size: 15px;\n  font-weight: 900;\n  border: 3px solid #0a0a1a;\n  border-radius: 0;\n  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.15);\n  transition: all 0.2s;\n}\n\n.btn-comic-pop-art:hover {\n  transform: skew(-3deg);\n  box-shadow: -6px 6px 0 #0a0a1a;\n}"
+  },
+  {
+    "id": "minimalist-thin-line",
+    "name": "بسيط فائق النعومة",
+    "category": "creative",
+    "accent": "#ffffff",
+    "html": "<button class=\"btn btn-minimalist-thin-line\">\n  <i class=\"fas fa-minus\"></i>\n  <span>بسيط فائق النعومة</span>\n</button>",
+    "css": ".btn-minimalist-thin-line {\n  padding: 14px 34px;\n  background: transparent;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 400;\n  border: none;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.3);\n  border-radius: 0;\n  transition: all 0.3s;\n}\n\n.btn-minimalist-thin-line:hover {\n  border-bottom-color: #fff;\n  letter-spacing: 2px;\n}"
+  },
+  {
+    "id": "bold-brutalist-block",
+    "name": "عريض بروتالي قوي",
+    "category": "creative",
+    "accent": "#feca57",
+    "html": "<button class=\"btn btn-bold-brutalist-block\">\n  <i class=\"fas fa-bold\"></i>\n  <span>عريض بروتالي قوي</span>\n</button>",
+    "css": ".btn-bold-brutalist-block {\n  padding: 14px 34px;\n  background: #fff;\n  color: #0a0a1a;\n  font-size: 15px;\n  font-weight: 900;\n  letter-spacing: 2px;\n  transition: all 0.3s;\n}\n\n.btn-bold-brutalist-block:hover {\n  background: #feca57;\n  transform: scale(1.05);\n}"
+  },
+  {
+    "id": "elegant-luxury-gold",
+    "name": "أنيق فاخر بتدرج دافئ",
+    "category": "creative",
+    "accent": "#d4a373",
+    "html": "<button class=\"btn btn-elegant-luxury-gold\">\n  <i class=\"fas fa-feather\"></i>\n  <span>أنيق فاخر بتدرج دافئ</span>\n</button>",
+    "css": ".btn-elegant-luxury-gold {\n  padding: 14px 34px;\n  background: transparent;\n  color: #d4a373;\n  font-size: 15px;\n  font-weight: 400;\n  font-family: Georgia, serif;\n  font-style: italic;\n  border: 1px solid #d4a373;\n  transition: all 0.3s;\n}\n\n.btn-elegant-luxury-gold:hover {\n  background: #d4a373;\n  color: #0a0a1a;\n}"
+  },
+  {
+    "id": "monospace-terminal-code",
+    "name": "شاشة أوامر برمجية أحادية",
+    "category": "creative",
+    "accent": "#1dd1a1",
+    "html": "<button class=\"btn btn-monospace-terminal-code\">\n  <i class=\"fas fa-terminal\"></i>\n  <span>شاشة أوامر برمجية أحادية</span>\n</button>",
+    "css": ".btn-monospace-terminal-code {\n  padding: 14px 34px;\n  background: #0a0a1a;\n  color: #1dd1a1;\n  font-size: 14px;\n  font-weight: 700;\n  font-family: monospace;\n  border: 1px solid #1dd1a1;\n  transition: all 0.3s;\n}\n\n.btn-monospace-terminal-code:hover {\n  background: #1dd1a1;\n  color: #0a0a1a;\n  box-shadow: 0 0 20px rgba(29, 209, 161, 0.5);\n}"
+  },
+  {
+    "id": "cyberpunk-hologram-cyan",
+    "name": "سايبربانك هولوجرامي",
+    "category": "neon",
+    "accent": "#00fff5",
+    "html": "<button class=\"btn btn-cyberpunk-hologram-cyan\">\n  <i class=\"fas fa-bolt\"></i>\n  <span>سايبربانك هولوجرامي</span>\n</button>",
+    "css": ".btn-cyberpunk-hologram-cyan {\n  padding: 14px 34px;\n  background: #0a0a1a;\n  color: #00fff5;\n  font-size: 15px;\n  font-weight: 700;\n  border: 1px solid #00fff5;\n  position: relative;\n  clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);\n  transition: all 0.3s;\n}\n\n.btn-cyberpunk-hologram-cyan:hover {\n  background: #00fff5;\n  color: #0a0a1a;\n}"
+  },
+  {
+    "id": "frosted-ice-sheet",
+    "name": "ثلج مثلج شفاف",
+    "category": "creative",
+    "accent": "#ffffff",
+    "html": "<button class=\"btn btn-frosted-ice-sheet\">\n  <i class=\"fas fa-snowflake\"></i>\n  <span>ثلج مثلج شفاف</span>\n</button>",
+    "css": ".btn-frosted-ice-sheet {\n  padding: 14px 34px;\n  background: rgba(255, 255, 255, 0.08);\n  color: #fff;\n  font-size: 15px;\n  font-weight: 600;\n  border: 1px solid rgba(255, 255, 255, 0.15);\n  backdrop-filter: blur(20px);\n  transition: all 0.3s;\n}\n\n.btn-frosted-ice-sheet:hover {\n  background: rgba(255, 255, 255, 0.15);\n  border-color: rgba(255, 255, 255, 0.3);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "heavy-brutalist-border",
+    "name": "حدود سميكة بارزة",
+    "category": "borders",
+    "accent": "#ffffff",
+    "html": "<button class=\"btn btn-heavy-brutalist-border\">\n  <i class=\"fas fa-square\"></i>\n  <span>حدود سميكة بارزة</span>\n</button>",
+    "css": ".btn-heavy-brutalist-border {\n  padding: 14px 34px;\n  background: transparent;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  border: 3px solid #fff;\n  transition: all 0.3s;\n}\n\n.btn-heavy-brutalist-border:hover {\n  background: #fff;\n  color: #0a0a1a;\n}"
+  },
+  {
+    "id": "pill-capsule-modern",
+    "name": "كبسولة دائرية عصرية",
+    "category": "creative",
+    "accent": "#667eea",
+    "html": "<button class=\"btn btn-pill-capsule-modern\">\n  <i class=\"fas fa-capsules\"></i>\n  <span>كبسولة دائرية عصرية</span>\n</button>",
+    "css": ".btn-pill-capsule-modern {\n  padding: 14px 34px;\n  background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);\n  background-size: 200% 100%;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: background-position 0.4s;\n}\n\n.btn-pill-capsule-modern:hover {\n  background-position: 100% 0;\n}"
+  },
+  {
+    "id": "dual-neon-cyan-pink",
+    "name": "نيون مزدوج سماوي ووردي",
+    "category": "neon",
+    "accent": "#ff00ff",
+    "html": "<button class=\"btn btn-dual-neon-cyan-pink\">\n  <i class=\"fas fa-star\"></i>\n  <span>نيون مزدوج سماوي ووردي</span>\n</button>",
+    "css": ".btn-dual-neon-cyan-pink {\n  padding: 14px 34px;\n  background: transparent;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  border: 2px solid #fff;\n  position: relative;\n}\n\n.btn-dual-neon-cyan-pink::before {\n  content: '';\n  position: absolute;\n  inset: -8px;\n  border-radius: 50px;\n  background: linear-gradient(135deg, #ff00ff, #00ffff);\n  z-index: -1;\n  opacity: 0;\n  transition: opacity 0.3s;\n  filter: blur(15px);\n}\n\n.btn-dual-neon-cyan-pink:hover::before {\n  opacity: 1;\n}"
+  },
+  {
+    "id": "sunset-horizon-glow",
+    "name": "تدرج أفق الغروب",
+    "category": "gradient",
+    "accent": "#fa709a",
+    "html": "<button class=\"btn btn-sunset-horizon-glow\">\n  <i class=\"fas fa-sun\"></i>\n  <span>تدرج أفق الغروب</span>\n</button>",
+    "css": ".btn-sunset-horizon-glow {\n  padding: 14px 34px;\n  background: linear-gradient(135deg, #fa709a, #fee140);\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: all 0.3s;\n}\n\n.btn-sunset-horizon-glow:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 15px 40px rgba(250, 112, 154, 0.5);\n}"
+  },
+  {
+    "id": "ocean-cyan-breeze",
+    "name": "تدرج نسيم المحيط",
+    "category": "gradient",
+    "accent": "#1BFFFF",
+    "html": "<button class=\"btn btn-ocean-cyan-breeze\">\n  <i class=\"fas fa-water\"></i>\n  <span>تدرج نسيم المحيط</span>\n</button>",
+    "css": ".btn-ocean-cyan-breeze {\n  padding: 14px 34px;\n  background: linear-gradient(135deg, #2E3192, #1BFFFF);\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: all 0.3s;\n}\n\n.btn-ocean-cyan-breeze:hover {\n  box-shadow: 0 15px 40px rgba(27, 255, 255, 0.4);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "forest-pine-fresh",
+    "name": "تدرج غابة الصنوبر",
+    "category": "gradient",
+    "accent": "#71B280",
+    "html": "<button class=\"btn btn-forest-pine-fresh\">\n  <i class=\"fas fa-tree\"></i>\n  <span>تدرج غابة الصنوبر</span>\n</button>",
+    "css": ".btn-forest-pine-fresh {\n  padding: 14px 34px;\n  background: linear-gradient(135deg, #134E5E, #71B280);\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: all 0.3s;\n}\n\n.btn-forest-pine-fresh:hover {\n  box-shadow: 0 15px 40px rgba(113, 178, 128, 0.5);\n  transform: translateY(-3px);\n}"
+  },
+  {
+    "id": "blazing-fire-gradient",
+    "name": "تدرج اللهب المشتعل",
+    "category": "gradient",
+    "accent": "#f12711",
+    "html": "<button class=\"btn btn-blazing-fire-gradient\">\n  <i class=\"fas fa-fire\"></i>\n  <span>تدرج اللهب المشتعل</span>\n</button>",
+    "css": ".btn-blazing-fire-gradient {\n  padding: 14px 34px;\n  background: linear-gradient(135deg, #f12711, #f5af19);\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: all 0.3s;\n}\n\n.btn-blazing-fire-gradient:hover {\n  box-shadow: 0 15px 40px rgba(241, 39, 17, 0.5);\n  transform: translateY(-3px) scale(1.03);\n}"
+  },
+  {
+    "id": "purple-rain-storm",
+    "name": "مطر بنفسجي عاصف",
+    "category": "gradient",
+    "accent": "#764ba2",
+    "html": "<button class=\"btn btn-purple-rain-storm\">\n  <i class=\"fas fa-cloud-rain\"></i>\n  <span>مطر بنفسجي عاصف</span>\n</button>",
+    "css": ".btn-purple-rain-storm {\n  padding: 14px 34px;\n  background: linear-gradient(135deg, #667eea, #764ba2);\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  transition: all 0.3s;\n}\n\n.btn-purple-rain-storm:hover {\n  box-shadow: 0 15px 40px rgba(118, 75, 162, 0.5);\n  transform: translateY(-3px) scale(1.03);\n}"
+  },
+  {
+    "id": "ultimate-rainbow-flow",
+    "name": "تدرج نهائي فائق الألوان",
+    "category": "gradient",
+    "accent": "#ff6b6b",
+    "html": "<button class=\"btn btn-ultimate-rainbow-flow\">\n  <i class=\"fas fa-rainbow\"></i>\n  <span>تدرج نهائي فائق الألوان</span>\n</button>",
+    "css": ".btn-ultimate-rainbow-flow {\n  padding: 14px 34px;\n  background: linear-gradient(135deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3, #54a0ff);\n  background-size: 300% 300%;\n  color: #fff;\n  font-size: 15px;\n  font-weight: 700;\n  animation: finalGrad 5s ease infinite;\n  transition: transform 0.3s;\n}\n\n.btn-ultimate-rainbow-flow:hover {\n  transform: translateY(-4px) scale(1.05);\n  box-shadow: 0 15px 50px rgba(255, 107, 107, 0.5);\n}"
+  }
+]

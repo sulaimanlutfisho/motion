@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "motion-anim-box-1-1",
+    "name": "مكعب • دوران مستمر (0.6s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-1-1\">\n  <div class=\"anim-box\" style=\"background-color: #ff6b6b; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-1-1 .anim-box {\n  animation: motion-anim-box-1-1-anim 0.6s linear infinite;\n}\n\n@keyframes motion-anim-box-1-1-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-2-2",
+    "name": "دائرة • نبض تضخمي (0.8s)",
+    "category": "pulse-glow",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-2-2\">\n  <div class=\"anim-circle\" style=\"background-color: #feca57; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-2-2 .anim-circle {\n  animation: motion-anim-circle-2-2-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-2-2-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-3-3",
+    "name": "حلقة • قفز رأسي (1s)",
+    "category": "loaders",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-3-3\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #48dbfb;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-3-3 .anim-ring {\n  animation: motion-anim-ring-3-3-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-3-3-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-4-4",
+    "name": "شريط • انزلاق أفقي لليمين (1.2s)",
+    "category": "loaders",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-4-4\">\n  <div class=\"anim-bar\" style=\"background-color: #ff9ff3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-4-4 .anim-bar {\n  animation: motion-anim-bar-4-4-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-4-4-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-5-5",
+    "name": "نقاط • انزلاق أفقي لليسار (1.4s)",
+    "category": "loaders",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-5-5\">\n  <div class=\"anim-dots\" style=\"--accent: #54a0ff;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-5-5 .anim-dots {\n  animation: motion-anim-dots-5-5-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-5-5-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-6-6",
+    "name": "نص • تمايل بندولي (1.6s)",
+    "category": "icons-texts",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-6-6\">\n  <div class=\"anim-text\" style=\"--accent: #1dd1a1;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-6-6 .anim-text {\n  animation: motion-anim-text-6-6-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-6-6-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-7-7",
+    "name": "أيقونة • وميض إشعاعي (1.8s)",
+    "category": "pulse-glow",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-7-7\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #5f27cd;\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><line x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><line x1=\"3\" y1=\"15\" x2=\"21\" y2=\"15\"/><line x1=\"9\" y1=\"21\" x2=\"9\" y2=\"9\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-7-7 .icon {\n  animation: motion-icon-7-7-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-icon-7-7-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-8-8",
+    "name": "مكعب • تحول شكلي مورفنج (2s)",
+    "category": "geometrics",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-8-8\">\n  <div class=\"anim-box\" style=\"background-color: #ff9f43; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-8-8 .anim-box {\n  animation: motion-anim-box-8-8-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-8-8-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-9-9",
+    "name": "دائرة • تمدد وضغط مرن (2.4s)",
+    "category": "geometrics",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-9-9\">\n  <div class=\"anim-circle\" style=\"background-color: #00d2d3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-9-9 .anim-circle {\n  animation: motion-anim-circle-9-9-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-9-9-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-10-10",
+    "name": "حلقة • انقلاب 3D جانبي (2.8s)",
+    "category": "loaders",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-10-10\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #ee5a24;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-10-10 .anim-ring {\n  animation: motion-anim-ring-10-10-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-10-10-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-11-11",
+    "name": "شريط • تلاشي وظهور حركي (0.6s)",
+    "category": "loaders",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-11-11\">\n  <div class=\"anim-bar\" style=\"background-color: #c8d6e5; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-11-11 .anim-bar {\n  animation: motion-anim-bar-11-11-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-11-11-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-12-12",
+    "name": "نقاط • دوران كروي 3D (0.8s)",
+    "category": "loaders",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-12-12\">\n  <div class=\"anim-dots\" style=\"--accent: #a29bfe;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-12-12 .anim-dots {\n  animation: motion-anim-dots-12-12-anim 0.8s linear infinite;\n}\n\n@keyframes motion-anim-dots-12-12-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-1-13",
+    "name": "نص • دوران مستمر (1s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-1-13\">\n  <div class=\"anim-text\" style=\"--accent: #ff6b6b;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-1-13 .anim-text {\n  animation: motion-anim-text-1-13-anim 1s linear infinite;\n}\n\n@keyframes motion-anim-text-1-13-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-2-14",
+    "name": "أيقونة • نبض تضخمي (1.2s)",
+    "category": "pulse-glow",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-2-14\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #feca57;\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-2-14 .icon {\n  animation: motion-icon-2-14-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-icon-2-14-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-3-15",
+    "name": "مكعب • قفز رأسي (1.4s)",
+    "category": "geometrics",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-3-15\">\n  <div class=\"anim-box\" style=\"background-color: #48dbfb; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-3-15 .anim-box {\n  animation: motion-anim-box-3-15-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-3-15-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-4-16",
+    "name": "دائرة • انزلاق أفقي لليمين (1.6s)",
+    "category": "geometrics",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-4-16\">\n  <div class=\"anim-circle\" style=\"background-color: #ff9ff3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-4-16 .anim-circle {\n  animation: motion-anim-circle-4-16-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-4-16-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-5-17",
+    "name": "حلقة • انزلاق أفقي لليسار (1.8s)",
+    "category": "loaders",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-5-17\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #54a0ff;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-5-17 .anim-ring {\n  animation: motion-anim-ring-5-17-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-5-17-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-6-18",
+    "name": "شريط • تمايل بندولي (2s)",
+    "category": "loaders",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-6-18\">\n  <div class=\"anim-bar\" style=\"background-color: #1dd1a1; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-6-18 .anim-bar {\n  animation: motion-anim-bar-6-18-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-6-18-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-7-19",
+    "name": "نقاط • وميض إشعاعي (2.4s)",
+    "category": "loaders",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-7-19\">\n  <div class=\"anim-dots\" style=\"--accent: #5f27cd;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-7-19 .anim-dots {\n  animation: motion-anim-dots-7-19-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-7-19-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-8-20",
+    "name": "نص • تحول شكلي مورفنج (2.8s)",
+    "category": "icons-texts",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-8-20\">\n  <div class=\"anim-text\" style=\"--accent: #ff9f43;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-8-20 .anim-text {\n  animation: motion-anim-text-8-20-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-8-20-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-9-21",
+    "name": "أيقونة • تمدد وضغط مرن (0.6s)",
+    "category": "icons-texts",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-9-21\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #00d2d3;\"><path d=\"M12 2v20\"/><path d=\"M2 12h20\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-9-21 .icon {\n  animation: motion-icon-9-21-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-icon-9-21-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-10-22",
+    "name": "مكعب • انقلاب 3D جانبي (0.8s)",
+    "category": "geometrics",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-10-22\">\n  <div class=\"anim-box\" style=\"background-color: #ee5a24; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-10-22 .anim-box {\n  animation: motion-anim-box-10-22-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-10-22-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-11-23",
+    "name": "دائرة • تلاشي وظهور حركي (1s)",
+    "category": "pulse-glow",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-11-23\">\n  <div class=\"anim-circle\" style=\"background-color: #c8d6e5; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-11-23 .anim-circle {\n  animation: motion-anim-circle-11-23-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-11-23-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-12-24",
+    "name": "حلقة • دوران كروي 3D (1.2s)",
+    "category": "loaders",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-12-24\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #a29bfe;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-12-24 .anim-ring {\n  animation: motion-anim-ring-12-24-anim 1.2s linear infinite;\n}\n\n@keyframes motion-anim-ring-12-24-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-1-25",
+    "name": "شريط • دوران مستمر (1.4s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-1-25\">\n  <div class=\"anim-bar\" style=\"background-color: #ff6b6b; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-1-25 .anim-bar {\n  animation: motion-anim-bar-1-25-anim 1.4s linear infinite;\n}\n\n@keyframes motion-anim-bar-1-25-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-2-26",
+    "name": "نقاط • نبض تضخمي (1.6s)",
+    "category": "loaders",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-2-26\">\n  <div class=\"anim-dots\" style=\"--accent: #feca57;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-2-26 .anim-dots {\n  animation: motion-anim-dots-2-26-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-2-26-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-3-27",
+    "name": "نص • قفز رأسي (1.8s)",
+    "category": "icons-texts",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-3-27\">\n  <div class=\"anim-text\" style=\"--accent: #48dbfb;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-3-27 .anim-text {\n  animation: motion-anim-text-3-27-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-3-27-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-4-28",
+    "name": "أيقونة • انزلاق أفقي لليمين (2s)",
+    "category": "icons-texts",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-4-28\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #ff9ff3;\"><path d=\"M12 2v4\"/><path d=\"M12 22v-4\"/><path d=\"M4.93 4.93l2.83 2.83\"/><path d=\"M16.24 16.24l2.83 2.83\"/><path d=\"M2 12h4\"/><path d=\"M22 12h-4\"/><path d=\"M4.93 19.07l2.83-2.83\"/><path d=\"M16.24 7.76l2.83-2.83\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-4-28 .icon {\n  animation: motion-icon-4-28-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-icon-4-28-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-5-29",
+    "name": "مكعب • انزلاق أفقي لليسار (2.4s)",
+    "category": "geometrics",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-5-29\">\n  <div class=\"anim-box\" style=\"background-color: #54a0ff; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-5-29 .anim-box {\n  animation: motion-anim-box-5-29-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-5-29-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-6-30",
+    "name": "دائرة • تمايل بندولي (2.8s)",
+    "category": "geometrics",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-6-30\">\n  <div class=\"anim-circle\" style=\"background-color: #1dd1a1; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-6-30 .anim-circle {\n  animation: motion-anim-circle-6-30-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-6-30-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-7-31",
+    "name": "حلقة • وميض إشعاعي (0.6s)",
+    "category": "loaders",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-7-31\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #5f27cd;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-7-31 .anim-ring {\n  animation: motion-anim-ring-7-31-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-7-31-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-8-32",
+    "name": "شريط • تحول شكلي مورفنج (0.8s)",
+    "category": "loaders",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-8-32\">\n  <div class=\"anim-bar\" style=\"background-color: #ff9f43; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-8-32 .anim-bar {\n  animation: motion-anim-bar-8-32-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-8-32-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-9-33",
+    "name": "نقاط • تمدد وضغط مرن (1s)",
+    "category": "loaders",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-9-33\">\n  <div class=\"anim-dots\" style=\"--accent: #00d2d3;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-9-33 .anim-dots {\n  animation: motion-anim-dots-9-33-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-9-33-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-10-34",
+    "name": "نص • انقلاب 3D جانبي (1.2s)",
+    "category": "icons-texts",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-10-34\">\n  <div class=\"anim-text\" style=\"--accent: #ee5a24;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-10-34 .anim-text {\n  animation: motion-anim-text-10-34-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-10-34-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-11-35",
+    "name": "أيقونة • تلاشي وظهور حركي (1.4s)",
+    "category": "pulse-glow",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-11-35\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #c8d6e5;\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 8v8\"/><path d=\"M8 12h8\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-11-35 .icon {\n  animation: motion-icon-11-35-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-icon-11-35-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-12-36",
+    "name": "مكعب • دوران كروي 3D (1.6s)",
+    "category": "geometrics",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-12-36\">\n  <div class=\"anim-box\" style=\"background-color: #a29bfe; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-12-36 .anim-box {\n  animation: motion-anim-box-12-36-anim 1.6s linear infinite;\n}\n\n@keyframes motion-anim-box-12-36-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-1-37",
+    "name": "دائرة • دوران مستمر (1.8s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-1-37\">\n  <div class=\"anim-circle\" style=\"background-color: #ff6b6b; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-1-37 .anim-circle {\n  animation: motion-anim-circle-1-37-anim 1.8s linear infinite;\n}\n\n@keyframes motion-anim-circle-1-37-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-2-38",
+    "name": "حلقة • نبض تضخمي (2s)",
+    "category": "loaders",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-2-38\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #feca57;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-2-38 .anim-ring {\n  animation: motion-anim-ring-2-38-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-2-38-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-3-39",
+    "name": "شريط • قفز رأسي (2.4s)",
+    "category": "loaders",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-3-39\">\n  <div class=\"anim-bar\" style=\"background-color: #48dbfb; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-3-39 .anim-bar {\n  animation: motion-anim-bar-3-39-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-3-39-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-4-40",
+    "name": "نقاط • انزلاق أفقي لليمين (2.8s)",
+    "category": "loaders",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-4-40\">\n  <div class=\"anim-dots\" style=\"--accent: #ff9ff3;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-4-40 .anim-dots {\n  animation: motion-anim-dots-4-40-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-4-40-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-5-41",
+    "name": "نص • انزلاق أفقي لليسار (0.6s)",
+    "category": "icons-texts",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-5-41\">\n  <div class=\"anim-text\" style=\"--accent: #54a0ff;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-5-41 .anim-text {\n  animation: motion-anim-text-5-41-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-5-41-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-6-42",
+    "name": "أيقونة • تمايل بندولي (0.8s)",
+    "category": "icons-texts",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-6-42\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #1dd1a1;\"><path d=\"M4 4v16h16\"/><polyline points=\"4 20 10 14 14 18 20 12\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-6-42 .icon {\n  animation: motion-icon-6-42-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-icon-6-42-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-7-43",
+    "name": "مكعب • وميض إشعاعي (1s)",
+    "category": "pulse-glow",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-7-43\">\n  <div class=\"anim-box\" style=\"background-color: #5f27cd; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-7-43 .anim-box {\n  animation: motion-anim-box-7-43-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-7-43-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-8-44",
+    "name": "دائرة • تحول شكلي مورفنج (1.2s)",
+    "category": "geometrics",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-8-44\">\n  <div class=\"anim-circle\" style=\"background-color: #ff9f43; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-8-44 .anim-circle {\n  animation: motion-anim-circle-8-44-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-8-44-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-9-45",
+    "name": "حلقة • تمدد وضغط مرن (1.4s)",
+    "category": "loaders",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-9-45\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #00d2d3;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-9-45 .anim-ring {\n  animation: motion-anim-ring-9-45-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-9-45-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-10-46",
+    "name": "شريط • انقلاب 3D جانبي (1.6s)",
+    "category": "loaders",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-10-46\">\n  <div class=\"anim-bar\" style=\"background-color: #ee5a24; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-10-46 .anim-bar {\n  animation: motion-anim-bar-10-46-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-10-46-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-11-47",
+    "name": "نقاط • تلاشي وظهور حركي (1.8s)",
+    "category": "loaders",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-11-47\">\n  <div class=\"anim-dots\" style=\"--accent: #c8d6e5;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-11-47 .anim-dots {\n  animation: motion-anim-dots-11-47-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-11-47-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-12-48",
+    "name": "نص • دوران كروي 3D (2s)",
+    "category": "icons-texts",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-12-48\">\n  <div class=\"anim-text\" style=\"--accent: #a29bfe;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-12-48 .anim-text {\n  animation: motion-anim-text-12-48-anim 2s linear infinite;\n}\n\n@keyframes motion-anim-text-12-48-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-1-49",
+    "name": "أيقونة • دوران مستمر (2.4s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-1-49\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #ff6b6b;\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"/><path d=\"M12 17h.01\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-1-49 .icon {\n  animation: motion-icon-1-49-anim 2.4s linear infinite;\n}\n\n@keyframes motion-icon-1-49-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-2-50",
+    "name": "مكعب • نبض تضخمي (2.8s)",
+    "category": "pulse-glow",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-2-50\">\n  <div class=\"anim-box\" style=\"background-color: #feca57; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-2-50 .anim-box {\n  animation: motion-anim-box-2-50-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-2-50-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-3-51",
+    "name": "دائرة • قفز رأسي (0.6s)",
+    "category": "geometrics",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-3-51\">\n  <div class=\"anim-circle\" style=\"background-color: #48dbfb; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-3-51 .anim-circle {\n  animation: motion-anim-circle-3-51-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-3-51-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-4-52",
+    "name": "حلقة • انزلاق أفقي لليمين (0.8s)",
+    "category": "loaders",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-4-52\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #ff9ff3;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-4-52 .anim-ring {\n  animation: motion-anim-ring-4-52-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-4-52-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-5-53",
+    "name": "شريط • انزلاق أفقي لليسار (1s)",
+    "category": "loaders",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-5-53\">\n  <div class=\"anim-bar\" style=\"background-color: #54a0ff; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-5-53 .anim-bar {\n  animation: motion-anim-bar-5-53-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-5-53-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-6-54",
+    "name": "نقاط • تمايل بندولي (1.2s)",
+    "category": "loaders",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-6-54\">\n  <div class=\"anim-dots\" style=\"--accent: #1dd1a1;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-6-54 .anim-dots {\n  animation: motion-anim-dots-6-54-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-6-54-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-7-55",
+    "name": "نص • وميض إشعاعي (1.4s)",
+    "category": "pulse-glow",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-7-55\">\n  <div class=\"anim-text\" style=\"--accent: #5f27cd;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-7-55 .anim-text {\n  animation: motion-anim-text-7-55-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-7-55-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-8-56",
+    "name": "أيقونة • تحول شكلي مورفنج (1.6s)",
+    "category": "icons-texts",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-8-56\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #ff9f43;\"><path d=\"M12 2L2 7l10 5 10-5-10-5z\"/><path d=\"M2 17l10 5 10-5\"/><path d=\"M2 12l10 5 10-5\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-8-56 .icon {\n  animation: motion-icon-8-56-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-icon-8-56-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-9-57",
+    "name": "مكعب • تمدد وضغط مرن (1.8s)",
+    "category": "geometrics",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-9-57\">\n  <div class=\"anim-box\" style=\"background-color: #00d2d3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-9-57 .anim-box {\n  animation: motion-anim-box-9-57-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-9-57-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-10-58",
+    "name": "دائرة • انقلاب 3D جانبي (2s)",
+    "category": "geometrics",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-10-58\">\n  <div class=\"anim-circle\" style=\"background-color: #ee5a24; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-10-58 .anim-circle {\n  animation: motion-anim-circle-10-58-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-10-58-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-11-59",
+    "name": "حلقة • تلاشي وظهور حركي (2.4s)",
+    "category": "loaders",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-11-59\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #c8d6e5;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-11-59 .anim-ring {\n  animation: motion-anim-ring-11-59-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-11-59-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-12-60",
+    "name": "شريط • دوران كروي 3D (2.8s)",
+    "category": "loaders",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-12-60\">\n  <div class=\"anim-bar\" style=\"background-color: #a29bfe; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-12-60 .anim-bar {\n  animation: motion-anim-bar-12-60-anim 2.8s linear infinite;\n}\n\n@keyframes motion-anim-bar-12-60-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-1-61",
+    "name": "نقاط • دوران مستمر (0.6s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-1-61\">\n  <div class=\"anim-dots\" style=\"--accent: #ff6b6b;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-1-61 .anim-dots {\n  animation: motion-anim-dots-1-61-anim 0.6s linear infinite;\n}\n\n@keyframes motion-anim-dots-1-61-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-2-62",
+    "name": "نص • نبض تضخمي (0.8s)",
+    "category": "pulse-glow",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-2-62\">\n  <div class=\"anim-text\" style=\"--accent: #feca57;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-2-62 .anim-text {\n  animation: motion-anim-text-2-62-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-2-62-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-3-63",
+    "name": "أيقونة • قفز رأسي (1s)",
+    "category": "icons-texts",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-3-63\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #48dbfb;\"><path d=\"M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10 10 10 0 0 1-10-10 10 10 0 0 1 10-10z\"/><path d=\"M12 6v6l4 2\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-3-63 .icon {\n  animation: motion-icon-3-63-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-icon-3-63-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-4-64",
+    "name": "مكعب • انزلاق أفقي لليمين (1.2s)",
+    "category": "geometrics",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-4-64\">\n  <div class=\"anim-box\" style=\"background-color: #ff9ff3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-4-64 .anim-box {\n  animation: motion-anim-box-4-64-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-4-64-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-5-65",
+    "name": "دائرة • انزلاق أفقي لليسار (1.4s)",
+    "category": "geometrics",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-5-65\">\n  <div class=\"anim-circle\" style=\"background-color: #54a0ff; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-5-65 .anim-circle {\n  animation: motion-anim-circle-5-65-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-5-65-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-6-66",
+    "name": "حلقة • تمايل بندولي (1.6s)",
+    "category": "loaders",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-6-66\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #1dd1a1;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-6-66 .anim-ring {\n  animation: motion-anim-ring-6-66-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-6-66-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-7-67",
+    "name": "شريط • وميض إشعاعي (1.8s)",
+    "category": "loaders",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-7-67\">\n  <div class=\"anim-bar\" style=\"background-color: #5f27cd; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-7-67 .anim-bar {\n  animation: motion-anim-bar-7-67-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-7-67-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-8-68",
+    "name": "نقاط • تحول شكلي مورفنج (2s)",
+    "category": "loaders",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-8-68\">\n  <div class=\"anim-dots\" style=\"--accent: #ff9f43;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-8-68 .anim-dots {\n  animation: motion-anim-dots-8-68-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-8-68-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-9-69",
+    "name": "نص • تمدد وضغط مرن (2.4s)",
+    "category": "icons-texts",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-9-69\">\n  <div class=\"anim-text\" style=\"--accent: #00d2d3;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-9-69 .anim-text {\n  animation: motion-anim-text-9-69-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-9-69-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-10-70",
+    "name": "أيقونة • انقلاب 3D جانبي (2.8s)",
+    "category": "icons-texts",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-10-70\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #ee5a24;\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-10-70 .icon {\n  animation: motion-icon-10-70-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-icon-10-70-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-11-71",
+    "name": "مكعب • تلاشي وظهور حركي (0.6s)",
+    "category": "pulse-glow",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-11-71\">\n  <div class=\"anim-box\" style=\"background-color: #c8d6e5; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-11-71 .anim-box {\n  animation: motion-anim-box-11-71-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-11-71-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-12-72",
+    "name": "دائرة • دوران كروي 3D (0.8s)",
+    "category": "geometrics",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-12-72\">\n  <div class=\"anim-circle\" style=\"background-color: #a29bfe; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-12-72 .anim-circle {\n  animation: motion-anim-circle-12-72-anim 0.8s linear infinite;\n}\n\n@keyframes motion-anim-circle-12-72-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-1-73",
+    "name": "حلقة • دوران مستمر (1s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-1-73\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #ff6b6b;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-1-73 .anim-ring {\n  animation: motion-anim-ring-1-73-anim 1s linear infinite;\n}\n\n@keyframes motion-anim-ring-1-73-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-2-74",
+    "name": "شريط • نبض تضخمي (1.2s)",
+    "category": "loaders",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-2-74\">\n  <div class=\"anim-bar\" style=\"background-color: #feca57; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-2-74 .anim-bar {\n  animation: motion-anim-bar-2-74-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-2-74-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-3-75",
+    "name": "نقاط • قفز رأسي (1.4s)",
+    "category": "loaders",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-3-75\">\n  <div class=\"anim-dots\" style=\"--accent: #48dbfb;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-3-75 .anim-dots {\n  animation: motion-anim-dots-3-75-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-3-75-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-4-76",
+    "name": "نص • انزلاق أفقي لليمين (1.6s)",
+    "category": "icons-texts",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-4-76\">\n  <div class=\"anim-text\" style=\"--accent: #ff9ff3;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-4-76 .anim-text {\n  animation: motion-anim-text-4-76-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-4-76-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-5-77",
+    "name": "أيقونة • انزلاق أفقي لليسار (1.8s)",
+    "category": "icons-texts",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-5-77\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #54a0ff;\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2.18\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"22\"/><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"22\"/><line x1=\"2\" y1=\"8\" x2=\"22\" y2=\"8\"/><line x1=\"2\" y1=\"16\" x2=\"22\" y2=\"16\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-5-77 .icon {\n  animation: motion-icon-5-77-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-icon-5-77-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-6-78",
+    "name": "مكعب • تمايل بندولي (2s)",
+    "category": "geometrics",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-6-78\">\n  <div class=\"anim-box\" style=\"background-color: #1dd1a1; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-6-78 .anim-box {\n  animation: motion-anim-box-6-78-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-6-78-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-7-79",
+    "name": "دائرة • وميض إشعاعي (2.4s)",
+    "category": "pulse-glow",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-7-79\">\n  <div class=\"anim-circle\" style=\"background-color: #5f27cd; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-7-79 .anim-circle {\n  animation: motion-anim-circle-7-79-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-7-79-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-8-80",
+    "name": "حلقة • تحول شكلي مورفنج (2.8s)",
+    "category": "loaders",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-8-80\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #ff9f43;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-8-80 .anim-ring {\n  animation: motion-anim-ring-8-80-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-8-80-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-9-81",
+    "name": "شريط • تمدد وضغط مرن (0.6s)",
+    "category": "loaders",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-9-81\">\n  <div class=\"anim-bar\" style=\"background-color: #00d2d3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-9-81 .anim-bar {\n  animation: motion-anim-bar-9-81-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-9-81-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-10-82",
+    "name": "نقاط • انقلاب 3D جانبي (0.8s)",
+    "category": "loaders",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-10-82\">\n  <div class=\"anim-dots\" style=\"--accent: #ee5a24;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-10-82 .anim-dots {\n  animation: motion-anim-dots-10-82-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-10-82-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-11-83",
+    "name": "نص • تلاشي وظهور حركي (1s)",
+    "category": "pulse-glow",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-11-83\">\n  <div class=\"anim-text\" style=\"--accent: #c8d6e5;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-11-83 .anim-text {\n  animation: motion-anim-text-11-83-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-11-83-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-12-84",
+    "name": "أيقونة • دوران كروي 3D (1.2s)",
+    "category": "icons-texts",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-12-84\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #a29bfe;\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><line x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><line x1=\"3\" y1=\"15\" x2=\"21\" y2=\"15\"/><line x1=\"9\" y1=\"21\" x2=\"9\" y2=\"9\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-12-84 .icon {\n  animation: motion-icon-12-84-anim 1.2s linear infinite;\n}\n\n@keyframes motion-icon-12-84-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-1-85",
+    "name": "مكعب • دوران مستمر (1.4s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-1-85\">\n  <div class=\"anim-box\" style=\"background-color: #ff6b6b; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-1-85 .anim-box {\n  animation: motion-anim-box-1-85-anim 1.4s linear infinite;\n}\n\n@keyframes motion-anim-box-1-85-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-2-86",
+    "name": "دائرة • نبض تضخمي (1.6s)",
+    "category": "pulse-glow",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-2-86\">\n  <div class=\"anim-circle\" style=\"background-color: #feca57; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-2-86 .anim-circle {\n  animation: motion-anim-circle-2-86-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-2-86-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-3-87",
+    "name": "حلقة • قفز رأسي (1.8s)",
+    "category": "loaders",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-3-87\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #48dbfb;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-3-87 .anim-ring {\n  animation: motion-anim-ring-3-87-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-3-87-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-4-88",
+    "name": "شريط • انزلاق أفقي لليمين (2s)",
+    "category": "loaders",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-4-88\">\n  <div class=\"anim-bar\" style=\"background-color: #ff9ff3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-4-88 .anim-bar {\n  animation: motion-anim-bar-4-88-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-4-88-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-5-89",
+    "name": "نقاط • انزلاق أفقي لليسار (2.4s)",
+    "category": "loaders",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-5-89\">\n  <div class=\"anim-dots\" style=\"--accent: #54a0ff;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-5-89 .anim-dots {\n  animation: motion-anim-dots-5-89-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-5-89-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-6-90",
+    "name": "نص • تمايل بندولي (2.8s)",
+    "category": "icons-texts",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-6-90\">\n  <div class=\"anim-text\" style=\"--accent: #1dd1a1;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-6-90 .anim-text {\n  animation: motion-anim-text-6-90-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-6-90-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-7-91",
+    "name": "أيقونة • وميض إشعاعي (0.6s)",
+    "category": "pulse-glow",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-7-91\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #5f27cd;\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-7-91 .icon {\n  animation: motion-icon-7-91-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-icon-7-91-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-8-92",
+    "name": "مكعب • تحول شكلي مورفنج (0.8s)",
+    "category": "geometrics",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-8-92\">\n  <div class=\"anim-box\" style=\"background-color: #ff9f43; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-8-92 .anim-box {\n  animation: motion-anim-box-8-92-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-8-92-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-9-93",
+    "name": "دائرة • تمدد وضغط مرن (1s)",
+    "category": "geometrics",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-9-93\">\n  <div class=\"anim-circle\" style=\"background-color: #00d2d3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-9-93 .anim-circle {\n  animation: motion-anim-circle-9-93-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-9-93-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-10-94",
+    "name": "حلقة • انقلاب 3D جانبي (1.2s)",
+    "category": "loaders",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-10-94\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #ee5a24;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-10-94 .anim-ring {\n  animation: motion-anim-ring-10-94-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-10-94-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-11-95",
+    "name": "شريط • تلاشي وظهور حركي (1.4s)",
+    "category": "loaders",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-11-95\">\n  <div class=\"anim-bar\" style=\"background-color: #c8d6e5; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-11-95 .anim-bar {\n  animation: motion-anim-bar-11-95-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-11-95-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-12-96",
+    "name": "نقاط • دوران كروي 3D (1.6s)",
+    "category": "loaders",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-12-96\">\n  <div class=\"anim-dots\" style=\"--accent: #a29bfe;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-12-96 .anim-dots {\n  animation: motion-anim-dots-12-96-anim 1.6s linear infinite;\n}\n\n@keyframes motion-anim-dots-12-96-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-1-97",
+    "name": "نص • دوران مستمر (1.8s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-1-97\">\n  <div class=\"anim-text\" style=\"--accent: #ff6b6b;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-1-97 .anim-text {\n  animation: motion-anim-text-1-97-anim 1.8s linear infinite;\n}\n\n@keyframes motion-anim-text-1-97-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-2-98",
+    "name": "أيقونة • نبض تضخمي (2s)",
+    "category": "pulse-glow",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-2-98\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #feca57;\"><path d=\"M12 2v20\"/><path d=\"M2 12h20\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-2-98 .icon {\n  animation: motion-icon-2-98-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-icon-2-98-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-3-99",
+    "name": "مكعب • قفز رأسي (2.4s)",
+    "category": "geometrics",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-3-99\">\n  <div class=\"anim-box\" style=\"background-color: #48dbfb; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-3-99 .anim-box {\n  animation: motion-anim-box-3-99-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-3-99-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-4-100",
+    "name": "دائرة • انزلاق أفقي لليمين (2.8s)",
+    "category": "geometrics",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-4-100\">\n  <div class=\"anim-circle\" style=\"background-color: #ff9ff3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-4-100 .anim-circle {\n  animation: motion-anim-circle-4-100-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-4-100-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-5-101",
+    "name": "حلقة • انزلاق أفقي لليسار (0.6s)",
+    "category": "loaders",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-5-101\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #54a0ff;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-5-101 .anim-ring {\n  animation: motion-anim-ring-5-101-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-5-101-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-6-102",
+    "name": "شريط • تمايل بندولي (0.8s)",
+    "category": "loaders",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-6-102\">\n  <div class=\"anim-bar\" style=\"background-color: #1dd1a1; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-6-102 .anim-bar {\n  animation: motion-anim-bar-6-102-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-6-102-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-7-103",
+    "name": "نقاط • وميض إشعاعي (1s)",
+    "category": "loaders",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-7-103\">\n  <div class=\"anim-dots\" style=\"--accent: #5f27cd;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-7-103 .anim-dots {\n  animation: motion-anim-dots-7-103-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-7-103-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-8-104",
+    "name": "نص • تحول شكلي مورفنج (1.2s)",
+    "category": "icons-texts",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-8-104\">\n  <div class=\"anim-text\" style=\"--accent: #ff9f43;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-8-104 .anim-text {\n  animation: motion-anim-text-8-104-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-8-104-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-9-105",
+    "name": "أيقونة • تمدد وضغط مرن (1.4s)",
+    "category": "icons-texts",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-9-105\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #00d2d3;\"><path d=\"M12 2v4\"/><path d=\"M12 22v-4\"/><path d=\"M4.93 4.93l2.83 2.83\"/><path d=\"M16.24 16.24l2.83 2.83\"/><path d=\"M2 12h4\"/><path d=\"M22 12h-4\"/><path d=\"M4.93 19.07l2.83-2.83\"/><path d=\"M16.24 7.76l2.83-2.83\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-9-105 .icon {\n  animation: motion-icon-9-105-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-icon-9-105-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-10-106",
+    "name": "مكعب • انقلاب 3D جانبي (1.6s)",
+    "category": "geometrics",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-10-106\">\n  <div class=\"anim-box\" style=\"background-color: #ee5a24; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-10-106 .anim-box {\n  animation: motion-anim-box-10-106-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-10-106-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-11-107",
+    "name": "دائرة • تلاشي وظهور حركي (1.8s)",
+    "category": "pulse-glow",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-11-107\">\n  <div class=\"anim-circle\" style=\"background-color: #c8d6e5; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-11-107 .anim-circle {\n  animation: motion-anim-circle-11-107-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-11-107-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-12-108",
+    "name": "حلقة • دوران كروي 3D (2s)",
+    "category": "loaders",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-12-108\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #a29bfe;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-12-108 .anim-ring {\n  animation: motion-anim-ring-12-108-anim 2s linear infinite;\n}\n\n@keyframes motion-anim-ring-12-108-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-1-109",
+    "name": "شريط • دوران مستمر (2.4s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-1-109\">\n  <div class=\"anim-bar\" style=\"background-color: #ff6b6b; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-1-109 .anim-bar {\n  animation: motion-anim-bar-1-109-anim 2.4s linear infinite;\n}\n\n@keyframes motion-anim-bar-1-109-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-2-110",
+    "name": "نقاط • نبض تضخمي (2.8s)",
+    "category": "loaders",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-2-110\">\n  <div class=\"anim-dots\" style=\"--accent: #feca57;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-2-110 .anim-dots {\n  animation: motion-anim-dots-2-110-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-2-110-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-3-111",
+    "name": "نص • قفز رأسي (0.6s)",
+    "category": "icons-texts",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-3-111\">\n  <div class=\"anim-text\" style=\"--accent: #48dbfb;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-3-111 .anim-text {\n  animation: motion-anim-text-3-111-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-3-111-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-4-112",
+    "name": "أيقونة • انزلاق أفقي لليمين (0.8s)",
+    "category": "icons-texts",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-4-112\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #ff9ff3;\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 8v8\"/><path d=\"M8 12h8\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-4-112 .icon {\n  animation: motion-icon-4-112-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-icon-4-112-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-5-113",
+    "name": "مكعب • انزلاق أفقي لليسار (1s)",
+    "category": "geometrics",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-5-113\">\n  <div class=\"anim-box\" style=\"background-color: #54a0ff; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-5-113 .anim-box {\n  animation: motion-anim-box-5-113-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-5-113-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-6-114",
+    "name": "دائرة • تمايل بندولي (1.2s)",
+    "category": "geometrics",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-6-114\">\n  <div class=\"anim-circle\" style=\"background-color: #1dd1a1; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-6-114 .anim-circle {\n  animation: motion-anim-circle-6-114-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-6-114-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-7-115",
+    "name": "حلقة • وميض إشعاعي (1.4s)",
+    "category": "loaders",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-7-115\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #5f27cd;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-7-115 .anim-ring {\n  animation: motion-anim-ring-7-115-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-7-115-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-8-116",
+    "name": "شريط • تحول شكلي مورفنج (1.6s)",
+    "category": "loaders",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-8-116\">\n  <div class=\"anim-bar\" style=\"background-color: #ff9f43; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-8-116 .anim-bar {\n  animation: motion-anim-bar-8-116-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-8-116-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-9-117",
+    "name": "نقاط • تمدد وضغط مرن (1.8s)",
+    "category": "loaders",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-9-117\">\n  <div class=\"anim-dots\" style=\"--accent: #00d2d3;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-9-117 .anim-dots {\n  animation: motion-anim-dots-9-117-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-9-117-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-10-118",
+    "name": "نص • انقلاب 3D جانبي (2s)",
+    "category": "icons-texts",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-10-118\">\n  <div class=\"anim-text\" style=\"--accent: #ee5a24;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-10-118 .anim-text {\n  animation: motion-anim-text-10-118-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-10-118-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-11-119",
+    "name": "أيقونة • تلاشي وظهور حركي (2.4s)",
+    "category": "pulse-glow",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-11-119\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #c8d6e5;\"><path d=\"M4 4v16h16\"/><polyline points=\"4 20 10 14 14 18 20 12\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-11-119 .icon {\n  animation: motion-icon-11-119-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-icon-11-119-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-12-120",
+    "name": "مكعب • دوران كروي 3D (2.8s)",
+    "category": "geometrics",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-12-120\">\n  <div class=\"anim-box\" style=\"background-color: #a29bfe; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-12-120 .anim-box {\n  animation: motion-anim-box-12-120-anim 2.8s linear infinite;\n}\n\n@keyframes motion-anim-box-12-120-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-1-121",
+    "name": "دائرة • دوران مستمر (0.6s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-1-121\">\n  <div class=\"anim-circle\" style=\"background-color: #ff6b6b; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-1-121 .anim-circle {\n  animation: motion-anim-circle-1-121-anim 0.6s linear infinite;\n}\n\n@keyframes motion-anim-circle-1-121-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-2-122",
+    "name": "حلقة • نبض تضخمي (0.8s)",
+    "category": "loaders",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-2-122\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #feca57;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-2-122 .anim-ring {\n  animation: motion-anim-ring-2-122-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-2-122-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-3-123",
+    "name": "شريط • قفز رأسي (1s)",
+    "category": "loaders",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-3-123\">\n  <div class=\"anim-bar\" style=\"background-color: #48dbfb; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-3-123 .anim-bar {\n  animation: motion-anim-bar-3-123-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-3-123-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-4-124",
+    "name": "نقاط • انزلاق أفقي لليمين (1.2s)",
+    "category": "loaders",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-4-124\">\n  <div class=\"anim-dots\" style=\"--accent: #ff9ff3;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-4-124 .anim-dots {\n  animation: motion-anim-dots-4-124-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-4-124-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-5-125",
+    "name": "نص • انزلاق أفقي لليسار (1.4s)",
+    "category": "icons-texts",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-5-125\">\n  <div class=\"anim-text\" style=\"--accent: #54a0ff;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-5-125 .anim-text {\n  animation: motion-anim-text-5-125-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-5-125-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-6-126",
+    "name": "أيقونة • تمايل بندولي (1.6s)",
+    "category": "icons-texts",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-6-126\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #1dd1a1;\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\"/><path d=\"M12 17h.01\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-6-126 .icon {\n  animation: motion-icon-6-126-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-icon-6-126-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-7-127",
+    "name": "مكعب • وميض إشعاعي (1.8s)",
+    "category": "pulse-glow",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-7-127\">\n  <div class=\"anim-box\" style=\"background-color: #5f27cd; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-7-127 .anim-box {\n  animation: motion-anim-box-7-127-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-7-127-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-8-128",
+    "name": "دائرة • تحول شكلي مورفنج (2s)",
+    "category": "geometrics",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-8-128\">\n  <div class=\"anim-circle\" style=\"background-color: #ff9f43; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-8-128 .anim-circle {\n  animation: motion-anim-circle-8-128-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-8-128-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-9-129",
+    "name": "حلقة • تمدد وضغط مرن (2.4s)",
+    "category": "loaders",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-9-129\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #00d2d3;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-9-129 .anim-ring {\n  animation: motion-anim-ring-9-129-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-9-129-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-10-130",
+    "name": "شريط • انقلاب 3D جانبي (2.8s)",
+    "category": "loaders",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-10-130\">\n  <div class=\"anim-bar\" style=\"background-color: #ee5a24; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-10-130 .anim-bar {\n  animation: motion-anim-bar-10-130-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-10-130-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-11-131",
+    "name": "نقاط • تلاشي وظهور حركي (0.6s)",
+    "category": "loaders",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-11-131\">\n  <div class=\"anim-dots\" style=\"--accent: #c8d6e5;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-11-131 .anim-dots {\n  animation: motion-anim-dots-11-131-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-11-131-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-12-132",
+    "name": "نص • دوران كروي 3D (0.8s)",
+    "category": "icons-texts",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-12-132\">\n  <div class=\"anim-text\" style=\"--accent: #a29bfe;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-12-132 .anim-text {\n  animation: motion-anim-text-12-132-anim 0.8s linear infinite;\n}\n\n@keyframes motion-anim-text-12-132-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-1-133",
+    "name": "أيقونة • دوران مستمر (1s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-1-133\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #ff6b6b;\"><path d=\"M12 2L2 7l10 5 10-5-10-5z\"/><path d=\"M2 17l10 5 10-5\"/><path d=\"M2 12l10 5 10-5\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-1-133 .icon {\n  animation: motion-icon-1-133-anim 1s linear infinite;\n}\n\n@keyframes motion-icon-1-133-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-2-134",
+    "name": "مكعب • نبض تضخمي (1.2s)",
+    "category": "pulse-glow",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-2-134\">\n  <div class=\"anim-box\" style=\"background-color: #feca57; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-2-134 .anim-box {\n  animation: motion-anim-box-2-134-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-2-134-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-3-135",
+    "name": "دائرة • قفز رأسي (1.4s)",
+    "category": "geometrics",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-3-135\">\n  <div class=\"anim-circle\" style=\"background-color: #48dbfb; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-3-135 .anim-circle {\n  animation: motion-anim-circle-3-135-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-3-135-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-4-136",
+    "name": "حلقة • انزلاق أفقي لليمين (1.6s)",
+    "category": "loaders",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-4-136\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #ff9ff3;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-4-136 .anim-ring {\n  animation: motion-anim-ring-4-136-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-4-136-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-5-137",
+    "name": "شريط • انزلاق أفقي لليسار (1.8s)",
+    "category": "loaders",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-5-137\">\n  <div class=\"anim-bar\" style=\"background-color: #54a0ff; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-5-137 .anim-bar {\n  animation: motion-anim-bar-5-137-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-5-137-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-6-138",
+    "name": "نقاط • تمايل بندولي (2s)",
+    "category": "loaders",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-6-138\">\n  <div class=\"anim-dots\" style=\"--accent: #1dd1a1;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-6-138 .anim-dots {\n  animation: motion-anim-dots-6-138-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-6-138-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-7-139",
+    "name": "نص • وميض إشعاعي (2.4s)",
+    "category": "pulse-glow",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-7-139\">\n  <div class=\"anim-text\" style=\"--accent: #5f27cd;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-7-139 .anim-text {\n  animation: motion-anim-text-7-139-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-7-139-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-8-140",
+    "name": "أيقونة • تحول شكلي مورفنج (2.8s)",
+    "category": "icons-texts",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-8-140\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #ff9f43;\"><path d=\"M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10 10 10 0 0 1-10-10 10 10 0 0 1 10-10z\"/><path d=\"M12 6v6l4 2\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-8-140 .icon {\n  animation: motion-icon-8-140-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-icon-8-140-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-9-141",
+    "name": "مكعب • تمدد وضغط مرن (0.6s)",
+    "category": "geometrics",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-9-141\">\n  <div class=\"anim-box\" style=\"background-color: #00d2d3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-9-141 .anim-box {\n  animation: motion-anim-box-9-141-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-9-141-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-10-142",
+    "name": "دائرة • انقلاب 3D جانبي (0.8s)",
+    "category": "geometrics",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-10-142\">\n  <div class=\"anim-circle\" style=\"background-color: #ee5a24; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-10-142 .anim-circle {\n  animation: motion-anim-circle-10-142-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-10-142-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-11-143",
+    "name": "حلقة • تلاشي وظهور حركي (1s)",
+    "category": "loaders",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-11-143\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #c8d6e5;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-11-143 .anim-ring {\n  animation: motion-anim-ring-11-143-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-11-143-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-12-144",
+    "name": "شريط • دوران كروي 3D (1.2s)",
+    "category": "loaders",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-12-144\">\n  <div class=\"anim-bar\" style=\"background-color: #a29bfe; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-12-144 .anim-bar {\n  animation: motion-anim-bar-12-144-anim 1.2s linear infinite;\n}\n\n@keyframes motion-anim-bar-12-144-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-1-145",
+    "name": "نقاط • دوران مستمر (1.4s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-1-145\">\n  <div class=\"anim-dots\" style=\"--accent: #ff6b6b;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-1-145 .anim-dots {\n  animation: motion-anim-dots-1-145-anim 1.4s linear infinite;\n}\n\n@keyframes motion-anim-dots-1-145-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-2-146",
+    "name": "نص • نبض تضخمي (1.6s)",
+    "category": "pulse-glow",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-2-146\">\n  <div class=\"anim-text\" style=\"--accent: #feca57;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-2-146 .anim-text {\n  animation: motion-anim-text-2-146-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-2-146-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-3-147",
+    "name": "أيقونة • قفز رأسي (1.8s)",
+    "category": "icons-texts",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-3-147\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #48dbfb;\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-3-147 .icon {\n  animation: motion-icon-3-147-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-icon-3-147-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-4-148",
+    "name": "مكعب • انزلاق أفقي لليمين (2s)",
+    "category": "geometrics",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-4-148\">\n  <div class=\"anim-box\" style=\"background-color: #ff9ff3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-4-148 .anim-box {\n  animation: motion-anim-box-4-148-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-4-148-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-5-149",
+    "name": "دائرة • انزلاق أفقي لليسار (2.4s)",
+    "category": "geometrics",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-5-149\">\n  <div class=\"anim-circle\" style=\"background-color: #54a0ff; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-5-149 .anim-circle {\n  animation: motion-anim-circle-5-149-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-5-149-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-6-150",
+    "name": "حلقة • تمايل بندولي (2.8s)",
+    "category": "loaders",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-6-150\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #1dd1a1;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-6-150 .anim-ring {\n  animation: motion-anim-ring-6-150-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-6-150-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-7-151",
+    "name": "شريط • وميض إشعاعي (0.6s)",
+    "category": "loaders",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-7-151\">\n  <div class=\"anim-bar\" style=\"background-color: #5f27cd; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-7-151 .anim-bar {\n  animation: motion-anim-bar-7-151-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-7-151-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-8-152",
+    "name": "نقاط • تحول شكلي مورفنج (0.8s)",
+    "category": "loaders",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-8-152\">\n  <div class=\"anim-dots\" style=\"--accent: #ff9f43;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-8-152 .anim-dots {\n  animation: motion-anim-dots-8-152-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-8-152-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-9-153",
+    "name": "نص • تمدد وضغط مرن (1s)",
+    "category": "icons-texts",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-9-153\">\n  <div class=\"anim-text\" style=\"--accent: #00d2d3;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-9-153 .anim-text {\n  animation: motion-anim-text-9-153-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-9-153-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-10-154",
+    "name": "أيقونة • انقلاب 3D جانبي (1.2s)",
+    "category": "icons-texts",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-10-154\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #ee5a24;\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"2.18\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"22\"/><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"22\"/><line x1=\"2\" y1=\"8\" x2=\"22\" y2=\"8\"/><line x1=\"2\" y1=\"16\" x2=\"22\" y2=\"16\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-10-154 .icon {\n  animation: motion-icon-10-154-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-icon-10-154-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-11-155",
+    "name": "مكعب • تلاشي وظهور حركي (1.4s)",
+    "category": "pulse-glow",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-11-155\">\n  <div class=\"anim-box\" style=\"background-color: #c8d6e5; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-11-155 .anim-box {\n  animation: motion-anim-box-11-155-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-11-155-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-12-156",
+    "name": "دائرة • دوران كروي 3D (1.6s)",
+    "category": "geometrics",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-12-156\">\n  <div class=\"anim-circle\" style=\"background-color: #a29bfe; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-12-156 .anim-circle {\n  animation: motion-anim-circle-12-156-anim 1.6s linear infinite;\n}\n\n@keyframes motion-anim-circle-12-156-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-1-157",
+    "name": "حلقة • دوران مستمر (1.8s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-1-157\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #ff6b6b;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-1-157 .anim-ring {\n  animation: motion-anim-ring-1-157-anim 1.8s linear infinite;\n}\n\n@keyframes motion-anim-ring-1-157-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-2-158",
+    "name": "شريط • نبض تضخمي (2s)",
+    "category": "loaders",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-2-158\">\n  <div class=\"anim-bar\" style=\"background-color: #feca57; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-2-158 .anim-bar {\n  animation: motion-anim-bar-2-158-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-2-158-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-3-159",
+    "name": "نقاط • قفز رأسي (2.4s)",
+    "category": "loaders",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-3-159\">\n  <div class=\"anim-dots\" style=\"--accent: #48dbfb;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-3-159 .anim-dots {\n  animation: motion-anim-dots-3-159-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-3-159-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-4-160",
+    "name": "نص • انزلاق أفقي لليمين (2.8s)",
+    "category": "icons-texts",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-4-160\">\n  <div class=\"anim-text\" style=\"--accent: #ff9ff3;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-4-160 .anim-text {\n  animation: motion-anim-text-4-160-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-4-160-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-5-161",
+    "name": "أيقونة • انزلاق أفقي لليسار (0.6s)",
+    "category": "icons-texts",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-5-161\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #54a0ff;\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><line x1=\"3\" y1=\"9\" x2=\"21\" y2=\"9\"/><line x1=\"3\" y1=\"15\" x2=\"21\" y2=\"15\"/><line x1=\"9\" y1=\"21\" x2=\"9\" y2=\"9\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-5-161 .icon {\n  animation: motion-icon-5-161-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-icon-5-161-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-6-162",
+    "name": "مكعب • تمايل بندولي (0.8s)",
+    "category": "geometrics",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-6-162\">\n  <div class=\"anim-box\" style=\"background-color: #1dd1a1; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-6-162 .anim-box {\n  animation: motion-anim-box-6-162-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-6-162-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-7-163",
+    "name": "دائرة • وميض إشعاعي (1s)",
+    "category": "pulse-glow",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-7-163\">\n  <div class=\"anim-circle\" style=\"background-color: #5f27cd; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-7-163 .anim-circle {\n  animation: motion-anim-circle-7-163-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-7-163-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-8-164",
+    "name": "حلقة • تحول شكلي مورفنج (1.2s)",
+    "category": "loaders",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-8-164\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #ff9f43;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-8-164 .anim-ring {\n  animation: motion-anim-ring-8-164-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-8-164-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-9-165",
+    "name": "شريط • تمدد وضغط مرن (1.4s)",
+    "category": "loaders",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-9-165\">\n  <div class=\"anim-bar\" style=\"background-color: #00d2d3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-9-165 .anim-bar {\n  animation: motion-anim-bar-9-165-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-9-165-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-10-166",
+    "name": "نقاط • انقلاب 3D جانبي (1.6s)",
+    "category": "loaders",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-10-166\">\n  <div class=\"anim-dots\" style=\"--accent: #ee5a24;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-10-166 .anim-dots {\n  animation: motion-anim-dots-10-166-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-10-166-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-11-167",
+    "name": "نص • تلاشي وظهور حركي (1.8s)",
+    "category": "pulse-glow",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-11-167\">\n  <div class=\"anim-text\" style=\"--accent: #c8d6e5;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-11-167 .anim-text {\n  animation: motion-anim-text-11-167-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-11-167-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-12-168",
+    "name": "أيقونة • دوران كروي 3D (2s)",
+    "category": "icons-texts",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-12-168\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #a29bfe;\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-12-168 .icon {\n  animation: motion-icon-12-168-anim 2s linear infinite;\n}\n\n@keyframes motion-icon-12-168-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-1-169",
+    "name": "مكعب • دوران مستمر (2.4s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-1-169\">\n  <div class=\"anim-box\" style=\"background-color: #ff6b6b; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-1-169 .anim-box {\n  animation: motion-anim-box-1-169-anim 2.4s linear infinite;\n}\n\n@keyframes motion-anim-box-1-169-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-2-170",
+    "name": "دائرة • نبض تضخمي (2.8s)",
+    "category": "pulse-glow",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-2-170\">\n  <div class=\"anim-circle\" style=\"background-color: #feca57; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-2-170 .anim-circle {\n  animation: motion-anim-circle-2-170-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-2-170-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-3-171",
+    "name": "حلقة • قفز رأسي (0.6s)",
+    "category": "loaders",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-3-171\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #48dbfb;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-3-171 .anim-ring {\n  animation: motion-anim-ring-3-171-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-3-171-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-4-172",
+    "name": "شريط • انزلاق أفقي لليمين (0.8s)",
+    "category": "loaders",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-4-172\">\n  <div class=\"anim-bar\" style=\"background-color: #ff9ff3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-4-172 .anim-bar {\n  animation: motion-anim-bar-4-172-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-4-172-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-5-173",
+    "name": "نقاط • انزلاق أفقي لليسار (1s)",
+    "category": "loaders",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-5-173\">\n  <div class=\"anim-dots\" style=\"--accent: #54a0ff;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-5-173 .anim-dots {\n  animation: motion-anim-dots-5-173-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-5-173-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-6-174",
+    "name": "نص • تمايل بندولي (1.2s)",
+    "category": "icons-texts",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-6-174\">\n  <div class=\"anim-text\" style=\"--accent: #1dd1a1;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-6-174 .anim-text {\n  animation: motion-anim-text-6-174-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-6-174-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-7-175",
+    "name": "أيقونة • وميض إشعاعي (1.4s)",
+    "category": "pulse-glow",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-7-175\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #5f27cd;\"><path d=\"M12 2v20\"/><path d=\"M2 12h20\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-7-175 .icon {\n  animation: motion-icon-7-175-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-icon-7-175-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-8-176",
+    "name": "مكعب • تحول شكلي مورفنج (1.6s)",
+    "category": "geometrics",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-8-176\">\n  <div class=\"anim-box\" style=\"background-color: #ff9f43; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-8-176 .anim-box {\n  animation: motion-anim-box-8-176-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-8-176-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-9-177",
+    "name": "دائرة • تمدد وضغط مرن (1.8s)",
+    "category": "geometrics",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-9-177\">\n  <div class=\"anim-circle\" style=\"background-color: #00d2d3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-9-177 .anim-circle {\n  animation: motion-anim-circle-9-177-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-9-177-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-10-178",
+    "name": "حلقة • انقلاب 3D جانبي (2s)",
+    "category": "loaders",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-10-178\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #ee5a24;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-10-178 .anim-ring {\n  animation: motion-anim-ring-10-178-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-10-178-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-11-179",
+    "name": "شريط • تلاشي وظهور حركي (2.4s)",
+    "category": "loaders",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-11-179\">\n  <div class=\"anim-bar\" style=\"background-color: #c8d6e5; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-11-179 .anim-bar {\n  animation: motion-anim-bar-11-179-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-11-179-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-12-180",
+    "name": "نقاط • دوران كروي 3D (2.8s)",
+    "category": "loaders",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-12-180\">\n  <div class=\"anim-dots\" style=\"--accent: #a29bfe;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-12-180 .anim-dots {\n  animation: motion-anim-dots-12-180-anim 2.8s linear infinite;\n}\n\n@keyframes motion-anim-dots-12-180-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-1-181",
+    "name": "نص • دوران مستمر (0.6s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-1-181\">\n  <div class=\"anim-text\" style=\"--accent: #ff6b6b;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-1-181 .anim-text {\n  animation: motion-anim-text-1-181-anim 0.6s linear infinite;\n}\n\n@keyframes motion-anim-text-1-181-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-2-182",
+    "name": "أيقونة • نبض تضخمي (0.8s)",
+    "category": "pulse-glow",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-2-182\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #feca57;\"><path d=\"M12 2v4\"/><path d=\"M12 22v-4\"/><path d=\"M4.93 4.93l2.83 2.83\"/><path d=\"M16.24 16.24l2.83 2.83\"/><path d=\"M2 12h4\"/><path d=\"M22 12h-4\"/><path d=\"M4.93 19.07l2.83-2.83\"/><path d=\"M16.24 7.76l2.83-2.83\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-2-182 .icon {\n  animation: motion-icon-2-182-anim 0.8s ease-in-out infinite;\n}\n\n@keyframes motion-icon-2-182-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-3-183",
+    "name": "مكعب • قفز رأسي (1s)",
+    "category": "geometrics",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-3-183\">\n  <div class=\"anim-box\" style=\"background-color: #48dbfb; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-3-183 .anim-box {\n  animation: motion-anim-box-3-183-anim 1s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-3-183-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-4-184",
+    "name": "دائرة • انزلاق أفقي لليمين (1.2s)",
+    "category": "geometrics",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-4-184\">\n  <div class=\"anim-circle\" style=\"background-color: #ff9ff3; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-4-184 .anim-circle {\n  animation: motion-anim-circle-4-184-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-4-184-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-5-185",
+    "name": "حلقة • انزلاق أفقي لليسار (1.4s)",
+    "category": "loaders",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-5-185\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #54a0ff;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-5-185 .anim-ring {\n  animation: motion-anim-ring-5-185-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-5-185-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-6-186",
+    "name": "شريط • تمايل بندولي (1.6s)",
+    "category": "loaders",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-6-186\">\n  <div class=\"anim-bar\" style=\"background-color: #1dd1a1; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-6-186 .anim-bar {\n  animation: motion-anim-bar-6-186-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-6-186-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-7-187",
+    "name": "نقاط • وميض إشعاعي (1.8s)",
+    "category": "loaders",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-7-187\">\n  <div class=\"anim-dots\" style=\"--accent: #5f27cd;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-7-187 .anim-dots {\n  animation: motion-anim-dots-7-187-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-7-187-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-8-188",
+    "name": "نص • تحول شكلي مورفنج (2s)",
+    "category": "icons-texts",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-8-188\">\n  <div class=\"anim-text\" style=\"--accent: #ff9f43;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-8-188 .anim-text {\n  animation: motion-anim-text-8-188-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-8-188-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-9-189",
+    "name": "أيقونة • تمدد وضغط مرن (2.4s)",
+    "category": "icons-texts",
+    "accent": "#00d2d3",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-9-189\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #00d2d3;\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 8v8\"/><path d=\"M8 12h8\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-9-189 .icon {\n  animation: motion-icon-9-189-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-icon-9-189-anim {\n  0%,100% {\n    transform:scaleX(1) scaleY(1)\n  }50% {\n    transform:scaleX(1.5) scaleY(0.6)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-10-190",
+    "name": "مكعب • انقلاب 3D جانبي (2.8s)",
+    "category": "geometrics",
+    "accent": "#ee5a24",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-10-190\">\n  <div class=\"anim-box\" style=\"background-color: #ee5a24; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-10-190 .anim-box {\n  animation: motion-anim-box-10-190-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-10-190-anim {\n  0%,100% {\n    transform:rotateY(0)\n  }50% {\n    transform:rotateY(180deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-11-191",
+    "name": "دائرة • تلاشي وظهور حركي (0.6s)",
+    "category": "pulse-glow",
+    "accent": "#c8d6e5",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-11-191\">\n  <div class=\"anim-circle\" style=\"background-color: #c8d6e5; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-11-191 .anim-circle {\n  animation: motion-anim-circle-11-191-anim 0.6s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-11-191-anim {\n  0%,100% {\n    opacity:0.2;\n    transform:scale(0.7)\n  }50% {\n    opacity:1;\n    transform:scale(1.2)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-12-192",
+    "name": "حلقة • دوران كروي 3D (0.8s)",
+    "category": "loaders",
+    "accent": "#a29bfe",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-12-192\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #a29bfe;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-12-192 .anim-ring {\n  animation: motion-anim-ring-12-192-anim 0.8s linear infinite;\n}\n\n@keyframes motion-anim-ring-12-192-anim {\n  0% {\n    transform:rotateX(0) rotateY(0)\n  }100% {\n    transform:rotateX(360deg) rotateY(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-1-193",
+    "name": "شريط • دوران مستمر (1s)",
+    "category": "loaders",
+    "accent": "#ff6b6b",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-1-193\">\n  <div class=\"anim-bar\" style=\"background-color: #ff6b6b; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-1-193 .anim-bar {\n  animation: motion-anim-bar-1-193-anim 1s linear infinite;\n}\n\n@keyframes motion-anim-bar-1-193-anim {\n  0% {\n    transform:rotate(0)\n  }100% {\n    transform:rotate(360deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-dots-2-194",
+    "name": "نقاط • نبض تضخمي (1.2s)",
+    "category": "loaders",
+    "accent": "#feca57",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-dots-2-194\">\n  <div class=\"anim-dots\" style=\"--accent: #feca57;\"><span></span><span></span><span></span><span></span><span></span></div>\n</div>",
+    "css": ".anim-stage-motion-anim-dots-2-194 .anim-dots {\n  animation: motion-anim-dots-2-194-anim 1.2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-dots-2-194-anim {\n  0%,100% {\n    transform:scale(1)\n  }50% {\n    transform:scale(1.3)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-text-3-195",
+    "name": "نص • قفز رأسي (1.4s)",
+    "category": "icons-texts",
+    "accent": "#48dbfb",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-text-3-195\">\n  <div class=\"anim-text\" style=\"--accent: #48dbfb;\">نص</div>\n</div>",
+    "css": ".anim-stage-motion-anim-text-3-195 .anim-text {\n  animation: motion-anim-text-3-195-anim 1.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-text-3-195-anim {\n  0%,100% {\n    transform:translateY(0)\n  }50% {\n    transform:translateY(-25px)\n  }\n}"
+  },
+  {
+    "id": "motion-icon-4-196",
+    "name": "أيقونة • انزلاق أفقي لليمين (1.6s)",
+    "category": "icons-texts",
+    "accent": "#ff9ff3",
+    "html": "<div class=\"anim-stage anim-stage-motion-icon-4-196\">\n  <svg class=\"icon-svg\" viewBox=\"0 0 24 24\" style=\"stroke: #ff9ff3;\"><path d=\"M4 4v16h16\"/><polyline points=\"4 20 10 14 14 18 20 12\"/></svg>\n</div>",
+    "css": ".anim-stage-motion-icon-4-196 .icon {\n  animation: motion-icon-4-196-anim 1.6s ease-in-out infinite;\n}\n\n@keyframes motion-icon-4-196-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-box-5-197",
+    "name": "مكعب • انزلاق أفقي لليسار (1.8s)",
+    "category": "geometrics",
+    "accent": "#54a0ff",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-box-5-197\">\n  <div class=\"anim-box\" style=\"background-color: #54a0ff; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-box-5-197 .anim-box {\n  animation: motion-anim-box-5-197-anim 1.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-box-5-197-anim {\n  0%,100% {\n    transform:translateX(0)\n  }50% {\n    transform:translateX(-20px)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-circle-6-198",
+    "name": "دائرة • تمايل بندولي (2s)",
+    "category": "geometrics",
+    "accent": "#1dd1a1",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-circle-6-198\">\n  <div class=\"anim-circle\" style=\"background-color: #1dd1a1; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-circle-6-198 .anim-circle {\n  animation: motion-anim-circle-6-198-anim 2s ease-in-out infinite;\n}\n\n@keyframes motion-anim-circle-6-198-anim {\n  0%,100% {\n    transform:rotate(-15deg)\n  }50% {\n    transform:rotate(15deg)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-ring-7-199",
+    "name": "حلقة • وميض إشعاعي (2.4s)",
+    "category": "loaders",
+    "accent": "#5f27cd",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-ring-7-199\">\n  <div class=\"anim-ring\" style=\"background-color: transparent; border-color: #5f27cd;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-ring-7-199 .anim-ring {\n  animation: motion-anim-ring-7-199-anim 2.4s ease-in-out infinite;\n}\n\n@keyframes motion-anim-ring-7-199-anim {\n  0%,100% {\n    opacity:0.4;\n    filter:brightness(0.6)\n  }50% {\n    opacity:1;\n    filter:brightness(1.4)\n  }\n}"
+  },
+  {
+    "id": "motion-anim-bar-8-200",
+    "name": "شريط • تحول شكلي مورفنج (2.8s)",
+    "category": "loaders",
+    "accent": "#ff9f43",
+    "html": "<div class=\"anim-stage anim-stage-motion-anim-bar-8-200\">\n  <div class=\"anim-bar\" style=\"background-color: #ff9f43; border-color: transparent;\"></div>\n</div>",
+    "css": ".anim-stage-motion-anim-bar-8-200 .anim-bar {\n  animation: motion-anim-bar-8-200-anim 2.8s ease-in-out infinite;\n}\n\n@keyframes motion-anim-bar-8-200-anim {\n  0%,100% {\n    border-radius:6px;\n    transform:rotate(0)\n  }33% {\n    border-radius:50%;\n    transform:rotate(120deg)\n  }66% {\n    border-radius:6px 30px;\n    transform:rotate(240deg)\n  }\n}"
+  }
+]

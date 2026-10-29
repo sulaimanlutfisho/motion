@@ -1,0 +1,83 @@
+/**
+ * animations-core.css - Base Element Styles for Animations & Motion System
+ */
+
+.anim-stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 90px;
+  position: relative;
+}
+
+.anim-box {
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  background: var(--accent, #48dbfb);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+}
+
+.anim-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: var(--accent, #48dbfb);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+}
+
+.anim-ring {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top: 3px solid var(--accent, #48dbfb);
+  border-right: 3px solid var(--accent, #48dbfb);
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.anim-bar {
+  width: 65px;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--accent, #48dbfb);
+  display: inline-block;
+}
+
+.anim-dots {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.anim-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent, #48dbfb);
+  display: inline-block;
+}
+
+.anim-text {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent, #48dbfb);
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+svg.icon-svg {
+  width: 45px;
+  height: 45px;
+  fill: none;
+  stroke: var(--accent, #48dbfb);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  display: inline-block;
+}
